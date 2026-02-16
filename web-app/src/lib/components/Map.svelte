@@ -7,19 +7,28 @@
     selectedDistrict,
     mapReady,
     markedLocation,
+    theme,
   } from "$lib/store.js";
 
   let mapContainer;
   let map;
   let userMarker;
-
   let flyToLock = false;
+
+  const styles = {
+    dark: "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+    light:
+      "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+  };
+
+  // React to theme change
+  $: if (map && $mapReady) {
+    map.setStyle(styles[$theme]);
+  }
 
   // React to markedLocation from paste
   $: if (map && $markedLocation) {
     const { lat, lon } = $markedLocation;
-
-    // Create or update marker
     if (!userMarker) {
       userMarker = new maplibregl.Marker({ color: "#ef4444" })
         .setLngLat([lon, lat])
@@ -28,27 +37,22 @@
       userMarker.setLngLat([lon, lat]);
     }
 
-    // Fly to location
     map.flyTo({
       center: [lon, lat],
       zoom: 14,
       essential: true,
     });
 
-    // Find LSG at this point
-    // We wait for the map to finish flying or just query immediately if loaded
     map.once("moveend", () => {
       const features = map.queryRenderedFeatures(map.project([lon, lat]), {
         layers: ["lsgs-fill"],
       });
-
       if (features.length > 0) {
         selectedLSG.set(features[0].properties);
       }
     });
   }
 
-  // Clear marker if location cleared
   $: if (map && !$markedLocation && userMarker) {
     userMarker.remove();
     userMarker = null;
@@ -57,7 +61,6 @@
   // React to LSG selection
   $: if (map && $selectedLSG) {
     let lat, lon;
-
     if ($selectedLSG.centroid && Array.isArray($selectedLSG.centroid)) {
       [lon, lat] = $selectedLSG.centroid;
     } else {
@@ -74,8 +77,7 @@
     }
     flyToLock = false;
 
-    // Update selection highlight
-    if ($mapReady) {
+    if ($mapReady && map.getLayer("lsgs-selection")) {
       map.setFilter("lsgs-selection", [
         "==",
         ["get", "name"],
@@ -84,15 +86,14 @@
     }
   }
 
-  // Clear highlight if selection cleared
   $: if (map && $mapReady && !$selectedLSG) {
-    map.setFilter("lsgs-selection", ["==", ["get", "name"], ""]);
+    if (map.getLayer("lsgs-selection")) {
+      map.setFilter("lsgs-selection", ["==", ["get", "name"], ""]);
+    }
   }
 
   // React to District selection
   $: if (map && $selectedDistrict) {
-    // Find district center from the districts source or hardcode for speed
-    // Here we'll just filter the LSGs but a better way is to have district centroids
     const districtCenters = {
       Alappuzha: [76.33, 9.49],
       Ernakulam: [76.27, 9.98],
@@ -120,39 +121,49 @@
     }
   }
 
-  onMount(async () => {
+  onMount(() => {
     map = new maplibregl.Map({
       container: mapContainer,
-      style:
-        "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
-      center: [76.5, 10.5], // Center of Kerala
+      style: styles[$theme],
+      center: [76.5, 10.5],
       zoom: 7,
       antialias: true,
     });
 
-    map.on("load", async () => {
-      // Add Districts Layer
-      map.addSource("districts", {
-        type: "geojson",
-        data: "/data/kerala_districts.geojson",
-      });
+    map.on("style.load", setupLayers);
 
+    function setupLayers() {
+      // Add Sources
+      if (!map.getSource("districts")) {
+        map.addSource("districts", {
+          type: "geojson",
+          data: "/data/kerala_districts.geojson",
+        });
+      }
+      if (!map.getSource("lsgs")) {
+        map.addSource("lsgs", {
+          type: "geojson",
+          data: "/data/kerala_lsg_final.geojson",
+          generateId: true,
+        });
+      }
+      if (!map.getSource("mahe")) {
+        map.addSource("mahe", {
+          type: "geojson",
+          data: "/data/mahe_boundary.geojson",
+        });
+      }
+
+      // Add Layers
       map.addLayer({
         id: "districts-line",
         type: "line",
         source: "districts",
         paint: {
           "line-color": "#0d9488",
-          "line-width": 1.5,
+          "line-width": 2.5,
           "line-opacity": 0.5,
         },
-      });
-
-      // Add LSGs Layer
-      map.addSource("lsgs", {
-        type: "geojson",
-        data: "/data/kerala_lsg_final.geojson",
-        generateId: true,
       });
 
       map.addLayer({
@@ -164,12 +175,12 @@
             "match",
             ["get", "lsg_type"],
             "municipal corporation",
-            "#ec4899", // Pink 500
+            "#ec4899",
             "municipality",
-            "#f59e0b", // Amber 500
+            "#f59e0b",
             "gram panchayat",
-            "#10b981", // Emerald 500
-            "#94a3b8", // Slate 400 (default)
+            "#10b981",
+            "#94a3b8",
           ],
           "fill-opacity": [
             "case",
@@ -185,49 +196,42 @@
         type: "line",
         source: "lsgs",
         paint: {
-          "line-color": [
-            "match",
-            ["get", "lsg_type"],
-            "municipal corporation",
-            "#fbcfe8",
-            "municipality",
-            "#fde68a",
-            "gram panchayat",
-            "#a7f3d0",
-            "#f1f5f9",
-          ],
-          "line-width": 0.8,
+          "line-color":
+            $theme === "dark"
+              ? [
+                  "match",
+                  ["get", "lsg_type"],
+                  "municipal corporation",
+                  "#fbcfe8",
+                  "municipality",
+                  "#fde68a",
+                  "gram panchayat",
+                  "#a7f3d0",
+                  "#f1f5f9",
+                ]
+              : "#475569", // Dark grey for light mode
+          "line-width": 1.5,
           "line-opacity": 0.6,
         },
       });
 
-      // Selection Highlight Layer (White border)
       map.addLayer({
         id: "lsgs-selection",
         type: "line",
         source: "lsgs",
         paint: {
-          "line-color": "#ffffff",
+          "line-color": $theme === "dark" ? "#ffffff" : "#000000",
           "line-width": 2.5,
           "line-opacity": 0.9,
         },
-        filter: ["==", ["get", "name"], ""],
-      });
-
-      // Add Mahe Boundary (Union Territory)
-      map.addSource("mahe", {
-        type: "geojson",
-        data: "/data/mahe_boundary.geojson",
+        filter: ["==", ["get", "name"], $selectedLSG?.name || ""],
       });
 
       map.addLayer({
         id: "mahe-fill",
         type: "fill",
         source: "mahe",
-        paint: {
-          "fill-color": "#475569", // slate-600
-          "fill-opacity": 0.4,
-        },
+        paint: { "fill-color": "#475569", "fill-opacity": 0.4 },
       });
 
       map.addLayer({
@@ -235,16 +239,18 @@
         type: "line",
         source: "mahe",
         paint: {
-          "line-color": "#0ea5e9", // sky-500
+          "line-color": "#0ea5e9",
           "line-width": 2,
           "line-dasharray": [2, 1],
         },
       });
 
-      // Tooltip logic
-      const tooltip = document.getElementById("map-tooltip");
+      setupInteractions();
+      mapReady.set(true);
+    }
 
-      // Interactive behaviors
+    function setupInteractions() {
+      const tooltip = document.getElementById("map-tooltip");
       let hoveredId = null;
 
       map.on("mousemove", "lsgs-fill", (e) => {
@@ -255,17 +261,14 @@
               { hover: false },
             );
           }
-
           const feature = e.features[0];
           hoveredId = feature.id;
-
           map.setFeatureState(
             { source: "lsgs", id: hoveredId },
             { hover: true },
           );
           map.getCanvas().style.cursor = "pointer";
 
-          // Update Tooltip
           const { name, lsg_type, district } = feature.properties;
           const typeColor =
             lsg_type === "municipal corporation"
@@ -278,10 +281,10 @@
             <div class="px-3 py-2">
               <div class="flex items-center gap-2 mb-1">
                 <span class="w-2 h-2 rounded-full" style="background-color: ${typeColor}"></span>
-                <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">${lsg_type}</span>
+                <span class="text-[10px] font-black uppercase tracking-widest ${$theme === "dark" ? "text-slate-400" : "text-slate-600"}">${lsg_type}</span>
               </div>
-              <div class="text-sm font-bold text-white">${name}</div>
-              <div class="text-[10px] text-slate-400 font-medium">${district} District</div>
+              <div class="text-sm font-bold ${$theme === "dark" ? "text-white" : "text-slate-900"}">${name}</div>
+              <div class="text-[10px] ${$theme === "dark" ? "text-slate-400" : "text-slate-500"} font-medium">${district} District</div>
             </div>
           `;
           tooltip.style.display = "block";
@@ -309,9 +312,7 @@
           selectedLSG.set(feature.properties);
         }
       });
-
-      mapReady.set(true);
-    });
+    }
 
     return () => {
       if (map) map.remove();

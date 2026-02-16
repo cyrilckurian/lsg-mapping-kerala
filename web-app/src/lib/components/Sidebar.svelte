@@ -12,9 +12,11 @@
     ChevronLeft,
     X,
     Link,
+    Sun,
+    Moon,
   } from "lucide-svelte";
   import { fade, slide } from "svelte/transition";
-  import { markedLocation, markerLink } from "$lib/store.js";
+  import { markedLocation, markerLink, theme } from "$lib/store.js";
   import { parseGoogleMapsLink } from "$lib/utils/googleMaps.js";
 
   let searchIndex = [];
@@ -95,6 +97,10 @@
   function clearSearch() {
     searchQuery.set("");
   }
+
+  function toggleTheme() {
+    theme.update((t) => (t === "dark" ? "light" : "dark"));
+  }
 </script>
 
 <aside
@@ -111,16 +117,37 @@
       </div>
       <div>
         <h1
-          class="text-xl font-black tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent"
+          class="text-xl font-black tracking-tight {$theme === 'dark'
+            ? 'bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent'
+            : 'text-slate-900'}"
         >
           Kerala Officials
         </h1>
         <p
-          class="text-[10px] text-brand-secondary font-bold uppercase tracking-[0.2em]"
+          class="text-[10px] font-bold uppercase tracking-[0.2em] {$theme ===
+          'dark'
+            ? 'text-brand-secondary'
+            : 'text-brand-primary'}"
         >
           Civic Map Kerala
         </p>
       </div>
+
+      <button
+        on:click={toggleTheme}
+        class="ml-auto p-2 rounded-xl hover:bg-white/10 transition-all group"
+        title="Toggle {$theme === 'dark' ? 'Light' : 'Dark'} Mode"
+      >
+        {#if $theme === "dark"}
+          <Sun
+            class="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform"
+          />
+        {:else}
+          <Moon
+            class="w-5 h-5 text-slate-600 group-hover:scale-110 transition-transform"
+          />
+        {/if}
+      </button>
     </div>
 
     <!-- Search Input -->
@@ -272,11 +299,18 @@
           <Landmark class="w-10 h-10 text-brand-primary relative z-10" />
         </div>
         <h3
-          class="text-white text-lg font-black mb-3 leading-tight tracking-tight"
+          class="text-lg font-black mb-3 leading-tight tracking-tight {$theme ===
+          'dark'
+            ? 'text-white'
+            : 'text-slate-900'}"
         >
           Explore Kerala's Administrative Landscape
         </h3>
-        <p class="text-sm text-slate-500 font-medium px-4">
+        <p
+          class="text-sm font-medium px-4 {$theme === 'dark'
+            ? 'text-slate-500'
+            : 'text-slate-600'}"
+        >
           Search by name or select a Local Self Government (LSG) on the map to
           find contact details and representatives.
         </p>
@@ -297,21 +331,6 @@
         </div>
       </div>
     {/if}
-  </div>
-
-  <div
-    class="p-4 bg-slate-950/80 border-t border-white/5 text-[10px] text-slate-600 flex justify-between items-center backdrop-blur-md"
-  >
-    <div class="flex items-center gap-1 font-bold">
-      <span class="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse"
-      ></span>
-      Data by OpenDataKerala
-    </div>
-    <span
-      class="flex items-center gap-1 font-bold opacity-60 hover:opacity-100 transition-opacity cursor-pointer"
-    >
-      <Landmark class="w-3 h-3" /> Map Kerala Project 2024
-    </span>
   </div>
 </aside>
 

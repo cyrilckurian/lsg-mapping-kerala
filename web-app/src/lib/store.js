@@ -7,3 +7,11 @@ export const mapReady = writable(false);
 export const searchQuery = writable('');
 export const markedLocation = writable(null); // {lat, lon}
 export const markerLink = writable('');
+const initialTheme = (typeof window !== 'undefined' && localStorage.getItem('theme')) || 'dark';
+export const theme = writable(initialTheme);
+
+if (typeof window !== 'undefined') {
+    theme.subscribe((value) => {
+        localStorage.setItem('theme', value);
+    });
+}
