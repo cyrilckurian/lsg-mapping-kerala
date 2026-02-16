@@ -1,0 +1,7 @@
+lsg_id,lsg_name,lsg_name_ml,lsg_type,district,president_name,president_party,president_contact,president_email,secretary_name,secretary_contact,secretary_email,office_address,website,wikidata_id,mla_constituency,mp_constituency,notes
+KL-TVM-001,Thiruvananthapuram Corporation,തിരുവനന്തപുരം കോർപ്പറേഷൻ,corporation,Thiruvananthapuram,,,,,,,,,https://trivandrum.corporation.kerala.gov.in/,Q2095612,,,
+KL-KLM-001,Kollam Corporation,കൊല്ലം കോർപ്പറേഷൻ,corporation,Kollam,,,,,,,,,https://www.kollammunicipalcorporation.in/,Q867715,,,
+KL-KCH-001,Kochi Corporation,കൊച്ചി കോർപ്പറേഷൻ,corporation,Ernakulam,,,,,,,,,https://corporationofcochin.kerala.gov.in/,Q1626481,,,
+KL-TSR-001,Thrissur Corporation,തൃശൂർ കോർപ്പറേഷൻ,corporation,Thrissur,,,,,,,,,https://www.thrissur.corporation.kerala.gov.in/,Q585712,,,
+KL-KKD-001,Kozhikode Corporation,കോഴിക്കോട് കോർപ്പറേഷൻ,corporation,Kozhikode,,,,,,,,,https://kozhikodecorporation.net/,Q2042993,,,
+KL-KNR-001,Kannur Corporation,കണ്ണൂർ കോർപ്പറേഷൻ,corporation,Kannur,,,,,,,,,https://kannur.corporation.kerala.gov.in/,Q2598894,,,

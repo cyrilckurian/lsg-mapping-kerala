@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node
+node_modules/
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+
+# Large data files
+# data/raw/
+# data/processed/
+
+# OS
+.DS_Store

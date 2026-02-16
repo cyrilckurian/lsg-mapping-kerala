@@ -1,0 +1,17 @@
+# Alternative dependencies that work better with Python 3.14
+# Use this if the regular requirements.txt fails
+
+# Core geospatial libraries (try without versions first)
+geopandas
+pandas
+shapely
+fiona
+pyproj
+
+# Web scraping
+requests
+beautifulsoup4
+
+# Note: If installation still fails with Python 3.14, you need to:
+# 1. Use Python 3.11, 3.12, or 3.13 instead
+# 2. Or wait for pandas/geopandas to release Python 3.14 compatible versions
