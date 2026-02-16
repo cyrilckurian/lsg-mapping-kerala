@@ -289,13 +289,6 @@ tolerance=0.005  # Try 0.01 for even more simplification
 - **Data**: Open Database License (ODbL) - from OpenDataKerala
 - **Officials Data**: Verify licensing before publishing
 
-## 🙏 Credits
-
-- **OpenDataKerala** - Geographic boundary data
-- **OSM Kerala Community** - Boundary mapping
-- **BLR City Officials** - Original inspiration
-- **BetaNYC** - Original NYC Boundaries Map concept
-
 ## 📧 Questions?
 
 - Create an issue in this repository
