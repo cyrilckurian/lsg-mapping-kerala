@@ -151,8 +151,8 @@
             "#a7f3d0",
             "#f1f5f9",
           ],
-          "line-width": 0.5,
-          "line-opacity": 0.4,
+          "line-width": 0.8,
+          "line-opacity": 0.6,
         },
       });
 

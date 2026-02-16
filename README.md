@@ -327,6 +327,32 @@ After generating the data:
    - Government office locations
    - Service center information
 
+## 🌐 Web Application
+
+The interactive map is built with SvelteKit and MapLibre GL JS.
+
+### 1. Initial Setup
+If you haven't run the setup script yet:
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+### 2. Prepare Data
+Run the processing pipeline to generate the necessary GeoJSON and search index files. This also syncs the data to the web app:
+```bash
+source venv/bin/activate
+./run_all.sh
+```
+
+### 3. Start Development Server
+```bash
+cd web-app
+npm install  # First time only
+npm run dev
+```
+The website will be available at `http://localhost:5173`.
+
 ---
 
 **Ready to build Kerala's civic engagement platform! 🚀**

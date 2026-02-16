@@ -145,5 +145,18 @@ echo "   - kerala_districts_simplified.geojson - Base layer"
 echo "   - search_index.json - Search functionality"
 echo ""
 
+# Automated copy to web app
+echo "Syncing data with web application..."
+mkdir -p web-app/static/data
+cp data/processed/kerala_lsg_final.geojson web-app/static/data/
+cp data/processed/kerala_districts.geojson web-app/static/data/
+cp data/processed/search_index.json web-app/static/data/
+# Copy Mahe if exists
+if [ -f data/raw/mahe_boundary.geojson ]; then
+    cp data/raw/mahe_boundary.geojson web-app/static/data/
+fi
+echo "✓ Data synced to web-app/static/data/"
+echo ""
+
 echo "📖 See README.md for integration examples"
 echo ""
