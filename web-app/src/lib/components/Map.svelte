@@ -7,6 +7,8 @@
   let mapContainer;
   let map;
 
+  let flyToLock = false;
+
   // React to LSG selection
   $: if (map && $selectedLSG) {
     let lat, lon;
@@ -18,13 +20,28 @@
       lon = parseFloat($selectedLSG.lon || $selectedLSG.centroid_lon);
     }
 
-    if (lat && lon) {
+    if (lat && lon && !flyToLock) {
       map.flyTo({
         center: [lon, lat],
         zoom: 12,
         essential: true,
       });
     }
+    flyToLock = false;
+
+    // Update selection highlight
+    if ($mapReady) {
+      map.setFilter("lsgs-selection", [
+        "==",
+        ["get", "name"],
+        $selectedLSG.name,
+      ]);
+    }
+  }
+
+  // Clear highlight if selection cleared
+  $: if (map && $mapReady && !$selectedLSG) {
+    map.setFilter("lsgs-selection", ["==", ["get", "name"], ""]);
   }
 
   // React to District selection
@@ -139,6 +156,19 @@
         },
       });
 
+      // Selection Highlight Layer (White border)
+      map.addLayer({
+        id: "lsgs-selection",
+        type: "line",
+        source: "lsgs",
+        paint: {
+          "line-color": "#ffffff",
+          "line-width": 2.5,
+          "line-opacity": 0.9,
+        },
+        filter: ["==", ["get", "name"], ""],
+      });
+
       // Add Mahe Boundary (Union Territory)
       map.addSource("mahe", {
         type: "geojson",
@@ -230,23 +260,8 @@
       map.on("click", "lsgs-fill", (e) => {
         const feature = e.features[0];
         if (feature) {
+          flyToLock = true;
           selectedLSG.set(feature.properties);
-
-          // Center and zoom to LSG
-          const lat = parseFloat(
-            feature.properties.lat || feature.properties.centroid_lat,
-          );
-          const lon = parseFloat(
-            feature.properties.lon || feature.properties.centroid_lon,
-          );
-
-          if (lat && lon) {
-            map.flyTo({
-              center: [lon, lat],
-              zoom: 11,
-              essential: true,
-            });
-          }
         }
       });
 
