@@ -311,8 +311,7 @@
             ? 'text-slate-500'
             : 'text-slate-600'}"
         >
-          Search by name or select a Local Self Government (LSG) on the map to
-          find contact details and representatives.
+          Search by name or select a Local Self Government (LSG) on the map.
         </p>
 
         <div class="mt-8 flex flex-wrap justify-center gap-2 px-4 opacity-50">
