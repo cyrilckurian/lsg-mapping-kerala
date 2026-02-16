@@ -11,8 +11,11 @@
     Landmark,
     ChevronLeft,
     X,
+    Link,
   } from "lucide-svelte";
   import { fade, slide } from "svelte/transition";
+  import { markedLocation, markerLink } from "$lib/store.js";
+  import { parseGoogleMapsLink } from "$lib/utils/googleMaps.js";
 
   let searchIndex = [];
   let filteredResults = [];
@@ -22,6 +25,45 @@
     const res = await fetch("/data/search_index.json");
     searchIndex = await res.json();
   });
+
+  async function handleLinkInput(e) {
+    const url = e.target.value;
+    markerLink.set(url);
+    if (!url) {
+      markedLocation.set(null);
+      return;
+    }
+
+    // Try direct parsing first
+    let coords = parseGoogleMapsLink(url);
+
+    // If it's a short link and not parsed, resolve it
+    if (
+      !coords &&
+      (url.includes("maps.app.goo.gl") || url.includes("goo.gl/maps"))
+    ) {
+      try {
+        const res = await fetch(
+          `/api/resolve-link?url=${encodeURIComponent(url)}`,
+        );
+        const data = await res.json();
+        if (data.finalUrl) {
+          coords = parseGoogleMapsLink(data.finalUrl);
+        }
+      } catch (err) {
+        console.error("Failed to resolve short link:", err);
+      }
+    }
+
+    if (coords) {
+      markedLocation.set(coords);
+    }
+  }
+
+  function clearLink() {
+    markerLink.set("");
+    markedLocation.set(null);
+  }
 
   $: {
     if ($searchQuery.length > 1) {
@@ -58,9 +100,9 @@
 <aside
   class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl"
 >
-  <div class="p-6 border-b border-white/10">
+  <div class="p-6 border-b border-white/10 space-y-4">
     <div
-      class="flex items-center gap-3 mb-6 transition-transform hover:scale-[1.02]"
+      class="flex items-center gap-3 transition-transform hover:scale-[1.02]"
     >
       <div
         class="bg-brand-primary p-2.5 rounded-xl shadow-lg shadow-brand-primary/20"
@@ -81,6 +123,7 @@
       </div>
     </div>
 
+    <!-- Search Input -->
     <div class="relative group">
       <Search
         class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted group-focus-within:text-brand-primary transition-colors"
@@ -104,7 +147,7 @@
       {#if isSearching && filteredResults.length > 0}
         <div
           in:fade={{ duration: 150 }}
-          class="absolute top-full left-0 w-full mt-2 bg-slate-900 border border-white/10 rounded-xl shadow-2xl overflow-hidden z-20"
+          class="absolute top-full left-0 w-full mt-2 bg-slate-900 border border-white/10 rounded-xl shadow-2xl overflow-hidden z-[60]"
         >
           <ul class="divide-y divide-white/5">
             {#each filteredResults as item}
@@ -131,6 +174,28 @@
             {/each}
           </ul>
         </div>
+      {/if}
+    </div>
+
+    <!-- Link Input -->
+    <div class="relative group">
+      <Link
+        class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted group-focus-within:text-brand-primary transition-colors"
+      />
+      <input
+        type="text"
+        value={$markerLink}
+        on:input={handleLinkInput}
+        placeholder="Paste Google Maps Link..."
+        class="w-full bg-slate-800/40 border border-white/10 rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all placeholder:text-slate-600"
+      />
+      {#if $markerLink}
+        <button
+          on:click={clearLink}
+          class="absolute right-3 top-1/2 -translate-y-1/2 p-1 hover:bg-white/10 rounded-full transition-colors"
+        >
+          <X class="w-3.5 h-3.5 text-muted" />
+        </button>
       {/if}
     </div>
   </div>

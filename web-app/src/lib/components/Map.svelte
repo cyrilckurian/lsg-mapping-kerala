@@ -2,12 +2,57 @@
   import { onMount } from "svelte";
   import maplibregl from "maplibre-gl";
   import "maplibre-gl/dist/maplibre-gl.css";
-  import { selectedLSG, selectedDistrict, mapReady } from "$lib/store.js";
+  import {
+    selectedLSG,
+    selectedDistrict,
+    mapReady,
+    markedLocation,
+  } from "$lib/store.js";
 
   let mapContainer;
   let map;
+  let userMarker;
 
   let flyToLock = false;
+
+  // React to markedLocation from paste
+  $: if (map && $markedLocation) {
+    const { lat, lon } = $markedLocation;
+
+    // Create or update marker
+    if (!userMarker) {
+      userMarker = new maplibregl.Marker({ color: "#ef4444" })
+        .setLngLat([lon, lat])
+        .addTo(map);
+    } else {
+      userMarker.setLngLat([lon, lat]);
+    }
+
+    // Fly to location
+    map.flyTo({
+      center: [lon, lat],
+      zoom: 14,
+      essential: true,
+    });
+
+    // Find LSG at this point
+    // We wait for the map to finish flying or just query immediately if loaded
+    map.once("moveend", () => {
+      const features = map.queryRenderedFeatures(map.project([lon, lat]), {
+        layers: ["lsgs-fill"],
+      });
+
+      if (features.length > 0) {
+        selectedLSG.set(features[0].properties);
+      }
+    });
+  }
+
+  // Clear marker if location cleared
+  $: if (map && !$markedLocation && userMarker) {
+    userMarker.remove();
+    userMarker = null;
+  }
 
   // React to LSG selection
   $: if (map && $selectedLSG) {
