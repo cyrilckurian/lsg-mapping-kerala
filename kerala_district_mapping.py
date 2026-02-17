@@ -19,7 +19,7 @@ KERALA_DISTRICTS = {
         ],
         # Note: Complete list of all Grama Panchayats needed
     },
-    
+
     "Kollam": {
         "corporations": ["Kollam Corporation"],
         "municipalities": [
@@ -36,7 +36,7 @@ KERALA_DISTRICTS = {
             "Punalur Block Panchayat"
         ],
     },
-    
+
     "Pathanamthitta": {
         "corporations": [],
         "municipalities": [
@@ -56,7 +56,7 @@ KERALA_DISTRICTS = {
             "Thiruvalla Block Panchayat"
         ],
     },
-    
+
     "Alappuzha": {
         "corporations": [],
         "municipalities": [
@@ -75,7 +75,7 @@ KERALA_DISTRICTS = {
             "Mavelikkara Block Panchayat"
         ],
     },
-    
+
     "Kottayam": {
         "corporations": [],
         "municipalities": [
@@ -95,7 +95,7 @@ KERALA_DISTRICTS = {
             "Vaikom Block Panchayat"
         ],
     },
-    
+
     "Idukki": {
         "corporations": [],
         "municipalities": [
@@ -110,7 +110,7 @@ KERALA_DISTRICTS = {
             "Peerumedu Block Panchayat"
         ],
     },
-    
+
     "Ernakulam": {
         "corporations": ["Kochi Corporation"],
         "municipalities": [
@@ -134,7 +134,7 @@ KERALA_DISTRICTS = {
             "Perumbavoor Block Panchayat"
         ],
     },
-    
+
     "Thrissur": {
         "corporations": ["Thrissur Corporation"],
         "municipalities": [
@@ -154,7 +154,7 @@ KERALA_DISTRICTS = {
             "Chalakudy Block Panchayat"
         ],
     },
-    
+
     "Palakkad": {
         "corporations": [],
         "municipalities": [
@@ -177,7 +177,7 @@ KERALA_DISTRICTS = {
         ],
         "gram_panchayats": ["Agali Gramapanchayath", "Agali"]
     },
-    
+
     "Malappuram": {
         "corporations": [],
         "municipalities": [
@@ -203,7 +203,7 @@ KERALA_DISTRICTS = {
             "Vengara Block Panchayat"
         ],
     },
-    
+
     "Kozhikode": {
         "corporations": ["Kozhikode Corporation"],
         "municipalities": [
@@ -225,7 +225,7 @@ KERALA_DISTRICTS = {
             "Vadakara Block Panchayat"
         ],
     },
-    
+
     "Wayanad": {
         "corporations": [],
         "municipalities": [
@@ -239,7 +239,7 @@ KERALA_DISTRICTS = {
             "Sulthan Bathery Block Panchayat"
         ],
     },
-    
+
     "Kannur": {
         "corporations": ["Kannur Corporation"],
         "municipalities": [
@@ -258,7 +258,7 @@ KERALA_DISTRICTS = {
             "Peravoor Block Panchayat"
         ],
     },
-    
+
     "Kasaragod": {
         "corporations": [],
         "municipalities": [
@@ -279,12 +279,12 @@ KERALA_DISTRICTS = {
 def get_lsg_to_district_mapping():
     """Create a flat dictionary mapping each LSG to its district"""
     mapping = {}
-    
+
     for district, lsg_types in KERALA_DISTRICTS.items():
         for lsg_type, lsgs in lsg_types.items():
             for lsg in lsgs:
                 mapping[lsg] = district
-    
+
     return mapping
 
 # Statistics
@@ -293,12 +293,12 @@ def get_kerala_stats():
     total_corps = 0
     total_munis = 0
     total_blocks = 0
-    
+
     for district, lsg_types in KERALA_DISTRICTS.items():
         total_corps += len(lsg_types.get('corporations', []))
         total_munis += len(lsg_types.get('municipalities', []))
         total_blocks += len(lsg_types.get('block_panchayats', []))
-    
+
     return {
         'districts': len(KERALA_DISTRICTS),
         'corporations': total_corps,
@@ -309,7 +309,7 @@ def get_kerala_stats():
 
 if __name__ == "__main__":
     import json
-    
+
     # Print statistics
     stats = get_kerala_stats()
     print("Kerala Administrative Structure:")
@@ -318,11 +318,11 @@ if __name__ == "__main__":
     print(f"  Municipalities: {stats['municipalities']}")
     print(f"  Block Panchayats: {stats['block_panchayats']}")
     print(f"  Total LSGs Mapped: {stats['total_lsgs_mapped']}")
-    print(f"  Note: 941 Grama Panchayats need to be added")
-    
+    print("  Note: 941 Grama Panchayats need to be added")
+
     # Save mapping to JSON
     mapping = get_lsg_to_district_mapping()
     with open('district_mapping.json', 'w', encoding='utf-8') as f:
         json.dump(mapping, f, ensure_ascii=False, indent=2)
-    
-    print(f"\nDistrict mapping saved to: district_mapping.json")
+
+    print("\nDistrict mapping saved to: district_mapping.json")
