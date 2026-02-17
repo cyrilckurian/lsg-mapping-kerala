@@ -11,7 +11,7 @@ const initialTheme = (typeof window !== 'undefined' && localStorage.getItem('the
 export const theme = writable(initialTheme);
 
 if (typeof window !== 'undefined') {
-    theme.subscribe((value) => {
-        localStorage.setItem('theme', value);
-    });
+	theme.subscribe((value) => {
+		localStorage.setItem('theme', value);
+	});
 }

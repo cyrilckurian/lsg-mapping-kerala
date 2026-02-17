@@ -1,0 +1,7 @@
+build/
+.svelte-kit/
+dist/
+node_modules/
+package-lock.json
+static/data/*.geojson
+static/data/*.json

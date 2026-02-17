@@ -346,6 +346,22 @@ npm run dev
 ```
 The website will be available at `http://localhost:5173`.
 
+## 🛠️ CI/CD Pipeline
+
+The project includes an automated CI/CD pipeline via GitHub Actions to ensure code quality and stability.
+
+- **Web App**: Checks for linting (ESLint/Prettier), type-safety (Svelte-check), unit tests (Vitest), and build success.
+- **Python Scripts**: Performs automatic linting and formatting checks (Ruff) and basic functional tests (Pytest).
+
+To run all checks locally:
+```bash
+# Run web-app checks
+cd web-app && npm run lint && npm run check && npm run test && cd ..
+
+# Run Python checks
+./venv/bin/ruff check . && ./venv/bin/pytest
+```
+
 ---
 
 **Ready to build Kerala's civic engagement platform! 🚀**
