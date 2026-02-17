@@ -74,16 +74,24 @@ def add_district_field(input_file, output_file):
     for feature in data['features']:
         props = feature['properties']
         lsg_name = props.get('name', '')
+        raw_district = props.get('District', '')
 
-        # Try exact match first
-        district = lsg_to_district.get(lsg_name)
+        district = None
 
-        # Try normalized match if exact match fails
+        # 1. Try using the raw District field if it exists and is not "Unknown"
+        if raw_district and raw_district != 'Unknown':
+            district = raw_district
+        
+        # 2. Try exact match from mapping if raw district is missing
+        if not district:
+            district = lsg_to_district.get(lsg_name)
+
+        # 3. Try normalized match if still no district
         if not district:
             normalized = normalize_name(lsg_name)
             district = normalized_mapping.get(normalized)
 
-        # Try matching with different suffixes
+        # 4. Try matching with different suffixes
         if not district:
             for suffix in ['Corporation', 'Municipality', 'Grama Panchayat', 'Block Panchayat']:
                 test_name = f"{lsg_name} {suffix}"
