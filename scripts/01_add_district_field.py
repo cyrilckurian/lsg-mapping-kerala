@@ -81,7 +81,7 @@ def add_district_field(input_file, output_file):
         # 1. Try using the raw District field if it exists and is not "Unknown"
         if raw_district and raw_district != 'Unknown':
             district = raw_district
-        
+
         # 2. Try exact match from mapping if raw district is missing
         if not district:
             district = lsg_to_district.get(lsg_name)
