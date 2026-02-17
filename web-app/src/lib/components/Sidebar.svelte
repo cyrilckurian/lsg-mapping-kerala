@@ -175,7 +175,7 @@
 											? 'text-slate-900'
 											: 'text-white'}">{item.name}</span
 									>
-									{#if item.name_ml}
+									{#if item.name_ml && false}
 										<span
 											class="text-xs font-medium {$theme === 'light'
 												? 'text-slate-500'
