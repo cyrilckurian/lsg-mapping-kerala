@@ -296,7 +296,10 @@
 <div bind:this={mapContainer} class="map-container relative">
 	<div
 		id="map-tooltip"
-		class="fixed hidden glass rounded-xl shadow-2xl z-[100] pointer-events-none min-w-[150px] border border-white/10 overflow-hidden backdrop-blur-md"
+		class="fixed hidden backdrop-blur-md rounded-xl shadow-2xl z-[100] pointer-events-none min-w-[150px] border border-white/10 overflow-hidden {$theme ===
+		'light'
+			? 'bg-white/90'
+			: 'bg-slate-900/90'}"
 	></div>
 </div>
 

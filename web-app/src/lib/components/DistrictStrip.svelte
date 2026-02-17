@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { selectedDistrict } from '$lib/store.js';
+	import { selectedDistrict, theme } from '$lib/store.js';
 	import { Map as MapIcon, ChevronRight } from 'lucide-svelte';
 
 	const districts = [
@@ -26,7 +26,10 @@
 </script>
 
 <div
-	class="fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2 glass rounded-full z-40 max-w-[90vw] overflow-x-auto no-scrollbar shadow-2xl"
+	class="fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-2 px-4 py-2 backdrop-blur-xl border border-white/10 rounded-full z-40 max-w-[90vw] overflow-x-auto no-scrollbar shadow-2xl {$theme ===
+	'light'
+		? 'bg-white/90'
+		: 'bg-slate-900/90'}"
 >
 	<div class="flex items-center gap-2 pr-3 border-r border-white/10 shrink-0">
 		<MapIcon class="w-4 h-4 text-brand-secondary" />

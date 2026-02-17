@@ -98,7 +98,10 @@
 </script>
 
 <aside
-	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl"
+	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] backdrop-blur-xl border border-white/10 rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl {$theme ===
+	'light'
+		? 'bg-white/90'
+		: 'bg-slate-900/90'}"
 >
 	<div class="p-6 border-b border-white/10 flex items-center justify-between">
 		<div class="flex items-center gap-3">
