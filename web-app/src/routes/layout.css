@@ -14,7 +14,7 @@
 
 	/* Default to Light Mode */
 	--bg-color: #f8fafc;
-	--card-bg: rgba(255, 255, 255, 0.7);
+	--card-bg: rgba(255, 255, 255, 0.9);
 	--text-main: #0f172a;
 	--text-muted: #475569;
 	--border-color: rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@
 
 :root.dark {
 	--bg-color: #0f172a;
-	--card-bg: rgba(30, 41, 59, 0.7);
+	--card-bg: rgba(30, 41, 59, 0.9);
 	--text-main: #f8fafc;
 	--text-muted: #94a3b8;
 	--border-color: rgba(255, 255, 255, 0.1);
