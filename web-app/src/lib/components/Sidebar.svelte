@@ -98,43 +98,36 @@
 </script>
 
 <aside
-	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl"
+	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl opacity-90"
 >
-	<div class="p-6 border-b border-white/10 space-y-4">
-		<div class="flex items-center gap-3 transition-transform hover:scale-[1.02]">
+	<div class="p-6 border-b border-white/10 flex items-center justify-between">
+		<div class="flex items-center gap-3">
 			<div class="bg-brand-primary p-2.5 rounded-xl shadow-lg shadow-brand-primary/20">
-				<Landmark class="text-white w-6 h-6" />
+				<Landmark class="text-white w-5 h-5" />
 			</div>
-			<div>
-				<h1
-					class="text-xl font-black tracking-tight {$theme === 'dark'
-						? 'bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent'
-						: 'text-slate-900'}"
-				>
-					Kerala Officials
-				</h1>
-				<p
-					class="text-[10px] font-bold uppercase tracking-[0.2em] {$theme === 'dark'
-						? 'text-brand-secondary'
-						: 'text-brand-primary'}"
-				>
-					Civic Map Kerala
-				</p>
-			</div>
-
-			<button
-				on:click={toggleTheme}
-				class="ml-auto p-2 rounded-xl hover:bg-white/10 transition-all group"
-				title="Toggle {$theme === 'dark' ? 'Light' : 'Dark'} Mode"
+			<h1
+				class="text-xl font-black tracking-tight {$theme === 'dark'
+					? 'bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent'
+					: 'text-slate-900'}"
 			>
-				{#if $theme === 'dark'}
-					<Sun class="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform" />
-				{:else}
-					<Moon class="w-5 h-5 text-slate-600 group-hover:scale-110 transition-transform" />
-				{/if}
-			</button>
+				Jurisdiction
+			</h1>
 		</div>
 
+		<button
+			on:click={toggleTheme}
+			class="p-2 rounded-xl hover:bg-white/10 transition-all group"
+			title="Toggle {$theme === 'dark' ? 'Light' : 'Dark'} Mode"
+		>
+			{#if $theme === 'dark'}
+				<Sun class="w-5 h-5 text-yellow-400 group-hover:scale-110 transition-transform" />
+			{:else}
+				<Moon class="w-5 h-5 text-slate-600 group-hover:scale-110 transition-transform" />
+			{/if}
+		</button>
+	</div>
+
+	<div class="p-6 space-y-4">
 		<!-- Search Input -->
 		<div class="relative group">
 			<Search
@@ -144,7 +137,10 @@
 				type="text"
 				bind:value={$searchQuery}
 				placeholder="Search for LSG (e.g. Kochi, Vorkady)..."
-				class="w-full bg-slate-800/40 border border-white/10 rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all placeholder:text-slate-600"
+				class="w-full border border-white/10 rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all {$theme ===
+				'light'
+					? 'bg-white placeholder:text-slate-400'
+					: 'bg-slate-800/40 placeholder:text-slate-600'}"
 			/>
 			{#if $searchQuery}
 				<button
@@ -159,18 +155,29 @@
 			{#if isSearching && filteredResults.length > 0}
 				<div
 					in:fade={{ duration: 150 }}
-					class="absolute top-full left-0 w-full mt-2 bg-slate-900 border border-white/10 rounded-xl shadow-2xl overflow-hidden z-[60]"
+					class="absolute top-full left-0 w-full mt-2 border rounded-xl shadow-2xl overflow-hidden z-[60] {$theme ===
+					'light'
+						? 'bg-white border-slate-200'
+						: 'bg-slate-900 border-white/10'}"
 				>
-					<ul class="divide-y divide-white/5">
+					<ul class="divide-y {$theme === 'light' ? 'divide-slate-100' : 'divide-white/5'}">
 						{#each filteredResults as item (item.name)}
 							<li>
 								<button
 									on:click={() => selectResult(item)}
 									class="w-full text-left p-4 hover:bg-brand-primary/10 transition-colors flex flex-col gap-0.5"
 								>
-									<span class="text-sm font-bold text-white leading-none">{item.name}</span>
+									<span
+										class="text-sm font-bold leading-none {$theme === 'light'
+											? 'text-slate-900'
+											: 'text-white'}">{item.name}</span
+									>
 									{#if item.name_ml}
-										<span class="text-xs text-slate-400 font-medium">{item.name_ml}</span>
+										<span
+											class="text-xs font-medium {$theme === 'light'
+												? 'text-slate-500'
+												: 'text-slate-400'}">{item.name_ml}</span
+										>
 									{/if}
 									<div class="flex items-center gap-2 mt-1">
 										<span class="text-[10px] text-brand-secondary font-bold uppercase"
@@ -187,6 +194,12 @@
 			{/if}
 		</div>
 
+		<div class="flex items-center gap-4 px-2">
+			<div class="h-[1px] flex-1 bg-white/10"></div>
+			<span class="text-[10px] font-black text-slate-500 tracking-widest">OR</span>
+			<div class="h-[1px] flex-1 bg-white/10"></div>
+		</div>
+
 		<!-- Link Input -->
 		<div class="relative group">
 			<Link
@@ -197,7 +210,10 @@
 				value={$markerLink}
 				on:input={handleLinkInput}
 				placeholder="Paste Google Maps Link..."
-				class="w-full bg-slate-800/40 border border-white/10 rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all placeholder:text-slate-600"
+				class="w-full border border-white/10 rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50 focus:border-brand-primary transition-all {$theme ===
+				'light'
+					? 'bg-white placeholder:text-slate-400'
+					: 'bg-slate-800/40 placeholder:text-slate-600'}"
 			/>
 			{#if $markerLink}
 				<button
@@ -269,41 +285,11 @@
 				in:fade={{ duration: 200 }}
 				class="p-8 flex flex-col items-center justify-center h-full text-center"
 			>
-				<div
-					class="w-20 h-20 bg-brand-primary/5 rounded-3xl flex items-center justify-center mb-6 relative group transform hover:rotate-6 transition-transform"
-				>
-					<div
-						class="absolute inset-0 bg-brand-primary/10 rounded-3xl blur-xl group-hover:bg-brand-primary/20 transition-colors"
-					></div>
-					<Landmark class="w-10 h-10 text-brand-primary relative z-10" />
-				</div>
-				<h3
-					class="text-lg font-black mb-3 leading-tight tracking-tight {$theme === 'dark'
-						? 'text-white'
-						: 'text-slate-900'}"
-				>
-					Explore Kerala's Administrative Landscape
-				</h3>
 				<p
 					class="text-sm font-medium px-4 {$theme === 'dark' ? 'text-slate-500' : 'text-slate-600'}"
 				>
 					Search by name or select a Local Self Government (LSG) on the map.
 				</p>
-
-				<div class="mt-8 flex flex-wrap justify-center gap-2 px-4 opacity-50">
-					<span
-						class="text-[10px] font-black uppercase text-slate-600 px-2 py-1 bg-white/5 rounded-md border border-white/5"
-						>Muncipality</span
-					>
-					<span
-						class="text-[10px] font-black uppercase text-slate-600 px-2 py-1 bg-white/5 rounded-md border border-white/5"
-						>Corporation</span
-					>
-					<span
-						class="text-[10px] font-black uppercase text-slate-600 px-2 py-1 bg-white/5 rounded-md border border-white/5"
-						>Panchayat</span
-					>
-				</div>
 			</div>
 		{/if}
 	</div>
