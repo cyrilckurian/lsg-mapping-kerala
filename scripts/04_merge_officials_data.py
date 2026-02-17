@@ -4,12 +4,12 @@ Script 4: Merge officials data with GeoJSON
 Adds officials information from CSV to the GeoJSON properties
 """
 
+import csv
 import json
+import shutil
 import sys
 from pathlib import Path
 
-import csv
-import shutil
 
 def normalize_name(name):
     """Normalize LSG names for better matching"""
@@ -183,7 +183,6 @@ def main():
         # Sync to web app static directory
         static_output = Path("web-app/static/data/kerala_lsg_final.geojson")
         try:
-            import shutil
             static_output.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(output_file, static_output)
             print(f"✓ Synced to web app: {static_output}")
