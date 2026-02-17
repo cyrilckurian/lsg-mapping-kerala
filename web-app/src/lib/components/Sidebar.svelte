@@ -169,9 +169,12 @@
 									class="w-full text-left p-4 hover:bg-brand-primary/10 transition-colors flex flex-col gap-0.5"
 								>
 									<span class="text-sm font-bold text-white leading-none">{item.name}</span>
+									{#if item.name_ml}
+										<span class="text-xs text-slate-400 font-medium">{item.name_ml}</span>
+									{/if}
 									<div class="flex items-center gap-2 mt-1">
 										<span class="text-[10px] text-brand-secondary font-bold uppercase"
-											>{item.type || 'LSG'}</span
+											>{item.lsg_type || 'LSG'}</span
 										>
 										<span class="text-[10px] text-slate-500">•</span>
 										<span class="text-[10px] text-slate-500">{item.district}</span>

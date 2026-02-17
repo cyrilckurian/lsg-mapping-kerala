@@ -8,12 +8,24 @@ import json
 import sys
 from pathlib import Path
 
-try:
-    import pandas as pd
-except ImportError:
-    print("Error: pandas is not installed")
-    print("Please run: pip install pandas")
-    sys.exit(1)
+import csv
+import shutil
+
+def normalize_name(name):
+    """Normalize LSG names for better matching"""
+    if not name:
+        return ""
+    normalized = name.lower().strip()
+    suffixes = [
+        ' municipal corporation', ' corporation', ' municipality',
+        ' grama panchayat', ' grama panchayath', ' gramapanchayat', ' gramapanchayath',
+        ' block panchayat', ' district panchayat', ' panchayath', ' panchayat'
+    ]
+    for suffix in suffixes:
+        if normalized.endswith(suffix):
+            normalized = normalized[:-len(suffix)].strip()
+            break
+    return normalized
 
 def merge_officials_data(geojson_file, officials_csv, output_file):
     """Merge officials information into GeoJSON properties"""
@@ -37,25 +49,24 @@ def merge_officials_data(geojson_file, officials_csv, output_file):
 
     print(f"  Features: {len(geo_data['features'])}")
 
-    # Read officials CSV
+    # Read officials CSV using standard csv module
     print(f"\nReading officials data: {officials_csv}...")
     try:
-        officials_df = pd.read_csv(officials_csv)
+        with open(officials_csv, mode='r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            officials_records = list(reader)
     except Exception as e:
         print(f"Error reading CSV: {e}")
         return False
 
-    print(f"  Records: {len(officials_df)}")
+    print(f"  Records: {len(officials_records)}")
 
-    # Show CSV columns
-    print(f"  Columns: {', '.join(officials_df.columns.tolist())}")
-
-    # Create lookup dictionary by LSG name
+    # Create lookup dictionary by normalized LSG name
     officials_dict = {}
-    for _, row in officials_df.iterrows():
+    for row in officials_records:
         lsg_name = row.get('lsg_name', '')
         if lsg_name:
-            officials_dict[lsg_name] = row.to_dict()
+            officials_dict[normalize_name(lsg_name)] = row
 
     print(f"  Unique LSGs in CSV: {len(officials_dict)}")
 
@@ -67,10 +78,11 @@ def merge_officials_data(geojson_file, officials_csv, output_file):
     for feature in geo_data['features']:
         props = feature['properties']
         lsg_name = props.get('name', '')
+        norm_name = normalize_name(lsg_name)
 
-        if lsg_name in officials_dict:
+        if norm_name in officials_dict:
             matched += 1
-            officials_info = officials_dict[lsg_name]
+            officials_info = officials_dict[norm_name]
 
             # Check if there's actual data (not just empty fields)
             has_data = any([
@@ -154,10 +166,30 @@ def main():
             print(f"Please rename and fill: {template_file} -> {officials_csv}")
             officials_csv = template_file
 
+    # Prefer simplified version, fall back to unsimplified
+    if not geojson_file.exists():
+        fallback = Path("data/processed/kerala_lsg_with_districts.geojson")
+        if fallback.exists():
+            print(f"Note: {geojson_file} not found. Using fallback: {fallback}")
+            geojson_file = fallback
+        else:
+            print(f"Error: Neither {geojson_file} nor {fallback} exist.")
+            return False
+
     # Merge data
     success = merge_officials_data(geojson_file, officials_csv, output_file)
 
-    if not success:
+    if success:
+        # Sync to web app static directory
+        static_output = Path("web-app/static/data/kerala_lsg_final.geojson")
+        try:
+            import shutil
+            static_output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(output_file, static_output)
+            print(f"✓ Synced to web app: {static_output}")
+        except Exception as e:
+            print(f"Warning: Could not sync to web app: {e}")
+    else:
         print("\nTroubleshooting:")
         print("1. Make sure you've run the previous scripts")
         print("2. Create lsg_officials.csv from the template")

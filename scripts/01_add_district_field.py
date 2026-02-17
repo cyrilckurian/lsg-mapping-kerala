@@ -13,24 +13,24 @@ from kerala_district_mapping import get_lsg_to_district_mapping
 
 
 def normalize_name(name):
-    """Normalize LSG names for better matching"""
+    """Normalize LSG names for better matching and display"""
     if not name:
         return ""
 
     # Convert to lowercase and strip whitespace
     normalized = name.lower().strip()
 
-    # Remove common suffixes for matching
+    # Aggressive suffix removal (order matters - longer first)
     suffixes = [
         ' municipal corporation',
-        ' corporation',
-        ' municipality',
-        ' grama panchayat',
         ' grama panchayath',
-        ' gramapanchayat',
+        ' grama panchayat',
         ' gramapanchayath',
+        ' gramapanchayat',
         ' block panchayat',
         ' district panchayat',
+        ' corporation',
+        ' municipality',
         ' panchayath',
         ' panchayat'
     ]
@@ -38,9 +38,10 @@ def normalize_name(name):
     for suffix in suffixes:
         if normalized.endswith(suffix):
             normalized = normalized[:-len(suffix)].strip()
-            break # Remove only one suffix
+            # Loop again in case there are multiple suffixes (e.g. "Name Grama Panchayat Panchayat")
+            return normalize_name(normalized)
 
-    return normalized
+    return normalized.title()
 
 def add_district_field(input_file, output_file):
     """Add district field to each LSG feature in GeoJSON"""
@@ -90,6 +91,9 @@ def add_district_field(input_file, output_file):
                 if district:
                     break
 
+        # Clean and update the name in properties
+        props['name'] = normalize_name(lsg_name)
+
         # Add district to properties
         if district:
             props['district'] = district
@@ -98,8 +102,9 @@ def add_district_field(input_file, output_file):
             props['district'] = 'Unknown'
             unmatched.append(lsg_name)
 
-        # Infer LSG type from local_auth or name
+        # Infer LSG type from local_auth, name or admin_leve
         local_auth = props.get('local_auth', '').lower()
+        admin_level = props.get('admin_leve', '')
         lsg_name_lower = lsg_name.lower()
 
         if local_auth == 'municipal_corporation' or 'corporation' in lsg_name_lower:
@@ -107,6 +112,10 @@ def add_district_field(input_file, output_file):
         elif local_auth == 'municipality' or 'municipality' in lsg_name_lower:
             lsg_type = 'municipality'
         elif local_auth == 'gram_panchayat' or 'panchayat' in lsg_name_lower or 'panchayath' in lsg_name_lower:
+            lsg_type = 'gram panchayat'
+        elif admin_level == '4': # Usually higher level - likely municipality/corporation if not matched above
+            lsg_type = 'municipality'
+        elif admin_level == '8': # Usually gram panchayat
             lsg_type = 'gram panchayat'
         else:
             lsg_type = 'unknown'

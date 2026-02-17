@@ -74,8 +74,8 @@ def generate_search_index(geojson_file, output_file):
         search_entry = {
             'id': i,
             'name': props.get('name', ''),
-            'name_ml': props.get('name:ml', ''),
-            'type': props.get('lsg_type', 'lsg'),
+            'name_ml': props.get('name_ml', ''),
+            'lsg_type': props.get('lsg_type', 'lsg'),
             'district': props.get('district', ''),
             'centroid': centroid,
         }
@@ -89,7 +89,7 @@ def generate_search_index(geojson_file, output_file):
             if president.get('name'):
                 search_entry['head'] = {
                     'name': president.get('name', ''),
-                    'title': 'Mayor' if search_entry['type'] == 'corporation' else 'President'
+                    'title': 'Mayor' if search_entry['lsg_type'] == 'corporation' else 'President'
                 }
 
             # Extract secretary info
@@ -134,7 +134,7 @@ def generate_search_index(geojson_file, output_file):
     district_counts = {}
 
     for entry in search_index:
-        lsg_type = entry.get('type', 'unknown')
+        lsg_type = entry.get('lsg_type', 'unknown')
         district = entry.get('district', 'Unknown')
 
         type_counts[lsg_type] = type_counts.get(lsg_type, 0) + 1
@@ -195,7 +195,17 @@ def main():
     # Generate search index
     success = generate_search_index(geojson_file, output_file)
 
-    if not success:
+    if success:
+        # Sync to web app static directory
+        static_output = Path("web-app/static/data/search_index.json")
+        try:
+            import shutil
+            static_output.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(output_file, static_output)
+            print(f"✓ Synced to web app: {static_output}")
+        except Exception as e:
+            print(f"Warning: Could not sync to web app: {e}")
+    else:
         print("\nError: Could not generate search index")
         print("Make sure you've run all previous scripts")
         sys.exit(1)

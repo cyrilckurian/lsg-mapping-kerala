@@ -133,6 +133,9 @@ KERALA_DISTRICTS = {
             "Paravur Block Panchayat",
             "Perumbavoor Block Panchayat"
         ],
+        "grama_panchayats": [
+            "Mudakkuzha Gramapanchayath"
+        ],
     },
 
     "Thrissur": {
