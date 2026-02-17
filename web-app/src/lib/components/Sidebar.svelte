@@ -98,7 +98,7 @@
 </script>
 
 <aside
-	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl opacity-90"
+	class="sidebar fixed top-4 left-4 w-96 h-[calc(100vh-32px)] glass rounded-2xl z-50 flex flex-col overflow-hidden shadow-2xl"
 >
 	<div class="p-6 border-b border-white/10 flex items-center justify-between">
 		<div class="flex items-center gap-3">
