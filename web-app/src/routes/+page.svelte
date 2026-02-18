@@ -5,14 +5,14 @@
 </script>
 
 <div class="flex h-screen flex-col bg-slate-50 dark:bg-slate-900 overflow-hidden font-display">
-	<LibraryHeader />
+	<!-- <LibraryHeader /> -->
 
 	<main class="flex flex-1 overflow-hidden">
 		<LibraryJurisdictionSidebar />
 
 		<!-- Column 2: Main Content (Documentation View) -->
 		<section
-			class="flex-1 overflow-y-auto bg-white dark:bg-slate-900 p-8 md:p-12 lg:p-16 custom-scrollbar"
+			class="flex-[2] overflow-y-auto bg-white dark:bg-slate-900 p-8 md:p-12 lg:p-16 custom-scrollbar"
 		>
 			<div class="max-w-3xl mx-auto">
 				<div class="mb-10">

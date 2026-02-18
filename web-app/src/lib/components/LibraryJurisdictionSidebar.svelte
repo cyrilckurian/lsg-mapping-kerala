@@ -7,7 +7,6 @@
 >
 	<div class="p-6">
 		<h1 class="text-slate-900 dark:text-white text-xl font-bold mb-1">Library</h1>
-		<p class="text-slate-500 dark:text-slate-400 text-sm mb-6">Jurisdiction Selector</p>
 
 		<!-- States Section -->
 		<div class="space-y-1">

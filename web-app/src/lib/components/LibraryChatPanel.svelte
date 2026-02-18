@@ -3,7 +3,7 @@
 </script>
 
 <aside
-	class="w-80 bg-slate-50 dark:bg-slate-900 border-l border-slate-200 dark:border-slate-800 p-6 flex flex-col"
+	class="flex-1 bg-slate-50 dark:bg-slate-900 border-l border-slate-200 dark:border-slate-800 p-6 flex flex-col"
 >
 	<div class="flex-1">
 		<div class="flex items-center justify-between mb-6">
