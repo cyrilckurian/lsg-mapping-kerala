@@ -68,6 +68,32 @@
 			</a>
 		{/if}
 
+		<!-- Floor Planner Link -->
+		{#if page.url.pathname.startsWith('/floorplanner')}
+			<div
+				class="w-full aspect-square rounded-lg flex flex-col items-center justify-center bg-primary/10 text-primary transition-colors relative"
+			>
+				<span class="material-symbols-outlined text-2xl fill-1">view_quilt</span>
+				<span class="text-[10px] font-medium mt-1">Planner</span>
+				<!-- Active Indicator -->
+				<div
+					class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-primary rounded-r-full"
+				></div>
+			</div>
+		{:else}
+			<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+			<a
+				href="{base}/floorplanner"
+				data-sveltekit-preload-data="hover"
+				class="w-full aspect-square rounded-lg flex flex-col items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-primary dark:text-slate-400 dark:hover:bg-slate-800 transition-colors group"
+			>
+				<span class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform"
+					>view_quilt</span
+				>
+				<span class="text-[10px] font-medium mt-1">Planner</span>
+			</a>
+		{/if}
+
 		<!-- Settings / Theme Toggle -->
 		<button
 			on:click={() => theme.update((t) => (t === 'dark' ? 'light' : 'dark'))}

@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	let activeTab = 'states';
 
 	const statesData = [
@@ -252,7 +253,7 @@
 		{#if activeTab === 'states'}
 			<!-- States Section -->
 			<div class="space-y-1">
-				{#each statesData as state}
+				{#each statesData as state (state.name)}
 					<details class="group" open={state.open}>
 						<summary
 							class="flex cursor-pointer items-center justify-between gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 transition-colors list-none select-none"
@@ -274,11 +275,22 @@
 						<div
 							class="mt-1 ml-9 flex flex-col gap-1 border-l border-slate-100 dark:border-slate-800 pl-2"
 						>
-							{#each state.rules as rule}
-								<a
-									class="px-3 py-2 text-xs text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-md block transition-colors"
-									href="javascript:void(0)">{rule}</a
-								>
+							{#each state.rules as rule, i (i)}
+								{#if state.name === 'Kerala' && rule === 'Municipality Building Rules (KMBR)'}
+									<a
+										class="px-3 py-2 text-xs text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-md block transition-colors font-medium border-l-2 border-transparent hover:border-primary/30"
+										href="{base}/rules/kmbr/chapter-1"
+									>
+										{rule}
+									</a>
+								{:else}
+									<a
+										class="px-3 py-2 text-xs text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-md block transition-colors"
+										href="javascript:void(0)"
+									>
+										{rule}
+									</a>
+								{/if}
 							{/each}
 						</div>
 					</details>
