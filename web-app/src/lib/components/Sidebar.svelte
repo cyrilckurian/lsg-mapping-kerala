@@ -1,6 +1,6 @@
 <script>
 	import { onMount, createEventDispatcher } from 'svelte';
-	import { selectedLSG, searchQuery, markedLocation, markerLink } from '$lib/store.js';
+	import { selectedLSG, searchQuery, markedLocation, markerLink, cczmInfo } from '$lib/store.js';
 	import { parseGoogleMapsLink } from '$lib/utils/googleMaps.js';
 	import { fade, fly, crossfade } from 'svelte/transition';
 	import { cubicInOut } from 'svelte/easing';
@@ -330,6 +330,63 @@
 					>
 				</div>
 				<div class="flex flex-col gap-3">
+					<!-- CCZM Airport Restriction Statute -->
+					{#if !$markedLocation}
+						<!-- Selected by name search — no precise coordinates -->
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60 shadow-sm">
+							<div class="bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 p-2 rounded-md shrink-0 mt-0.5">
+								<span class="material-symbols-outlined" style="font-size: 20px;">flight</span>
+							</div>
+							<div>
+								<h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 leading-snug">Airport Height Regulations (CCZM)</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-relaxed">For precise airport regulations, paste a location link.</p>
+							</div>
+						</div>
+					{:else if $cczmInfo?.loading}
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-amber-200 dark:border-amber-800/50 bg-amber-50 dark:bg-amber-900/10 shadow-sm">
+							<div class="bg-amber-100 dark:bg-amber-900/40 text-amber-600 dark:text-amber-400 p-2 rounded-md shrink-0 mt-0.5">
+								<div class="w-5 h-5 border-2 border-amber-500 border-t-transparent rounded-full animate-spin"></div>
+							</div>
+							<div>
+								<h4 class="text-sm font-semibold text-slate-800 dark:text-slate-200 leading-snug">AAI Airport Regulations</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Checking CCZM zone...</p>
+							</div>
+						</div>
+					{:else if $cczmInfo?.noZone}
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-emerald-200 dark:border-emerald-800/50 bg-emerald-50 dark:bg-emerald-900/10 shadow-sm">
+							<div class="bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 p-2 rounded-md shrink-0 mt-0.5">
+								<span class="material-symbols-outlined" style="font-size: 20px;">flight_land</span>
+							</div>
+							<div>
+								<h4 class="text-sm font-semibold text-emerald-700 dark:text-emerald-400 leading-snug">No Airport Zone (CCZM)</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Outside all Kerala airport CCZM areas. No height NOC required.</p>
+							</div>
+						</div>
+					{:else if $cczmInfo?.permissibleHeight !== undefined}
+						{@const h = $cczmInfo.permissibleHeight}
+						{@const col = h < 50 ? '#ef4444' : h < 100 ? '#f97316' : h < 150 ? '#eab308' : h < 200 ? '#84cc16' : '#22c55e'}
+						{@const severity = h < 50 ? 'Very Restrictive' : h < 100 ? 'Restrictive' : h < 150 ? 'Moderate' : h < 200 ? 'Low Restriction' : 'Minimal Restriction'}
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm">
+							<div class="p-2 rounded-md shrink-0 mt-0.5" style="background: {col}22; color: {col}">
+								<span class="material-symbols-outlined" style="font-size: 20px;">flight</span>
+							</div>
+							<div class="flex-1 min-w-0">
+								<h4 class="text-sm font-semibold text-slate-800 dark:text-slate-200 leading-snug">AAI Airport Regulations (CCZM)</h4>
+								<p class="text-xs mt-1" style="color: {col}">{severity} — Max <strong>{h} m</strong></p>
+								<div class="mt-2 space-y-1">
+									<div class="flex justify-between text-[11px]">
+										<span class="text-slate-400 dark:text-slate-500">Airport</span>
+										<span class="font-medium text-slate-700 dark:text-slate-200 truncate ml-2">{$cczmInfo.airport}</span>
+									</div>
+									<div class="flex justify-between text-[11px]">
+										<span class="text-slate-400 dark:text-slate-500">Grid / Distance</span>
+										<span class="font-medium text-slate-700 dark:text-slate-200 font-mono">{$cczmInfo.grid} · {$cczmInfo.distanceKm.toFixed(1)} km</span>
+									</div>
+									<p class="text-[10px] text-slate-400 dark:text-slate-500 pt-1">NOC required from AAI for structures exceeding this height.</p>
+								</div>
+							</div>
+						</div>
+					{/if}
 					<a
 						class="group flex items-start gap-3 p-3 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-primary/30 hover:bg-primary/5 transition-all bg-white dark:bg-slate-800 shadow-sm"
 						href="javascript:void(0)"
