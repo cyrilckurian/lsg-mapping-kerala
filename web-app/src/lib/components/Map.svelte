@@ -2,8 +2,9 @@
 	import { onMount } from 'svelte';
 	import maplibregl from 'maplibre-gl';
 	import 'maplibre-gl/dist/maplibre-gl.css';
-	import { selectedLSG, selectedDistrict, mapReady, markedLocation, theme, cczmInfo } from '$lib/store.js';
+	import { selectedLSG, selectedDistrict, mapReady, markedLocation, markerLink, theme, cczmInfo, crzInfo } from '$lib/store.js';
 	import { queryCCZM } from '$lib/utils/cczm.js';
+	import { queryCRZ } from '$lib/utils/crz.js';
 
 	let mapContainer;
 	let map;
@@ -56,12 +57,21 @@
 		queryCCZM(lat, lon)
 			.then((result) => cczmInfo.set(result ? { ...result, loading: false } : { loading: false, noZone: true }))
 			.catch(() => cczmInfo.set({ loading: false, error: true }));
+
+		// Query CRZ — synchronous, district resolved later when selectedLSG updates
+		crzInfo.set(queryCRZ(lat, lon, null));
 	}
 
 	$: if (map && !$markedLocation && userMarker) {
 		userMarker.remove();
 		userMarker = null;
 		cczmInfo.set(null);
+		crzInfo.set(null);
+	}
+
+	// Re-resolve CRZ with district once selectedLSG is known for a pinned location
+	$: if ($selectedLSG && $markedLocation) {
+		crzInfo.set(queryCRZ($markedLocation.lat, $markedLocation.lon, $selectedLSG.district || null));
 	}
 
 	// React to LSG selection
@@ -304,6 +314,8 @@
 				if (feature) {
 					flyToLock = true;
 					selectedLSG.set(feature.properties);
+					markedLocation.set(null);
+					markerLink.set('');
 				}
 			});
 		}

@@ -1,6 +1,6 @@
 <script>
 	import { onMount, createEventDispatcher } from 'svelte';
-	import { selectedLSG, searchQuery, markedLocation, markerLink, cczmInfo } from '$lib/store.js';
+	import { selectedLSG, searchQuery, markedLocation, markerLink, cczmInfo, crzInfo } from '$lib/store.js';
 	import { parseGoogleMapsLink } from '$lib/utils/googleMaps.js';
 	import { fade, fly, crossfade } from 'svelte/transition';
 	import { cubicInOut } from 'svelte/easing';
@@ -107,6 +107,8 @@
 		selectedLSG.set(item);
 		searchQuery.set('');
 		isSearching = false;
+		markedLocation.set(null);
+		markerLink.set('');
 	}
 
 	function clearSelection() {
@@ -387,6 +389,50 @@
 							</div>
 						</div>
 					{/if}
+
+					<!-- CRZ Coastal Regulation Section -->
+					{#if !$markedLocation}
+						<!-- Selected by name — no precise coordinates -->
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60 shadow-sm">
+							<div class="bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 p-2 rounded-md shrink-0 mt-0.5">
+								<span class="material-symbols-outlined" style="font-size: 20px;">waves</span>
+							</div>
+							<div>
+								<h4 class="text-sm font-semibold text-slate-700 dark:text-slate-300 leading-snug">Coastal Regulations (CRZ)</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-relaxed">For exact coastal regulations, paste a location link.</p>
+							</div>
+						</div>
+					{:else if $crzInfo?.inZone}
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-blue-200 dark:border-blue-800/50 bg-blue-50 dark:bg-blue-900/10 shadow-sm">
+							<div class="bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 p-2 rounded-md shrink-0 mt-0.5">
+								<span class="material-symbols-outlined" style="font-size: 20px;">waves</span>
+							</div>
+							<div class="flex-1 min-w-0">
+								<h4 class="text-sm font-semibold text-blue-800 dark:text-blue-300 leading-snug">CRZ Restrictions May Apply</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Confirm applicable zone with the official map.</p>
+								<a
+									href={$crzInfo.pdfUrl}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors"
+								>
+									<span class="material-symbols-outlined" style="font-size: 16px;">open_in_new</span>
+									View Official CRZ Map Sheet
+								</a>
+							</div>
+						</div>
+					{:else if $crzInfo?.inZone === false}
+						<div class="flex items-start gap-3 p-3 rounded-lg border border-emerald-200 dark:border-emerald-800/50 bg-emerald-50 dark:bg-emerald-900/10 shadow-sm">
+							<div class="bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 p-2 rounded-md shrink-0 mt-0.5">
+								<span class="material-symbols-outlined" style="font-size: 20px;">waves</span>
+							</div>
+							<div>
+								<h4 class="text-sm font-semibold text-emerald-700 dark:text-emerald-400 leading-snug">Coastal Regulations Not Applicable</h4>
+								<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Location is outside all Kerala CZMP 2019 grid sheets.</p>
+							</div>
+						</div>
+					{/if}
+
 					<a
 						class="group flex items-start gap-3 p-3 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-primary/30 hover:bg-primary/5 transition-all bg-white dark:bg-slate-800 shadow-sm"
 						href="javascript:void(0)"
