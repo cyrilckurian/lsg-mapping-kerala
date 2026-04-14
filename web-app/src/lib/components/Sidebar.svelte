@@ -22,6 +22,8 @@
 		searchIndex = await res.json();
 	});
 
+	let isLoadingLocation = false;
+
 	async function handleLinkInput(e) {
 		const url = e.target.value || $markerLink;
 		markerLink.set(url);
@@ -35,6 +37,7 @@
 
 		// If it's a short link and not parsed, resolve it
 		if (!coords && (url.includes('maps.app.goo.gl') || url.includes('goo.gl/maps'))) {
+			isLoadingLocation = true;
 			try {
 				const res = await fetch(`/api/resolve-link?url=${encodeURIComponent(url)}`);
 				const data = await res.json();
@@ -43,6 +46,8 @@
 				}
 			} catch (err) {
 				console.error('Failed to resolve short link:', err);
+			} finally {
+				isLoadingLocation = false;
 			}
 		}
 
@@ -184,7 +189,11 @@
 			/>
 		{/key}
 
-		{#if isLinkMode ? $markerLink : $searchQuery}
+		{#if isLoadingLocation}
+			<div class="p-2 text-slate-400 shrink-0 flex items-center justify-center">
+				<div class="w-5 h-5 border-2 border-slate-300 border-t-primary rounded-full animate-spin"></div>
+			</div>
+		{:else if isLinkMode ? $markerLink : $searchQuery}
 			<button
 				on:click={clearSearch}
 				class="p-2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 shrink-0"
