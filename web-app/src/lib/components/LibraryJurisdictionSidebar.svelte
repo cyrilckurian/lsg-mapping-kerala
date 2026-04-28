@@ -283,6 +283,13 @@
 									>
 										{rule}
 									</a>
+								{:else if state.name === 'Kerala' && rule === 'Panchayat Building Rules (KPBR)'}
+									<a
+										class="px-3 py-2 text-xs text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-md block transition-colors font-medium border-l-2 border-transparent hover:border-primary/30"
+										href="{base}/rules/kpbr/chapter-1"
+									>
+										{rule}
+									</a>
 								{:else}
 									<a
 										class="px-3 py-2 text-xs text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800/50 rounded-md block transition-colors"

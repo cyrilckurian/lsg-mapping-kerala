@@ -4,10 +4,12 @@
 	import ChapterContentView from '$lib/components/ChapterContentView.svelte';
 	import LibraryChatPanel from '$lib/components/LibraryChatPanel.svelte';
 	import kmbrData from '$lib/data/kmbr.json';
+	import kpbrData from '$lib/data/kpbr.json';
 
 	// Map of rule IDs to data (in a real app this would be more dynamic)
 	const rulesData = {
-		kmbr: kmbrData
+		kmbr: kmbrData,
+		kpbr: kpbrData
 	};
 
 	let ruleId = $derived(page.params.ruleId);
