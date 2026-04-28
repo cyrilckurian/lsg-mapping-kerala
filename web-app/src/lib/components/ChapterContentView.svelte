@@ -1,4 +1,3 @@
-<script>
 	import { base } from '$app/paths';
 	let { chapterContent, ruleName, chapterTitle, chapterNumber, ruleId, chapters = [] } = $props();
 
@@ -7,6 +6,17 @@
 	let nextChapter = $derived(
 		currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null
 	);
+
+	function formatMarkdown(text) {
+		if (!text) return '';
+		// Bold: **text**
+		let formatted = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+		// Italic: *text* or _text_
+		formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>');
+		// Notes/Blocks: > **Note:** text
+		formatted = formatted.replace(/^>\s*/, '');
+		return formatted;
+	}
 </script>
 
 <main class="flex-[2] flex flex-col bg-white dark:bg-slate-900 overflow-hidden h-full">
@@ -64,7 +74,7 @@
 							<div class="space-y-4">
 								{#each section.paragraphs || [] as para, i (i)}
 									<p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-										{para}
+										{@html formatMarkdown(para)}
 									</p>
 								{/each}
 
@@ -74,7 +84,7 @@
 											>{point.label}</span
 										>
 										<p class="text-slate-700 dark:text-slate-300 leading-relaxed">
-											{point.text}
+											{@html formatMarkdown(point.text)}
 										</p>
 									</div>
 								{/each}
