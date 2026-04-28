@@ -120,6 +120,11 @@ def process_rule(rule_id, rule_name):
                 if l.strip() and not l.strip().startswith('#'):
                     chapter_title = l.strip()
                     break
+        
+        # Clean up known artifacts
+        content = re.sub(r'This is a digitally signed Gazette\.', '', content, flags=re.I)
+        content = re.sub(r'Authenticity may be verified through https://compose\.kerala\.gov\.in/ \d+', '', content, flags=re.I)
+        content = re.sub(r'KERALA MUNICIPALITY BUILDING RULES.*', '', content, flags=re.I)
 
         parsed_chapter = parse_markdown_to_json(content, chapter_title)
         new_content[chapter_id] = parsed_chapter
