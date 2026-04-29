@@ -1,6 +1,6 @@
-# CHAPTER XXI — REGISTRATION OF INSTITUTION, ARCHITECTS, ENGINEERS, TOWN PLANNERS,
+# CHAPTER XXI — REGISTRATION OF INSTITUTION, ARCHITECTS, ENGINEERS, TOWN PLANNERS, ETC.
 
-ETC. 97. Plans and drawings to be prepared and signed by Architect, etc. - In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department.
+97. Plans and drawings to be prepared and signed by Architect, etc. - In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department.
 
 #### 98. Registering Authority . - The Regional Joint Director, Urban Affairs Department, shall be the
 
@@ -11,7 +11,7 @@ Registering Authority for the respective regions of the State. 99. Application a
   (i) valid registration/recognition of Bachelor’s degree course in Architecture from Council of Architecture or that in Civil Engineering from All India Council for Technical Education
   (AICTE) as the case may be, and
   (ii) affiliation of the institution to a university in the State
-  (4) The Registering Authority shall, if convinced of the genuineness of the documents, issue registration certificate in the form in Appendix -H3 after collecting the registration fee. 113
+  (4) The Registering Authority shall, if convinced of the genuineness of the documents, issue registration certificate in the form in Appendix -H3 after collecting the registration fee.
   (5) The registration once made shall be valid for four years from the date of registration certificate. The registration certificate shall be renewable on payment of renewal fee with a request in white paper affixed with necessary court fee stamp made within the valid period of registration. In the case of institutional registration, true copy of document
   (s) showing valid registration/recognition of Bachelor’s degree course in Architecture from Council of Architecture or that in Civil Engineering from All India Council for Technical Education
   (AICTE) as the case may be, shall also be attached with the application for renewal. Provided that if the registration could not be renewed within the said valid period, the registering authority shall, on receipt of the application, renew the registration collecting a fine 50 per cent of the registration fee in case of delay up to 30 days and with a fine 100 per cent of the registration fee in case of delay upto 60 days from the date of expiry of the registration, in addition to the registration fee as per these rules. Provided further that a license issued under the Kerala Muncipality Building Rules, 1999 shall be deemed to have been issued under these rules and shall continue to be valid for the period for which that license was issued and the holder of the said license shall be eligible for registration under these rules. Provided also that in the case of Institutional registration, any change of person in the capacity of the Head of Department of Architecture or Civil Engineering, as the case may be, shall be officially intimated by the Principal/Head of Institution to the registering authority with name and specimen signature of such person.
@@ -26,7 +26,7 @@ column
 
 #### 101. Registration in more than one category. - A person shall be eligible for registration in more
 
-than one category if he possesses the requisite qualification and submits separate application, and fee for registration in each such category. 114
+than one category if he possesses the requisite qualification and submits separate application, and fee for registration in each such category.
 
 #### 102. Certification of Professionals for KSECBC compliance .- (1) A person who fulfils the
 
@@ -39,4 +39,4 @@ eligibility criteria specified in the Energy Conservation (Minimum qualification
   (Building) shall ensure that none of the professionals or employees working under him/her is engaged in any work in connection with the construction or alteration of the concerned building covered under these rules to ensure that there is no conflict of interest with his/her official duties with the interests of the authority having jurisdiction;
   (e) report to State designated agencies on such unusual technical issues that may arise due to issue of building permit or construction of building or during occupancy stage;
   (f) provide inputs to the National and State Energy Conservation Building Code Implementation Committees to facilitate for better implementation of the Kerala State Energy Conservation Building Code and Kerala Energy Conservation (Building Code) Rules 2017;
-  (g) promote norms and standards specified in the Kerala State Energy Conservation Building Code 115
+  (g) promote norms and standards specified in the Kerala State Energy Conservation Building Code

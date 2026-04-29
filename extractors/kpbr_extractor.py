@@ -20,7 +20,7 @@ _CHAPTER_RE  = re.compile(r"^CHAPTER\s+([IVX]+|\d+)\b")
 _SCHEDULE_RE = re.compile(r"^SCHEDULE\s+([IVX]+|\d+)\b")
 
 # Chapter subtitle: a short all-caps line immediately after a chapter heading
-_SUBTITLE_RE = re.compile(r"^[A-Z][A-Z ,/\-&()]+$")
+_SUBTITLE_RE = re.compile(r"^[A-Z][A-Z ,/\-&().]+$")
 
 # Digitally-signed Gazette boilerplate that appears at the bottom of every page
 _GAZETTE_RE  = re.compile(r"This is a digitally signed Gazette|compose\.kerala\.gov\.in|Authenticity may be verified")
@@ -209,6 +209,11 @@ def _process_pdf(pdf_path: str) -> list[dict]:
 
                 dom = max(spans, key=lambda s: s.get("size", 0))
                 sz  = dom.get("size", body)
+
+                # Drop standalone page numbers (e.g. "15", "42") that appear as
+                # header/footer artefacts at slightly-smaller-than-body font size
+                if line_text.isdigit() and sz < body:
+                    continue
                 bold = _is_bold(dom)
 
                 level = _heading_level(line_text, sz, bold, body)
@@ -221,16 +226,19 @@ def _process_pdf(pdf_path: str) -> list[dict]:
                     cur_blocks = []
                     expecting_subtitle = True
                 elif expecting_subtitle:
-                    # Line immediately after a chapter heading may be its subtitle
-                    # (e.g. "DEFINITIONS" after "CHAPTER I")
+                    # Lines immediately after a chapter heading may form a multi-line
+                    # subtitle (e.g. "DEFINITIONS", or a two-line all-caps title).
                     if bold and _SUBTITLE_RE.match(line_text) and not _RULE_RE.match(line_text):
-                        cur_title = f"{cur_title} — {line_text}"
+                        # First subtitle line uses " — ", continuations use " "
+                        sep = " — " if " — " not in cur_title else " "
+                        cur_title = f"{cur_title}{sep}{line_text}"
+                        # Stay in subtitle mode in case the next line continues it
                     else:
+                        expecting_subtitle = False
                         if level > 0:
                             cur_blocks.append(_Block("heading", level, line_text))
                         else:
                             cur_blocks.append(_Block("body", 0, line_text))
-                    expecting_subtitle = False
                 elif level > 0:
                     cur_blocks.append(_Block("heading", level, line_text))
                 else:

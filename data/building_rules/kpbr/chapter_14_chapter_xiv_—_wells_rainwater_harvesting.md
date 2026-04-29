@@ -4,7 +4,7 @@
 
   (i) No new well shall be dug without the permission of the Secretary.
   (ii) Where any person intends to dig an open well /tube well/bore well, he shall submit an application in the form in Appendix A1 to the Secretary, together with site plan and documents to prove the ownership.
-  (iii) The site plan shall show the position and dimension of the well and all existing and proposed buildings and structures in the site and within 7.5 metres radius from that well. 95
+  (iii) The site plan shall show the position and dimension of the well and all existing and proposed buildings and structures in the site and within 7.5 metres radius from that well.
   (2) Setback.-
   (i) The set back from any street shall be as that required for a building.
   (ii) There shall be minimum 1.20 metres set back from other boundaries.
@@ -26,7 +26,7 @@
   (i) Roof gutters
   (ii) Down pipe
   (iii) Filter unit
-  (iv) Recharge well or recharge pond or percolation pit 96 Provided that, open well or pond within the plot can be used as recharge components as mentioned in item
+  (iv) Recharge well or recharge pond or percolation pit Provided that, open well or pond within the plot can be used as recharge components as mentioned in item
   (iv) above. Provided further that, filter unit as mentioned in item
   (iii) shall be mandatory only in situations where rainwater is recharged directly to the groundwater through open wells, pond and the like.
   (3) In exceptional cases such as water logging or impermeable subsoil conditions to considerable depths, the ground water recharging arrangements for building constructions need not be made mandatory.
@@ -42,7 +42,7 @@
   (3) The minimum capacity of the storage tank, as stipulated in sub-rule(2)
   (iv) of the rain water storage arrangement shall be at the rate given below: Group A1 25 litres/sq.metre of Covered area Group A2 25 litres/sq.metre of Covered area Group B 50 litres/sq.metre of Covered area Group C 50 litres/sq.metre of Covered area Group D 50 litres/sq.metre of Covered area Group E 50 litres/sq.metre of Covered area Group F 25 litres/sq.metre of Covered area Group G1 & Group G2 50 litres/sq.metre of Covered area Group J 25 litres/sq.metre of Covered area Note: - Covered area means the area mentioned in item
   (aa) of sub-rule
-  (1) of rule 2. 97
+  (1) of rule 2.
   (4) The owner(s)/occupier
   (s) shall maintain the roof tops and the rain water storage arrangements in healthy working conditions.
   (5) If both ground water recharging arrangements and rain water storage arrangements are required to be provided as laid out in this chapter, in addition to rain water storage arrangements, arrangements for carrying the spill over water from storage tank to recharge well or recharge pond or percolation pit need only be provided. 3 Urban Forestry: - As per section 4 of The Kerala Promotion of Tree Growth in Non–Forest Areas Act, 2005 (46 of 2005);

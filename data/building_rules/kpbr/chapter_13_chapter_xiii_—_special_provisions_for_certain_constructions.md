@@ -4,7 +4,7 @@
   (1) Notwithstanding anything contained in these rules, alteration or addition or extension of the first floor or the second floor or both and or conversion or erection of roof, shutter or door shall be permitted to buildings existing on the 30th May 1994 subject to sub - rules
   (2) to (10)of this rule, even though the existing building and proposed floor
   (s) or work does not satisfy the provisions under rules 23,26,28 and the provisions under Chapter V. Provided that alteration of existing building shall be permitted for the limited purpose of constructing staircase or ramp or flight of steps for use as access to the proposed floors, if such alteration satisfies the provisions under rule 23(2). Provided further that the owner shall have no right to claim cost or compensation for both the existing building and the proposed floor
-  (s) or any portion thereof if the same is required to be demolished in future for any road widening or development under any scheme approved by Government or an authority under them: 92 Provided also that the owner shall be responsible for the structural stability and other safety of the building, both the existing and the proposed: Provided also that the alteration or addition
+  (s) or any portion thereof if the same is required to be demolished in future for any road widening or development under any scheme approved by Government or an authority under them: Provided also that the owner shall be responsible for the structural stability and other safety of the building, both the existing and the proposed: Provided also that the alteration or addition
   (extension) or other works mentioned in this rule above shall be permitted even if the existing building has one basement floor.
   (2) The proposed alteration or addition
   (extension) shall satisfy the provisions regarding clearance from overhead electric lines specified under Table 2 of rule 22
@@ -22,7 +22,7 @@
   (7) The maximum coverage permissible shall, if the proposed is for first and second floors, be that of the ground floor over which such floors are proposed and if the proposal is for second floor, be that of the first floor over which such floor is proposed: Provided that the proposed floor
   (s) shall not extend beyond the limits of the existing building.
   (8) The maximum floor space index permissible under this rule shall be as in Table 6 under rule 27
-  (2) and for calculating the maximum floor space index, the built-up area of the 93 proposed construction and built-up area of the existing building shall be taken into account.
+  (2) and for calculating the maximum floor space index, the built-up area of the proposed construction and built-up area of the existing building shall be taken into account.
   (9) Off street parking shall be provided as in Table9&10 under rule 29 for the proposed floor
   (s) irrespective of whether off street parking is available for the existing building or not:
   (10) In the proposed alteration or addition
@@ -33,7 +33,7 @@
   (1) In the case of single family residential buildings upto three storeys and height not exceeding 10 metres, Secretary may permit construction of additional sheet/tiled sloping roof, over the terrace floor of such building for a maximum height of 1.8m, if he is satisfied that:
   (a) such additional construction over the terrace is done for extra protection of such terrace from rain, and not for any habitable use;
   (b) such additional roofed terrace area is kept open on all sides and not enclosed fully or even partly with wall/ grill / Window/ shutter/ any type of partition or the like, other than:-
-  (i) parapet wall of height upto 1.20 metres, 94
+  (i) parapet wall of height upto 1.20 metres,
   (ii) columns to support such additional roof,
   (iii) portion of such building, including the stair cabin leading to the terrace if any,
   (iv) other structures such as water tank, rainwater harvesting arrangements and the like, complementary to the terrace area;

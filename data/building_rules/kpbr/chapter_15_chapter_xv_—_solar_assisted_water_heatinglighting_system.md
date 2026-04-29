@@ -5,7 +5,7 @@
 total built-up area exceeding 500 sq. metres shall be provided with Rooftop Solar Energy Installations (Rooftop photovoltaic power station, or rooftop PV system) so as to generate minimum 5% of the connected load: - Group A1 Apartment houses or residential flats Group A2 All buildings under Lodging houses and special residential Group C Medical or hospital buildings (with inpatients) Group D Community halls, Auditorium, wedding halls Provided that, there shall be provision for Rooftop Solar Energy Installations in the case of single family residential building having built-up area for more than 400 sq.metres.
   (2) Such buildings shall have open area on the roof top, which receives direct sunlight where the Rooftop Solar Energy Installations can be installed.
   (3) The Secretary shall, before issuing occupancy certificate, ensure that all new buildings mentioned in sub rule
-  (1) have completed installation of Rooftop Solar Energy Installations. 98
+  (1) have completed installation of Rooftop Solar Energy Installations.
 
 #### 78. Solar assisted water heating system in buildings - (1) All new buildings with total built-up
 

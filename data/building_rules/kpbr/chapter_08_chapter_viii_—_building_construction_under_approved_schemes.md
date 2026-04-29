@@ -2,7 +2,7 @@
 
 #### 52. Provision for construction under approved Schemes .- Provisions in this chapter shall
 
-apply to construction or reconstruction or addition or alteration of any building in individual plots under any Government approved Schemes for economically weaker 83 section and financed or built by Government, Panchayat, Housing Board, Scheduled Castes and Scheduled Tribes Development Corporation, Fishermen Welfare Corporation, Matsyafed, Harijan Welfare Department, Social Welfare Department or any Government Department, Quasi Government Agency, or Housing Co-operative Societies. The provisions in this Chapter shall also apply to buildings financed or built by any Panchayat at any level to its beneficiaries.
+apply to construction or reconstruction or addition or alteration of any building in individual plots under any Government approved Schemes for economically weaker section and financed or built by Government, Panchayat, Housing Board, Scheduled Castes and Scheduled Tribes Development Corporation, Fishermen Welfare Corporation, Matsyafed, Harijan Welfare Department, Social Welfare Department or any Government Department, Quasi Government Agency, or Housing Co-operative Societies. The provisions in this Chapter shall also apply to buildings financed or built by any Panchayat at any level to its beneficiaries.
 
 #### 53. Area and floor restriction s.-
 
@@ -23,6 +23,6 @@ space, access width, height restriction with regard to width of road and the yar
 #### 56. Application for permit and its disposal .- (1)
 
 Where the construction or reconstruction or addition or alteration is proposed to be done by individuals separately, an application in white paper, typed, or written in ink and affixed with necessary court fee stamp shall be submitted by the individual concerned to the Secretary, along with a site plan showing proposed building footprint and document to prove his ownership. The number of floors and the area in each floor shall be specified in the application.
-  (2) Secretary shall, if convinced of the boundaries and bonafides of the ownership and that the building is in accordance with the rules in this Chapter, issue permit. 84
+  (2) Secretary shall, if convinced of the boundaries and bonafides of the ownership and that the building is in accordance with the rules in this Chapter, issue permit.
   (3) There shall be no application fee in the case of individual application and the permit fee in the case of individual application shall be as shown in Schedule- II .
   (4) Where the construction or reconstruction or addition or alteration is proposed to be done by the Department, Corporation, Board, Agency, Local Self Goverment Institution or Society themselves, layout for sub-division shall be obtained from the Secretary and no building permit is necessary.

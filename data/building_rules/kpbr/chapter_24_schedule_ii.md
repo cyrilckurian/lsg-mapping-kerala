@@ -17,4 +17,4 @@ Note :-
 (4)
   (ii) shall be applicable irrespective of the structural conditions. The fee prescribed in column
   (5) or
-  (6) shall not be applicable in such cases. 179
+  (6) shall not be applicable in such cases.

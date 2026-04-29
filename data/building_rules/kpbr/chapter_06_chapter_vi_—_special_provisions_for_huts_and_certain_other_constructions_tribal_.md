@@ -1,13 +1,13 @@
-# CHAPTER VI — SPECIAL PROVISIONS FOR HUTS AND CERTAIN OTHER CONSTRUCTIONS,
+# CHAPTER VI — SPECIAL PROVISIONS FOR HUTS AND CERTAIN OTHER CONSTRUCTIONS, TRIBAL COLONIES AND BUILDINGS IN SMALL PLOTS
 
-TRIBAL COLONIES AND BUILDINGS IN SMALL PLOTS 49 .1 Special provisions for huts and certain other constructions :- (1.) Provisions in this rule shall apply to the following constructions or reconstructions or additions or alterations and development or redevelopment of land pertaining to;
+49 .1 Special provisions for huts and certain other constructions :- (1.) Provisions in this rule shall apply to the following constructions or reconstructions or additions or alterations and development or redevelopment of land pertaining to;
   (i) Huts; mentioned in Rule 8 item
 (xi)
   (ii) Single family residential buildings in Category –II Village Panchayats under Group A1 – Residential occupancy with total built-up area on all floors upto 100 sq. metres (including existing and proposed within the plot) and number of storeys limited to two. All statutory acts and laws will be applicable to the construction of huts.
   (2) Permit not necessary: - For buildings as stipulated in sub rule
   (1) of rule 49.1, permit as per these rules is not necessary.
   (3) Provisions regarding distance from road, etc: -
-  (1) For huts the following provisions shall apply:- 80
+  (1) For huts the following provisions shall apply:-
   (i) The minimum distance between the plot boundary abutting any street other than National Highway, State Highways, or District roads or other roads notified by the Panchayat and the hut shall be 1.0 metre.
   (ii) All sides including the front and rear shall have minimum 60 centimetres distance from all the boundaries other than that abutting a road.
   (2) For single family residential buildings in Category –II Village Panchayats under Group A1 – Residential occupancy with total built-up area on all floors upto 100 sq. metres (including existing and proposed within the plot) and number of storeys limited to two the following provisions shall apply:-
@@ -17,7 +17,7 @@ TRIBAL COLONIES AND BUILDINGS IN SMALL PLOTS 49 .1 Special provisions for huts a
 #### 49. 2. Special provisions for Tribal colonies .- (1) When the Panchayat in which these rules are
 
 extended comprises Tribal Area Declared/notified by Government, the provisions in this chapter need only be made applicable to those constructions/developments intended for Tribal people or made by Tribal people, in Tribal areas.
-  (2) In the case of construction/developments by authorised agencies for the welfare of Tribal people; the Engineer or Architect in charge of the project/scheme shall prepare layout and designs suitable for the area and life style of the Tribals, in consultation with their 81 representatives including the "Mooppan" of the area; and get them approved by the Panchayat. i. The minimum distance between the plot boundary abutting any street other than National Highways, State Highways, District roads and other roads notified by the Panchayat and the building other than compound wall or fence or out door display structure shall be 1.0 metres;
+  (2) In the case of construction/developments by authorised agencies for the welfare of Tribal people; the Engineer or Architect in charge of the project/scheme shall prepare layout and designs suitable for the area and life style of the Tribals, in consultation with their representatives including the "Mooppan" of the area; and get them approved by the Panchayat. i. The minimum distance between the plot boundary abutting any street other than National Highways, State Highways, District roads and other roads notified by the Panchayat and the building other than compound wall or fence or out door display structure shall be 1.0 metres;
   (ii) Number of floors shall be limited to two & a stair room;
   (iii) The minimum distance between buildings shall not be less than 1.50 metres;
   (iv) Minimum front open space of 1.50 metres shall be provided exclusively for each unit;
@@ -28,4 +28,4 @@ extended comprises Tribal Area Declared/notified by Government, the provisions i
 
 Kerala Panchayat Building rules, 2019 shall apply to construction of building under Group A1-Residential and/or Group F- Commercial occupancy, in plots not exceeding 125 sq.metres of area subject to modifications in this chapter: Provided that permit shall not be granted under this rule to one and the same person or with his consent to another person, for constructing different buildings, whether separately or abutting each other, in plots formed by division of one or more plots, he remaining as owner of more than one such divided plots or if that person has another plot abutting the proposed plot
   (2) Number of floors to be limited.- The number of floors allowed shall be 3 floors and stair-room with maximum height of building restricted to 10 metres excluding stairroom .
-  (3) Certain provisions not to apply.- Provisions regarding F.S.I., coverage, access width, height restriction with regard to width of road and the yard abutting the road, off-street parking, dimension with regard to building parts and light and ventilation shall not apply to buildings under this Chapter. 82
+  (3) Certain provisions not to apply.- Provisions regarding F.S.I., coverage, access width, height restriction with regard to width of road and the yard abutting the road, off-street parking, dimension with regard to building parts and light and ventilation shall not apply to buildings under this Chapter.

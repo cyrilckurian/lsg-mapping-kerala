@@ -110,16 +110,19 @@ def process_rule(rule_id, rule_name):
         with open(md_file, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        # Extract title from the first line or filename
-        title_match = re.search(r'^#\s+(?:Chapter \d+:|CHAPTER [IVXLCDM]+)?\s*(.*)', content, re.I)
-        chapter_title = title_match.group(1).strip() if title_match else md_file.stem
-        # If title is just "CHAPTER I", look at next line
-        if chapter_title.upper().startswith("CHAPTER") and len(chapter_title) < 15:
-            lines = content.split('\n')
-            for l in lines[1:5]:
-                if l.strip() and not l.strip().startswith('#'):
-                    chapter_title = l.strip()
-                    break
+        # Extract title from the first heading line
+        # New KPBR format: "# CHAPTER I — DEFINITIONS"
+        # KMBR format:     "# Chapter 1: Definitions"
+        title_match = re.search(r'^#\s+(.*)', content)
+        full_title = title_match.group(1).strip() if title_match else md_file.stem
+        if ' — ' in full_title:
+            # "CHAPTER I — DEFINITIONS" → "DEFINITIONS"
+            chapter_title = full_title.split(' — ', 1)[1].strip()
+        elif re.match(r'^Chapter\s+\d+:\s+', full_title, re.I):
+            # "Chapter 1: Definitions" → "Definitions"
+            chapter_title = re.sub(r'^Chapter\s+\d+:\s+', '', full_title, flags=re.I).strip()
+        else:
+            chapter_title = full_title
         
         # Clean up known artifacts
         content = re.sub(r'This is a digitally signed Gazette\.', '', content, flags=re.I)
