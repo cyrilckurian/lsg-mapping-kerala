@@ -1,6 +1,4 @@
-# CHAPTER XXII
-
-THE KERALA URBAN ARTS COMMISSION
+# CHAPTER XXII — THE KERALA URBAN ARTS COMMISSION
 
 #### 103. Constitution of the Commission . - (1) The constitution and functioning of the commission
 

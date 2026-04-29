@@ -14,9 +14,16 @@ PDF_URL = (
     "https://buildingpermit.lsgkerala.gov.in/Content/Rules/2019_kpbr.pdf"
 )
 
-# Patterns that signal a chapter boundary
-_CHAPTER_RE  = re.compile(r"^CHAPTER\s+([IVX]+|\d+)\b", re.IGNORECASE)
-_SCHEDULE_RE = re.compile(r"^SCHEDULE\s+([IVX]+|\d+)\b", re.IGNORECASE)
+# Patterns that signal a chapter boundary — case-sensitive to avoid matching
+# inline references like "Schedule III" or "chapter XVI" in body text
+_CHAPTER_RE  = re.compile(r"^CHAPTER\s+([IVX]+|\d+)\b")
+_SCHEDULE_RE = re.compile(r"^SCHEDULE\s+([IVX]+|\d+)\b")
+
+# Chapter subtitle: a short all-caps line immediately after a chapter heading
+_SUBTITLE_RE = re.compile(r"^[A-Z][A-Z ,/\-&()]+$")
+
+# Digitally-signed Gazette boilerplate that appears at the bottom of every page
+_GAZETTE_RE  = re.compile(r"This is a digitally signed Gazette|compose\.kerala\.gov\.in|Authenticity may be verified")
 
 # Patterns for rule / sub-rule classification (body text)
 _RULE_RE     = re.compile(r"^\d+\.\s+\S")
@@ -148,6 +155,7 @@ def _process_pdf(pdf_path: str) -> list[dict]:
     chapters: list[dict] = []
     cur_title: str | None = None
     cur_blocks: list[_Block] = []
+    expecting_subtitle = False  # True immediately after a chapter/schedule heading
 
     for page_num, page in enumerate(doc):
         tables = _page_table_bboxes(page)
@@ -195,6 +203,10 @@ def _process_pdf(pdf_path: str) -> list[dict]:
                 if not line_text:
                     continue
 
+                # Drop Gazette boilerplate that appears at the bottom of every page
+                if _GAZETTE_RE.search(line_text):
+                    continue
+
                 dom = max(spans, key=lambda s: s.get("size", 0))
                 sz  = dom.get("size", body)
                 bold = _is_bold(dom)
@@ -207,6 +219,18 @@ def _process_pdf(pdf_path: str) -> list[dict]:
                         chapters.append({"title": cur_title, "blocks": cur_blocks})
                     cur_title  = line_text
                     cur_blocks = []
+                    expecting_subtitle = True
+                elif expecting_subtitle:
+                    # Line immediately after a chapter heading may be its subtitle
+                    # (e.g. "DEFINITIONS" after "CHAPTER I")
+                    if bold and _SUBTITLE_RE.match(line_text) and not _RULE_RE.match(line_text):
+                        cur_title = f"{cur_title} — {line_text}"
+                    else:
+                        if level > 0:
+                            cur_blocks.append(_Block("heading", level, line_text))
+                        else:
+                            cur_blocks.append(_Block("body", 0, line_text))
+                    expecting_subtitle = False
                 elif level > 0:
                     cur_blocks.append(_Block("heading", level, line_text))
                 else:

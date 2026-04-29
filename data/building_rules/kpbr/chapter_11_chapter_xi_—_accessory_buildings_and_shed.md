@@ -1,6 +1,4 @@
-# CHAPTER XI
-
-ACCESSORY BUILDINGS AND SHED
+# CHAPTER XI — ACCESSORY BUILDINGS AND SHED
 
 #### 67. Certain buildings and sheds exempted .- Permit, as per these rules, is not necessary for the
 

@@ -1,6 +1,4 @@
-# CHAPTER V
-
-PARTS OF BUILDING
+# CHAPTER V — PARTS OF BUILDING
 
 #### 32. Mezzanine floor. - (1)
 
@@ -9,7 +7,7 @@ The built-up area of mezzanine floor shall not exceed one third area of the main
 
 #### 33. Height of room .-
 
-The height of room intended for human entry in a building other than residential occupancy and livestock/poultry farm shall not be less than 3 metres: Provided that in the case of air conditioned rooms it shall not be less than 2.4 metres. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 66 34. Sanitation Facilities :-
+The height of room intended for human entry in a building other than residential occupancy and livestock/poultry farm shall not be less than 3 metres: Provided that in the case of air conditioned rooms it shall not be less than 2.4 metres. 66 34. Sanitation Facilities :-
   (1) Size of bathroom and latrine.-
   (1) The area of bathroom shall not be less than 1.50 sq.metres with either side not less than1.1m, area of a latrine shall not be less than 1.10 sq. metres with one side not less than 1.0 metre: Provided that the area of combined bathroom and latrine shall be not less than 2.2 sq. metres with one side not less than 1. 1 metres:
   (2) The height of bathroom or latrine shall be not less than 2.20 metres.
@@ -23,7 +21,7 @@ The height of room intended for human entry in a building other than residential
 | (1) | (2) | (3) | (4a) | (4b) | (4c) |
 | 1 | Water Closet | 1 per 200 males or part thereof and 1 per 100 females or part thereof for the first 1000 sq.meters of built up area and 1 per 400 males or part thereof and 1 per 200 females or part thereof for the remaining area. | 4 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof | 5 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof | 5 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof |
 
-This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 67
+67
 
 | 2 | Urinals | 1 per 50 persons or part thereof for the first 1000 sq.meters of built up area and 1 per 100 persons or part thereof for the remaining area. | 6 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof | 6 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof | 6 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof |
 | --- | --- | --- | --- | --- | --- |
@@ -38,7 +36,7 @@ This is a digitally signed Gazette. Authenticity may be verified through https:/
 | 3 | Wash Basin | 1 for every 25 persons or part thereof |  | 1 per every 10 boys and 1 per every 10 girls | 1 per every 40 boys and 1 per every 40 girls | Preferably one on each floor |  |
 | 4 | Bath | 1 per 100 persons |  | 1 per every 10 boys and 1 per every 10 girls |  |  | As required for particular trades or occupancy |
 
-This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 68
+68
 
 | Sl.No | Fitments | Hospitals with indoor patients ward | Hospitals with outdoor patients |  | Administration Building |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -55,7 +53,7 @@ This is a digitally signed Gazette. Authenticity may be verified through https:/
 | 7 | Kitchen sink and dish washers (where kitchen is provided) | One in each ward minimum |  |  |
 | 8 | Urinals |  | One for every 50 persons or part thereof | Nil up to 6 persons, 1 for 7-20 persons, 2 for 21-45 persons, 3 for 46-70 persons, 4 for 71-100 persons From 101 to 200 persons add at the rate of 3%. For over 200 persons add at the rate of 2.5%. |
 
-This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 69 Provided that in the case of Information technology parks / technology parks sanitation requirements shall be that of 75 % of the office occupancy.
+69 Provided that in the case of Information technology parks / technology parks sanitation requirements shall be that of 75 % of the office occupancy.
   (2) The Minimum sanitation facilities to be provided in hazardous buildings shall be as given below:
   (a) at the rate of one water closet for the first 50 males or part thereof and two water closet for the first 50 females or part thereof and thereafter one water closet for every additional 70 persons or part thereof, whether male or female;
   (b) at the rate of one urinal for every 100 males or part thereof ;
@@ -71,7 +69,7 @@ This is a digitally signed Gazette. Authenticity may be verified through https:/
   (v) Automobile fuel filling stations
   (b) Such sanitation facility shall be at l---east 10 percent of the sanitation requirement stipulated in Tables 14 and 15 for water closets, urinals and wash basins subject to a minimum of one WC, urinal and washbasin each for male, one WC and washbasin each for female and one WC and washbasin each for disabled persons. The minimum standards for WC and Washbasin for disabled shall be as provided in rule 42.
   (c) It must be accessible to visitors and general public during the operational hours of the building.
-  (4) As far as possible, low water consumption plumbing fixtures shall be provided in all buildings. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 70
+  (4) As far as possible, low water consumption plumbing fixtures shall be provided in all buildings. 70
   (5) In the case of Government owned Information Technology Parks, Government approved Private Information Technology Parks, Government approved private Information Technology buildings under Group E occupancy, additional sanitation facilities for visitors need not be provided.
 
 #### 35. Staircases and fire escape staircases .-
@@ -94,7 +92,7 @@ This is a digitally signed Gazette. Authenticity may be verified through https:/
   (b) Non-residential occupancies exceeding two storeys above ground level Note :-Fire escape staircase is one which is connected to public areas and/or common areas on all floors and leads directly to exterior open space at ground, has at least one side abutting external wall, this side being provided with openable glass or break open glass or fully open and has landing areas accessible from the external side to facilitate rescue operations during an emergency.
   (2) Width of fire escape staircase shall not be less than one metre
   (3) Tread shall not be less than 25 centimetres
-  (4) Riser shall not exceed 19 centimetres and the number of risers shall not exceed 16 per flight of stairs This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 71
+  (4) Riser shall not exceed 19 centimetres and the number of risers shall not exceed 16 per flight of stairs 71
   (5) Height of handrail of a fire escape staircase shall not be less than 100 centimetres and not more than 120 centimetres.
   (6) The spacing between the balustrades should be less than 15 centimetres.
   (7) The use of spiral staircase shall be limited to buildings up to 10 metres in height. Spiral staircase shall not be less than 150 centimetres in diameter and shall be designed to give adequate head room.
@@ -114,7 +112,7 @@ shall be provided with emergency exit sufficient to facilitate safe escape of oc
 #### 37. Exit Width .- (1)
 
 The unit of exit width used to measure the capacity of any exit shall be 50 centimetres, a clear width of 25 centimetres shall be counted as an additional half unit and clear width less than 25 centimetres shall not be counted for exit width.
-  (2) Occupants per unit exit width shall be as in Table 16 . This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 72 TABLE 16 OCCUPANTS PER UNIT EXIT WIDTH Sl. No. Group of occupancy No. of Occupants per unit exit width of Stairway No. of Occupants per unit exit width of Doors 50 75
+  (2) Occupants per unit exit width shall be as in Table 16 . 72 TABLE 16 OCCUPANTS PER UNIT EXIT WIDTH Sl. No. Group of occupancy No. of Occupants per unit exit width of Stairway No. of Occupants per unit exit width of Doors 50 75
 (1)
 (2)
 (3)
@@ -123,7 +121,7 @@ The unit of exit width used to measure the capacity of any exit shall be 50 cent
 (1)
 (2)
   (3) 1 Group A1 Residential 12.5 2 Group A2 Lodging houses & Special Residential 3 Group B Educational 4.0 4 Group C Medical/Hospital 15.0 5 Group D Assembly 1.5 6 Group E Office 1.5 7 Group F Mercantile
-  (Commercial) 4.5 8 Group G1 Industrial-I 10.0 9 Group G2 Industrial-II 10.0 10 Group H Storage (including Warehousing) 30.0 11 12 Group I Hazardous Group J Multiplex complex 10.0 4.5 This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 73
+  (Commercial) 4.5 8 Group G1 Industrial-I 10.0 9 Group G2 Industrial-II 10.0 10 Group H Storage (including Warehousing) 30.0 11 12 Group I Hazardous Group J Multiplex complex 10.0 4.5 73
   (4) Exits shall be either horizontal or vertical type.
   (5) An exit may be a doorway corridor or passageway to an internal staircase or an external staircase (upstairs, downstairs or both), or a ramp which has access to the street or to the roof of a building; Provided that lifts and escalators shall not be considered as exits.
   (6) For determining the exit width of staircases the width of one flight of stair is considered. 38. Doorways .-
@@ -134,7 +132,7 @@ The unit of exit width used to measure the capacity of any exit shall be 50 cent
   (2) The planning, design and installation of lifts / escalator shall be in accordance with Part 8, Volume 2, Section 5 in National Building Code of India, 2016.
   (3) Whenever more than one lift is required as per sub-rule
   (1) or byelaws made under the Act, at least one lift shall be a higher capacity lift that can carry a stretcher.
-  (4) In the case of high rise apartment building having more than 16 dwelling units, at least one lift capable of carrying a stretcher shall be provided: This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 74 41. Lighting and Ventilation .-
+  (4) In the case of high rise apartment building having more than 16 dwelling units, at least one lift capable of carrying a stretcher shall be provided: 74 41. Lighting and Ventilation .-
   (1) Every habitable room shall be furnished with sufficient number of openings such as windows and ventilators affording effectual means of admission of light and air by direct communication with the external air or shall be sufficiently lighted and ventilated by artificial means.
   (2) No portion of a room shall be assumed to be lighted if it is more than 7.5 metres away from the opening assumed for lighting that portion unless it is artificially lighted.
   (3) Windows and ventilators which open into a verandah shall be deemed to communicate with the external air, if such verandah is not more than 3 metres wide and open throughout its entire length into an open space open to the sky, the width of such open space being not less than 3.0 metres. Trellising, mesh, grill or net may, however, be provided on the open side of the verandah;
@@ -147,7 +145,7 @@ The unit of exit width used to measure the capacity of any exit shall be 50 cent
   (4) 1 Upto 3 1.08 0.9 2 Upto 6 2.4 1.2 3 Upto 10 3.0 1.5 4 Above 10 5.0 2.0
   (7) All buildings coming under the purview of sub rule
   (5) of Rule5 shall also follow the lighting and ventilation standards mentioned in the KSECBC 42. Provisions for Differently-abled, Elderly and Children :- All buildings under occupancy groups A2, B,C,D, E,F and J which have access to the public and all apartment buildings/residential flats under occupancy group A1 shall be provided with the following facilities for the differently-abled, elderly and children:
-  (1) Every such building shall have easy access to the main entrance through a ramp. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 75
+  (1) Every such building shall have easy access to the main entrance through a ramp. 75
   (2) Every public building exceeding 1000 sq. metres and residential flats exceeding 2500 sq. metres built-up area shall have lift or separate approach through a ramp (intended for the differently-abled and elderly) to each floor. The minimum cage dimensions of such lift shall be as follows:
   (i) Clear internal width 110 cm
   (ii) Clear internal depth 200 cm
@@ -162,7 +160,7 @@ The unit of exit width used to measure the capacity of any exit shall be 50 cent
   (f) At least one sink in each floor shall have a knee room of 70cm. high under the sink; and
   (g) Locks of such toilet doors shall be of a type that can be opened from outside in case of emergency.
   (5) Parking facilities
-  (a) 3% of the required parking subject to a minimum of one car space, shall be provided near the entrance, exclusively for use of the differently-abled with maximum travel distance of 30 metres, from the building entrance. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 76
+  (a) 3% of the required parking subject to a minimum of one car space, shall be provided near the entrance, exclusively for use of the differently-abled with maximum travel distance of 30 metres, from the building entrance. 76
   (b) The width of such parking bay shall be at least 3.6 metres.
   (6) Walks and paths:
   (a) Walks shall be smooth with hard level surface suitable for walking and wheeling. Avoid grates and manholes in walks. If grates cannot be avoided, then bearing bar shall be perpendicular to the travel path and opening between bars shall not be greater than 12mm in width.
@@ -178,7 +176,7 @@ The unit of exit width used to measure the capacity of any exit shall be 50 cent
 
 (1)Any residential apartment having more than 12 dwelling units in a single plot or single building shall be provided with a recreational space of suitable size but minimum dimension of such recreational open space shall be more than 1.2 m. (2)The recreational open space as per sub rule
   (1) shall not be less than 6% of the total built-up area of all floors taken together. A minimum 35% of such recreational space shall be provided outside the building on the ground itself. Remaining recreational space may be provided either inside a building or outside or both. The recreational space, if provided outside a building on the ground, shall be exclusive of parking areas, driveways and the like. Recreational open space shall be given in ground level above utility areas such as underground sump, sewage treatment plants only after providing adequate safety measures. Recreational space shall not be provided above manholes. If recreational space is partly provided on any open terrace, the recreational space so provided shall not be more than 25% of the open terrace area. Such space shall be enclosed all around either by walls or parapet walls made of stable materials to a height of not less than 150 centimetres with grill mesh of size not more than 10 centimeters x 10 centimetres over it up to further height of 150 centimeters. Such recreational space in open terrace shall be provided with safety measures including exits as per these rules. Note-
-  (1) Spaces like swimming pool, recreation hall or health club shall also be considered as recreation space for this purpose. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 77
+  (1) Spaces like swimming pool, recreation hall or health club shall also be considered as recreation space for this purpose. 77
   (2) The recreation space may be provided as a single unit or as different units.
   (3) The recreational space
   (s) so provided shall be easily and safely accessible to differently-abled persons including children with special needs.
@@ -199,7 +197,7 @@ The height of room in Assembly occupancy buildings shall be minimum 4 metres; Pr
   (Regulation) Act, 1958 (32 of 1958), building permit shall be issued only if a cinema theatre having 1/3rd seating capacity of the existing theatre, is also proposed/retained.
   (ii) the existing coverage, total built-up area on all floors, total seating capacity and height of building shall not be exceeded;
   (iii) the available off-street parking spaces and yards or open spaces or setbacks of existing authorised building
-  (s) shall not be reduced; This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 78
+  (s) shall not be reduced; 78
   (iv) provisions contained in rule 81
   (9) and 81
   (10) of these rules shall apply irrespective of whether the building is a high-rise building or not: Provided that works as specified in item
@@ -218,7 +216,7 @@ Location of any industry shall conform to the provisions contained in the Kerala
 #### 46. Other provisions regarding Group H Storage occupancy buildings - Every building or part
 
 thereof, designed or intended for the storage of food stuffs shall conform to the requirements specified below:
-  (1) every building unless supported on pillars shall have continuous foundation walls extending from at least 60 centimetres below ground level to at least 15 centimetres above ground level or shall have a continuous floor of masonry or reinforced concrete or other quality rat- proof-material. This is a digitally signed Gazette. Authenticity may be verified through https://compose.kerala.gov.in/ 79
+  (1) every building unless supported on pillars shall have continuous foundation walls extending from at least 60 centimetres below ground level to at least 15 centimetres above ground level or shall have a continuous floor of masonry or reinforced concrete or other quality rat- proof-material. 79
   (2) all openings in foundations or floors, windows and drains and all junctions between foundations and walls of the building shall be effectively rat-proofed; windows and doors shall be securely covered with rat-proof screening or grillage or shall be tightly closed with metal sheeting, concrete or other equally rat-proof-material.
 
 #### 47. Other provisions regarding Fuel filling stations under Group I Hazardous occupancy - (1)

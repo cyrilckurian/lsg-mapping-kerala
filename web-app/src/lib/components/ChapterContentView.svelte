@@ -1,3 +1,4 @@
+<script>
 	import { base } from '$app/paths';
 	let { chapterContent, ruleName, chapterTitle, chapterNumber, ruleId, chapters = [] } = $props();
 
