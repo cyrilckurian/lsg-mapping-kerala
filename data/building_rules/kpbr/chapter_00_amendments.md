@@ -26,3 +26,41 @@ F.S.I = Total floor area / Plot area”;
 (i) after item (ch), the following shall be added, namely:—
 “(cha) ‘Podium’ means a horizontal projection (platform) extending beyond building on one or more sides up to a limit of 16 meters from the average ground level.
 (j) in item (cv), the words “central line or” shall be omitted;
+
+
+
+
+#### 3. Amended Tables
+
+TABLE 4 YARDS FOR BUILDINGS UNDER DIFFERENT OCCUPANCIES (Amended 2020):
+
+| Yards | A1, A2, F (<=200m2) | Small plots A1, F | D (>200m2) | B, C, E (>200m2) | G1 (200-500) | G1 (500-800) | G1 (>800) | G2 | I | H (>300) | J |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Front (m) | 3 | 1.8 | 5 | 6 | 6 | 7.5 | 10.5 | 3 | 3 | 3 | 5 |
+| Rear (m) | 1.5 | 1 | 2 | 3 | 2 | 3 | 3 | 1.5 | 2 | 3 | 5 |
+| Sides (m) | 1 | 0.6 | 2 | 2 | 2 | 4 | 5 | 1 | 2 | 3 | 3 |
+
+TABLE 4A MINIMUM AND AVERAGE YARDS (Amended 2020):
+
+| Yards | A1, A2, F (<=200m2) | Small plots A1, F | D (>200m2) | B, C, E (>200m2) | G1 (200-500) | G1 (500-800) | G1 (>800) | G2 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Front Avg (m) | 3 | 1.8 | 5 | 6 | 6 | 7.5 | 10.5 | - |
+| Front Min (m) | 1.8 | 1.2 | 3 | 4.5 | 4.5 | 5 | 6 | 1.5 |
+| Rear Avg (m) | 1.5 | 1 | 2 | 3 | 2 | 3 | 3 | - |
+| Rear Min (m) | 1 | 0.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | - |
+| Side Avg (m) | - | - | 2 | 2 | 2 | 4 | 5 | - |
+| Side Min (m) | 1 | 0.6 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | - |
+
+TABLE 8A ACCESS FOR OCCUPANCY GROUPS G1, G2, H, I, J (Amended 2020):
+
+| Occupancy | Total floor area (sq.m) | Min. Access width (m) |
+| --- | --- | --- |
+| G1, G2 | Up to 300 | 3.00 |
+| G1, G2 | Above 300 - 1500 | 3.60 |
+| G1, G2 | Above 1500 - 6000 | 5.00 |
+| G1, G2 | Above 6000 | 7.00 |
+| H | Up to 300 | 1.50 |
+| H | Above 300 - 1000 | 3.60 |
+| H | Above 1000 | 5.00 |
+| I | All buildings | 10.00 |
+| J | All buildings | 12.00 |

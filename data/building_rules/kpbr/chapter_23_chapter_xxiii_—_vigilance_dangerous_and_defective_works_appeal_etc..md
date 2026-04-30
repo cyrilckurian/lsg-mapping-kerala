@@ -62,10 +62,13 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (1) and 93(1)) APPLICATION FOR PERMIT/REGULARISATION …………………………………………………………. Panchayat 1. Name in capital letters :
 
 | Applicant(s) | Owner(s) |
+
 | --- | --- |
+
 |  |  |
 
-2. Address:
+
+#### 2. Address:
   (i) Permanent address of the owner :
   (ii) To which communications are to be sent : 3. Nature of development/construction:
   (i) Division of plot :
@@ -93,29 +96,49 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (i) Details of Proposed Building(s)
 
 | Floors | Building no. 1 |  |  | Building no. 2 |  |  |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 |  | Occupancy: |  |  | Occupancy : |  |  |
+
 |  | Height of the building - …………… m |  |  | Height of the building - …………… m |  |  |
+
 |  | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) |
+
 | Basement floor |  |  |  |  |  |  |
+
 | Ground floor |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 | Total |  |  |  |  |  |  |
 
   (ii) Details of Existing Building(s)
 
 | Floors | Building no. 1 |  |  | Building no. 2 |  |  |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 |  | Occupancy: |  |  | Occupancy: |  |  |
+
 |  | Height of the building - …………… m |  |  | Height of the building - …………… m |  |  |
+
 |  | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) |
+
 | Basement floor |  |  |  |  |  |  |
+
 | Ground floor |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 | Total |  |  |  |  |  |  |
 
   (iii) Total Built-up Area :
@@ -125,75 +148,123 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (vi) Total Built-up Area for F.S.I. : 9. Basic KMBR Verification w.r.t. proposed plot
 
 | Sl. No. | Rule No. | Description | Required/permissible | Provided |
+
 | --- | --- | --- | --- | --- |
+
 | 1 |  | Access width to the plot |  |  |
+
 | 2 |  | Coverage |  |  |
+
 | 3 |  | Floor Space Index |  |  |
 
-10. Basic KPBR Verification w.r.t. proposed building
+
+#### 10. Basic KPBR Verification w.r.t. proposed building
 (s)
   (a) Building no. 1
 
 | Sl. No. | Rule No. | Description | Required/permissible | Provided |
+
 | --- | --- | --- | --- | --- |
+
 | 1 |  | Access width to the building (in m) |  |  |
+
 | 2 |  | Minimum distance from the abutting road/access to other building(s) (in metre) |  |  |
+
 | 3 |  | No. of Four-wheeler parking |  |  |
+
 | 4 |  | No. of Two-wheeler parking |  |  |
 
 | 5 |  | No. of Parking for Differently abled |  |  |
+
 | --- | --- | --- | --- | --- |
+
 | 6 |  | No. of Parking for Visitors |  |  |
+
 | 7 |  | Loading/unloading space (in sq. metre) |  |  |
+
 | 8 |  | Set Backs (in metre) |  |  |
+
 |  |  | Front |  |  |
+
 |  |  | Side 1 |  |  |
+
 |  |  | Side 2 |  |  |
+
 |  |  | Rear |  |  |
+
 | 9 |  | Exit Width (in metre) |  |  |
+
 | 10 |  | No. of Stair case(s) |  |  |
+
 | 11 |  | No. of Fire Escape Stair case(s) |  |  |
+
 | 12 |  | Rainwater storage capacity (in litre) |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+
 |  |  |  |  |  |
 
-11. Provisions of Town Planning Schemes, if any, applicable to the construction
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+|  |  |  |  |  |
+
+
+#### 11. Provisions of Town Planning Schemes, if any, applicable to the construction
   (I) Zoning
 
 | Sl. No. | Name of the TP Scheme | Stage (Sanctioned/ Published) | Zone | Permissibility of proposed construction as per the scheme |
+
 | --- | --- | --- | --- | --- |
+
 |  |  |  |  |  |
+
 |  |  |  |  |  |
 
   (ii) Road Widening
 
 | Sl. No. | Name of the TP Scheme | Stage (Sanctioned/ Published) | Existing Width of road (in m) | Proposed Width of road (in m) | Building Line (in m) | Set Back Required from Existing road boundary (in m) | Set back provided (in m) |
+
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |
 
-12. Permissibility with respect to Kerala Conservation of Paddy Land and Wet Land Act 2008 / KLU order 1967. :
+|  |  |  |  |  |  |  |  |
+
+
+#### 12. Permissibility with respect to Kerala Conservation of Paddy Land and Wet Land Act 2008 / KLU order 1967. :
   (i) Type of land as per BTR :
   (ii) Type of land as per Data Bank : 13. If the application is for regularisation,
   (i) Whether construction completed or not :
-  (ii) If not completed, the stage of construction : 14. Details of permit/approved plan already obtained. 15. Details of fee paid: Application fee Layout scrutiny fee
+  (ii) If not completed, the stage of construction : 14. Details of permit/approved plan already obtained.
+
+#### 15. Details of fee paid: Application fee Layout scrutiny fee
   (i) Amount
-  (ii) No. and date of receipt 16. Details of documents, plans, certificate, etc. enclosed. 17. Details of NOC obtained.
+  (ii) No. and date of receipt 16. Details of documents, plans, certificate, etc. enclosed.
+
+#### 17. Details of NOC obtained.
 
 | SL . no | Required | Whether enclosed or not | Details of the NOC / Clearances |
+
 | --- | --- | --- | --- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+
 |  |  |  |  |
 
-18. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX- A2 FORM OF APPLICATION FOR CONSTRUCTION IN PLOTS PARTS OF WHICH HAVE BEEN SURRENDERED FREE OF COST FOR ROAD DEVELOPMENT [See rule 62(1)] (To be submitted along with the application for permit) ..…………………………………………………………. Panchayat 1. Name of applicant(s)(in capital letters) : 2. Address:
+|  |  |  |  |
+
+|  |  |  |  |
+
+|  |  |  |  |
+
+
+#### 18. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX- A2 FORM OF APPLICATION FOR CONSTRUCTION IN PLOTS PARTS OF WHICH HAVE BEEN SURRENDERED FREE OF COST FOR ROAD DEVELOPMENT [See rule 62(1)] (To be submitted along with the application for permit) ..…………………………………………………………. Panchayat 1. Name of applicant(s)(in capital letters) : 2. Address:
   (i) Permanent address of the applicant
   (s) :
   (ii) To which communications are to be sent : 3. Details of land surrendered under Rule 62
@@ -220,24 +291,37 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (vi) Details of Relinquishment : (Enclose copies of relinquishment) : 4. Applicability of special provisions :
 
 | Item | Required/permissible as per general provisions | Required/permissible as per special provisions | Provided | Remarks of the Special committee |
+
 | --- | --- | --- | --- | --- |
+
 | Coverage |  |  |  |  |
+
 | F.S.I. |  |  |  |  |
+
 | Set backs: Front |  |  |  |  |
+
 | Side 1 |  |  |  |  |
+
 | Side 2 |  |  |  |  |
+
 | Rear |  |  |  |  |
+
 | Height |  |  |  |  |
+
 | Parking |  |  |  |  |
 
-5. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.:
+
+#### 5. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.:
   (seal) Address: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX –A3 [See rule 5(1)(a)] APPLICATION FORM FOR PERMIT FOR DEVELOPMENT/ REDEVELOPMENT OF LAND To The Secretary, ..…………………………………………………………. Panchayat Sir, I intend to develop/ redevelop the land in Survey/Re survey Number………………………of ............................................. Village in .................................................Taluk............................ owned by me. I forward herewith the site plan, service plan and specification in duplicate duly signed by me and by…………………….…………….(Name in Block letters of the registered Institution /Architect/ Building Designer/ Engineer/ Town Planner/ Supervisor) having Register No………….……………together with the required documents. I hereby undertake to abide by the provisions of the Kerala Panchayat Building Rules, 2019 in all respect. I request that the development/ redevelopment may be approved and development permit may be granted to me. Signature…………..…………………… Name of owner……………………... Place: (in Block letters) Date: Address…………………………….. Appendix-A4 (See rule 5(6)(2)) APPLICATION FOR LAYOUT APPROVAL AND USAGE OF PLOT/CONCURRENCE ………………………………………………………….District 1. Name in capital letters :
 
 | Applicant(s) | Owner(s) |
+
 | --- | --- |
+
 |  |  |
 
-2. Address:
+
+#### 2. Address:
   (i) Permanent address of the owner :
   (ii) To which communications are to be sent : 3. Nature of development/construction:
   (i) Division of plot :
@@ -260,32 +344,53 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (i) Details of Proposed Building(s)
 
 | Floors | Building no. 1 |  |  | Building no. 2 |  |  |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 |  | Occupancy - |  |  | Occupancy - |  |  |
+
 |  | Height of the building - …………… m |  |  | Height of the building - …………… m |  |  |
+
 |  | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) |
+
 | Basement floor |  |  |  |  |  |  |
+
 | Ground floor |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 | Total |  |  |  |  |  |  |
 
   (ii) Details of Existing Building(s)
 
 | Floors | Building no. 1 |  |  | Building no. 2 |  |  |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 |  | Occupancy - |  |  | Occupancy - |  |  |
+
 |  | Height of the building - …………… m |  |  | Height of the building - …………… m |  |  |
+
 |  | Use | Built-up area | Area provided for | Use | Built-up area | Area provided for |
 
 |  |  | (Sq.m.) | parking inside the building (Sq.m.) |  | (Sq.m.) | parking inside the building (Sq.m.) |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 | Basement floor |  |  |  |  |  |  |
+
 | Ground floor |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 | Total |  |  |  |  |  |  |
 
   (iii) Total Built-up Area :
@@ -294,62 +399,101 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
   (v) Total Built-up Area for F.S.I. 9. Basic KPBR Verification w.r.t. proposed plot
 
 | Sl. No. | Rule No. | Description | Required/Permissible | Provided |
+
 | --- | --- | --- | --- | --- |
+
 | 1 |  | Access to the plot |  |  |
+
 | 2 |  | Coverage |  |  |
+
 | 3 |  | Floor Space Index |  |  |
 
-10. Basic KPBR Verification w.r.t. proposed building
+
+#### 10. Basic KPBR Verification w.r.t. proposed building
 (s)
   (a) Building no. 1
 
 | Sl. No. | Rule No. | Description | Required/Permissible | Provided |
+
 | --- | --- | --- | --- | --- |
+
 | 1 |  | Access to the building (in metre) |  |  |
+
 | 2 |  | Minimum distance from the abutting road/access to other building(s) (in metre) |  |  |
+
 | 3 |  | No. of Four-wheeler parking |  |  |
+
 | 4 |  | No. of Two-wheeler parking |  |  |
+
 | 5 |  | No. of Parking for Differently abled |  |  |
+
 | 6 |  | No. of Parking for Visitors |  |  |
+
 | 7 |  | Loading/unloading space (in sq. m) |  |  |
+
 | 8 |  | Set Backs (in m) |  |  |
+
 |  |  | Front |  |  |
+
 |  |  | Side 1 |  |  |
+
 |  |  | Side 2 |  |  |
+
 |  |  | Rear |  |  |
 
 | 9 |  | Exit Width (in m) |  |  |
+
 | --- | --- | --- | --- | --- |
+
 | 10 |  | No. of Stair case(s) |  |  |
+
 | 11 |  | No. of Fire Escape Stair case(s) |  |  |
+
 | 12 |  | Rainwater storage capacity (in litre) |  |  |
 
-11. Provisions of Town Planning Schemes, if any, applicable to the construction
+
+#### 11. Provisions of Town Planning Schemes, if any, applicable to the construction
   (i) Zoning
 
 | Sl. No. | Name of the TP Scheme | Stage (Sanctioned/ Published) | Zone | Permissibility of proposed construction as per the scheme |
+
 | --- | --- | --- | --- | --- |
+
 |  |  |  |  |  |
+
 |  |  |  |  |  |
 
   (ii) Road Widening
 
 | Sl. No. | Name of the TP Scheme | Stage (Sanctioned/ Published) | Existing Width of road(in metre) | Proposed Width of road(in metre) | Building Line(in metre) | Set Back Required from Existing road boundary(in metre) | Set back provided (in metre) |
+
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |
 
-12. If the application is for regularisation,
+|  |  |  |  |  |  |  |  |
+
+
+#### 12. If the application is for regularisation,
   (i) Whether construction completed or not :
-  (ii) If not completed, the stage of construction : 13. Details of permit/layout approval already obtained. 14. Details of fee paid: Application fee
+  (ii) If not completed, the stage of construction : 13. Details of permit/layout approval already obtained.
+
+#### 14. Details of fee paid: Application fee
   (i) Amount
-  (ii) No. and date of receipt 15. Details of documents, plans, certificate, etc. enclosed. 16. Details of NOC / Clearances obtained.
+  (ii) No. and date of receipt 15. Details of documents, plans, certificate, etc. enclosed.
+
+#### 16. Details of NOC / Clearances obtained.
 
 | SL . no | Required | Whether enclosed or not | Details of the NOC / Clearances |
+
 | --- | --- | --- | --- |
+
 |  |  |  |  |
+
 |  |  |  |  |
+
 |  |  |  |  |
+
 |  |  |  |  |
 
 If Yes, file no. of the application in the Local Self Goverment Institution : 18. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/Engineer/ APPENDIX B1 [See rule 6(17)] DEVELOPMENT PERMIT ……………………………………………………………….……………. Panchayat No……………….. Dated……………… Ref:- Application dated……………..……..from Sri/ Smt……………………………..……………. Permission is hereby granted for the development or redevelopment of land to the extent of ....…..................…Ares/ hectares comprised in Survey No./Re survey No. ....................………………Village……………………………Taluk……………………..District… …………………for……………………………………… use (specify)subject to the following conditions:-
@@ -369,15 +513,25 @@ If Yes, file no. of the application in the Local Self Goverment Institution : 18
   (d) Details of proposed building
 
 | Floors | Building no. 1 |  |  | Building no. 2 |  |  |
+
 | --- | --- | --- | --- | --- | --- | --- |
+
 |  | Occupancy - |  |  | Occupancy - |  |  |
+
 |  | Height of the building - …………… m |  |  | Height of the building - …………… m |  |  |
+
 |  | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) | Use | Built-up area (Sq.m.) | Area provided for parking inside the building (Sq.m.) |
+
 | Basement floor |  |  |  |  |  |  |
+
 | Ground floor |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |
+
 | Total |  |  |  |  |  |  |
 
 Signature and name of Secretary
@@ -408,14 +562,23 @@ Signature and name of Secretary
   (Seal) APPENDIX –G2 [See rule 95 (3)] REGISTER FOR REGULARISED CONSTRUCTIONS ..................................………………………………………………… Panchayat
 
 | Sl No | Name and address of applicant/ owner | Date of application with date of receipt | Details of amount etc. of application fee paid | Details of area of building existing/ regularised | Area of land survey No./ Resurvey No. Village, Taluk, etc | Date and No. of intimation permitting regularization with date of despatch | Amount, date etc, of regularization fee paid | Details of regularization order issued | Remarks |
+
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
+
 |  |  |  |  |  |  |  |  |  |  |
 
 APPENDIX –H1-A [See rule 99(1)] GOVERNMENT OF KERALA Application for Registration as Architect/Engineer/Town Planner/Supervisor etc. under the Kerala Panchayat Building Rules, 2019 Affix Passport Size photo (One extra copy of the photo should be separately enclosed for issuing identity card) 1. Name of Applicant : 2. Permanent Address : 3. Address to which communications are to be sent : 4. Educational Qualifications (Attested copies should be enclosed) : 5. Age and Date of Birth (with proof) : 6. Sex : 7. Experience (Attested copies should be enclosed) : 8 References of previous licenses, if any : 9 Details of show cause notices received/ cancellation of licenses, etc if any : 10 Whether employed in the service of Government : or Quasi-Government or Government owned Corporation or Board, Authority or Government Companies or Banks or not (If so employed give particulars) 11 Whether retired from service or not (If retired, give details) : (Proof to be attached) 12. Specimen Signature :
@@ -516,11 +679,17 @@ APPENDIX –H1-A [See rule 99(1)] GOVERNMENT OF KERALA Application for Registrat
   (Seal) APPENDIX-I [See rule 5(4)(Note ii)] .....................………………………………………………… Panchayat DETAILS REGARDING APPLICATIONS FOR RENOVATION WITHOUT INVOLVING ADDITIONAL BUILT-UP AREA OR STRUCTURAL ALTERATIONS OF EXISTING BUILDINGS FOR RELIGIOUS PURPOSE OR PLACES OF WORSHIP (To be submitted by the applicant to the Secretary in triplicate) 1. Name of Applicant : 2. Address : 3. Village and Survey Number : 4. Extend of land : 5. Details of Renovation works : 6. Nature of ownership : 7. Built-up area of existing building(s)
 
 | Sl.No. | Floor level (Basement/First/Second.........etc) | Built-up area in sq.m |
+
 | --- | --- | --- |
+
 |  |  |  |
+
 |  |  |  |
+
 |  |  |  |
+
 |  |  |  |
+
 |  |  |  |
 
 Certified that the works for the above specified building
@@ -557,77 +726,130 @@ Certified that the works for the above specified building
   (5) CRITERIA FOR CONSIDERING AN APPLICATION FOR EXEMPTION Application Fees :The applicants seeking exemption under this rule shall apply in writing to the Secretary in form in Appendix N along with challan receipt remitting the application fee in the Government treasury as detailed below. i) Single family residential building of built up area up to 100 sqm …. No application fee ii) Single family residential building of built up area up to 100 -300 sqm - Rs 1000 iii) All other buildings with built up area up to 100 sqm - Rs 2000 iv) All other buildings with built up area exceeding 100 sqm but up to 1000 sqm …Rs10000 v) All other buildings with built up area exceeding 1000 sqm - Rs 20000 Technical remarks: The Secretary shall submit the applications to the Chief Town Planner and Chief Town Planner shall submit the application to the Government with technical remarks for consideration. Rules exempted: The following occupancies / rules will not be considered for exemption
 
 | 1 | Occupancy group not considered for exemption from these rules. | Group G2- Industrial II, Group I-Hazardous ,Group J – Multiplex Complex, |
+
 | --- | --- | --- |
+
 | 2 | Rules not considered for exemption from these rules | Rules under chapter II and III, R26 (3) ( provision of set back at ground itself), R 27- FSI, R 28 ( Access), R 30 (lay out approval),R 31 (land sub division and plot development), R 35 (2)(1) ( Fire escape stair case), ,R 36 (Travel distance to emergency exits),R -40 (Lift/ Escalator), R 41 (1) ( lighting and ventilation),R 41(7)- light and ventilation conformity with ECBC provisions, R 42 (Provisions for differently abled, Elderly and children), Rules under chapter X (Construction in plots part of which have been surrendered free of cost for road development), Rules under chapter XIII ( Special provisions for certain constructions), Rules under chapter XIV (Wells, Rainwater harvesting),Rules under chapter XV (Solar assisted water heating /lighting system), Rules under chapter XVI ( waste disposal), Rules under chapter XVII ( safety provisions for high rise buildings), Rules under chapter XVIII( Telecommunication towers) and Rules under chapter XIX,XX. |
 
 Criteria and Fee for exemption The appeal application will be considered for exemption from the rules based on the criteria stipulated in table given below. The fee for exemption from various rules mentioned in the table will be cumulative and total fee will be calculated by summing of the exemptions fees individually for each rules as per the fee stipulated against each rules. However the exemption fee for Single family residential building & commercial building having built up area up to 100 sqm is limited to Rs 5000/- and exemption fee for Single family residential building having built up area above 100 upto 300 sqm is limited to Rs 20000/-.
 
 |  | Rules/Occupancy | Criteria | Exemption Fee |
+
 | --- | --- | --- | --- |
+
 | 1 | Rule 26 - exterior and interior open space (except R 26 (3) ) | Constructions which are deficient up to 15 % (including tolerance as specified in rule 20(3) of the mandatory exterior and interior open space as per Rule will only be considered for exemption. | 1) Deficient by 0-10% - 10 times that of the permit fee. 2) Above10 up to 15 %- 25 times that of permit fee |
+
 | 2 | Rule 27 - Coverage | Constructions which exceeds up to 5 % of the permissible value as per this rule will only be considered for exemption | Fair value of land in rupees per sqm multiplied by additional plinth area in excess of that permissible as per this rule + Rs 8000 per sq m of built up area in excess of that permissible as per the rule. |
+
 | 3 | Rule 29- Parking | Constructions which are deficient up to 10 % of the permissible value as per this Rule will only be considered for exemption | Fair value of land in rupees per sqm multiplied by 15 sq m per parking subject to a minimum of Rs 3,00,000 per deficient car parking |
+
 | 4 | Other Rules-R 32(Mezzanine floor),R 33(Height of rooms) R 34 (sanitation facilities),R 35 (1) (stair cases),R 35(2) ( fire escape stair case) 35 (3)-Ramp, R (37)-exit width 38- doorways,R39- corridor,R41 (2 to 6)- details of light and ventilation, 43 | The authority for exemption can consider all other rules for exemption taking in to account the type of construction and condition of site, subjected to a maximum deviation of 10% of the requirement. | 15 times that of the permit fee for each rule to be exempted |
 
 |  | (Other provisions for apartment buildings),R 44(Other provisions for assembly buildings),R 45- (other provisions regarding Group G1 ), R 46-(other provisions regarding Group H ), R 49 (special provisions for hut),R 50(special provisions for construction in small plot), R 51(special provisions for row buildings), Rules under chapter VIII (provisions for construction under approved schemes), Rules under chapter XI (Accessory buildings and sheds) |  |  |
+
 | --- | --- | --- | --- |
 
 Appendix N See rule 3
   (5) APPLICATION FOR EXEMPTION FROM BUILDING RULES (to be submitted in duplicate) To The Secretary, …………………….. Corporation / Municipality. I have obtained permit No. ……………………………. dated ………………………. for the construction or reconstruction or addition or alteration to an existing building with building no. ………………… in ……………………………… Corporation / Municipality in Survey No. ……………………………….. Village ………………………….. Taluk ……………………… District ……………………………. and have carried out the construction in deviation to plans approved by the Secretary. I realise that the construction so carried out is in violation of the provisions contained in the building rules and / or the Act and the date of commencement of the construction is ……………… and date of Completion of construction is ………………. I realize that the said construction is an unauthorized one. I request that sanction may be accorded for granting exemption of the said constructions from the building rules. The application fee of …………………………………………… has been remitted vide ………………………………………………… Necessary documents and plans in triplicate are enclosed. The application details and checklist of the documents to be enclosed is given below:
 
 | 1 | Name of applicant (s) |  |
+
 | --- | --- | --- |
+
 | 2 | Building Location |  |
+
 | (i) | Ward No. |  |
+
 | (ii) | Road / Street |  |
+
 | (iii) | Survey No. / Sub.Dn.No |  |
+
 | (iv) | Name of Village |  |
 
 | (v) | Name of Block |  |  |  |  |
+
 | --- | --- | --- | --- | --- | --- |
+
 | (vi) | Existing Building No. If any |  |  |  |  |
+
 | (vii) | Permit No. If any |  |  |  |  |
+
 | (viii) |  |  |  |  |  |
+
 | List of documents enclosed along with the application: |  |  | Submitted |  |  |
+
 | 1 | Receipt for payment of application fee |  | YES | NO | NA |
+
 | 2 | Three Copies of the drawings |  | YES | NO | NA |
+
 | (i) | Each of the floor Plans |  | YES | NO | NA |
+
 | (ii) | Elevation |  | YES | NO | NA |
+
 | (iii) | Section |  | YES | NO | NA |
+
 | (iv) | Site Plan |  | YES | NO | NA |
+
 | (v) | Location Plan |  | YES | NO | NA |
+
 | (vi) | Service Plan |  | YES | NO | NA |
+
 | (vii) | Parking Plan |  | YES | NO | NA |
+
 | 3 | Documents to prove ownership of land |  | YES | NO | NA |
+
 | (i) | Copy of land deed |  | YES | NO | NA |
+
 | (ii) | Copy of Tax receipt |  | YES | NO | NA |
+
 | (iii) | Copy of latest Possession Certificate |  | YES | NO | NA |
+
 | (iv) | Copy of BTR certificate |  | YES | NO | NA |
+
 | (v) | Attested Copy of the survey sketch from revenue department |  | YES | NO | NA |
+
 | 4 | Photo of Applicant (s) – affixed |  | YES | NO | NA |
+
 | 5 | 4 Photographs of Unauthorised Construction from all four sides of the building showing all external details of development – affixed and attested by owner(s) and Licensee |  | YES | NO | NA |
 
 | 6 | Proof of valid registration of the licensee | YES | NO | NA |
+
 | --- | --- | --- | --- | --- |
+
 | 7 | Proof of qualification of the Structural Engineer who has issued the structural stability certificate | YES | NO | NA |
+
 | 8 | Copies of the cases pending before or direction, judgment etc., by Courts, Tribunal, Ombudsman etc. pertaining to or with reference to the plot or constructions. | YES | NO | NA |
+
 | 9 | Copies of any Government orders, Circulars any form of communication against the plot / land or constructions. | YES | NO | NA |
+
 | 10 | Copy of approved plans issued by the Secretary as per the provisions contained in the Building rules | YES | NO | NA |
+
 | 11 | Copy of building permit issued by the Secretary as per the provisions contained in the Act or Building rules. | YES | NO | NA |
+
 | 12 | Copy of documentary evidence of the details of action taken by the Municipal corporation / Municipality against the unauthorised construction. | YES | NO | NA |
+
 | 13 | Copy of the resolution made by all owners or their association (for residential apartments) | YES | NO | NA |
+
 | 14 | Copy of documentary evidence or any other details pertaining to or relevant to the unauthorised constructions and plot | YES | NO | NA |
+
 | 15 | Copy of Aadhar card of the owner | YES | NO | NA |
+
 | 16 | Any other documents submitted: |  |  |  |
+
 | (i) |  |  |  |  |
+
 | (ii) |  |  |  |  |
+
 |  | Total No. of documents |  |  |  |
 
 Signature of Applicant …………………………….. Name of applicant (In Block letters)…………………………… SCHEDULE-I [[See rules 5(1), 15(6),70(4), 74(3),75(4)& 94] APPLICATION FEE
 
 | Sl No | Local Self Goverment Institution | Land development (Rupees) | Building(Rupees) | Hut(Rupees) | Well(Rupees) | Compound Wall(Rupees) | Conversion of Erection of Shutter or door(Rupees) | Conversion of roof (Rupees) |
+
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
 | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) |
+
 | 1 | Panchayat | 30 | 30 | 10 | 10 | 10 | 15 | 15 |
 
 Note :-

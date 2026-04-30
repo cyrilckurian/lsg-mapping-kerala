@@ -1,6 +1,7 @@
 # CHAPTER XIII — SPECIAL PROVISIONS FOR CERTAIN CONSTRUCTIONS
 
-72. Special provisions for addition etc. over buildings existing on the 30th March 2000 .-
+
+#### 72. Special provisions for addition etc. over buildings existing on the 30th March 2000 .-
   (1) Notwithstanding anything contained in these rules, alteration or addition or extension of the first floor or the second floor or both and or conversion or erection of roof, shutter or door shall be permitted to buildings existing on the 30th May 1994 subject to sub - rules
   (2) to (10)of this rule, even though the existing building and proposed floor
   (s) or work does not satisfy the provisions under rules 23,26,28 and the provisions under Chapter V. Provided that alteration of existing building shall be permitted for the limited purpose of constructing staircase or ramp or flight of steps for use as access to the proposed floors, if such alteration satisfies the provisions under rule 23(2). Provided further that the owner shall have no right to claim cost or compensation for both the existing building and the proposed floor
@@ -27,9 +28,13 @@
   (s) irrespective of whether off street parking is available for the existing building or not:
   (10) In the proposed alteration or addition
   (extension) of first and second floor
-  (s) door shall be permitted only on the side or portion having 1metre open space, window shall be permitted only on the side or portion having minimum 60 centimetres open space and no opening shall be permitted on the side or portion having less than 60 centimetres open space. 73. Conversion of roof, shutters etc. of buildings existing before the commencement of these rules :-
+  (s) door shall be permitted only on the side or portion having 1metre open space, window shall be permitted only on the side or portion having minimum 60 centimetres open space and no opening shall be permitted on the side or portion having less than 60 centimetres open space.
+
+#### 73. Conversion of roof, shutters etc. of buildings existing before the commencement of these rules :-
   (1) Conversion of roof with the same or a different material shall be permitted to any building, irrespective of whether such building conforms to the provision in these rules or not: Provided that the clear distance of the roof edges from the plot boundaries shall not be reduced from the existing distance, but however where sufficient distance is available, it can be reduced to such extent that the provisions regarding projections permissible into open space as provided in rule 26 is observed. Provided further that no portion of the roof shall encroach or project into the street or the neighboring plots and water from the roof shall not be allowed to fall into the street or the neighboring plots or the plot boundaries: Provided also that no permission shall be necessary for conversion of roof with grass, leaf or thatch:
-  (2) Conversion of shutters or doors with the same or a different material shall be permitted in any building irrespective of whether such building conforms to the provisions in these rules or not: Provided that the area or height of the building shall not be increased. 74. Construction of additional sheet/tiled roof over the terrace of certain single family residential buildings -
+  (2) Conversion of shutters or doors with the same or a different material shall be permitted in any building irrespective of whether such building conforms to the provisions in these rules or not: Provided that the area or height of the building shall not be increased.
+
+#### 74. Construction of additional sheet/tiled roof over the terrace of certain single family residential buildings -
   (1) In the case of single family residential buildings upto three storeys and height not exceeding 10 metres, Secretary may permit construction of additional sheet/tiled sloping roof, over the terrace floor of such building for a maximum height of 1.8m, if he is satisfied that:
   (a) such additional construction over the terrace is done for extra protection of such terrace from rain, and not for any habitable use;
   (b) such additional roofed terrace area is kept open on all sides and not enclosed fully or even partly with wall/ grill / Window/ shutter/ any type of partition or the like, other than:-

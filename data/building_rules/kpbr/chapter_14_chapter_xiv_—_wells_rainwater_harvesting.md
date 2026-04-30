@@ -31,7 +31,9 @@
   (iii) shall be mandatory only in situations where rainwater is recharged directly to the groundwater through open wells, pond and the like.
   (3) In exceptional cases such as water logging or impermeable subsoil conditions to considerable depths, the ground water recharging arrangements for building constructions need not be made mandatory.
   (4) The owner(s)/occupier
-  (s) shall maintain the roof tops and the groundwater recharging arrangements in healthy/working conditions. 2. Rainwater storage arrangements: -
+  (s) shall maintain the roof tops and the groundwater recharging arrangements in healthy/working conditions.
+
+#### 2. Rainwater storage arrangements: -
   (1) Unless otherwise stipulated specifically in a Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016), workable rainwater storage arrangements shall be provided as an integral part of all new building constructions through the collection of roof top rain water for all occupancies, except hazardous occupancy buildings and huts.
   (2) The components of a workable rainwater storage arrangement, as stipulated in sub rule
   (1) above, shall include: -
@@ -45,7 +47,9 @@
   (1) of rule 2.
   (4) The owner(s)/occupier
   (s) shall maintain the roof tops and the rain water storage arrangements in healthy working conditions.
-  (5) If both ground water recharging arrangements and rain water storage arrangements are required to be provided as laid out in this chapter, in addition to rain water storage arrangements, arrangements for carrying the spill over water from storage tank to recharge well or recharge pond or percolation pit need only be provided. 3 Urban Forestry: - As per section 4 of The Kerala Promotion of Tree Growth in Non–Forest Areas Act, 2005 (46 of 2005);
+  (5) If both ground water recharging arrangements and rain water storage arrangements are required to be provided as laid out in this chapter, in addition to rain water storage arrangements, arrangements for carrying the spill over water from storage tank to recharge well or recharge pond or percolation pit need only be provided.
+
+#### 3. Urban Forestry: - As per section 4 of The Kerala Promotion of Tree Growth in Non–Forest Areas Act, 2005 (46 of 2005);
   (1) Every owner or occupant of a land other than single family residential building shall, within a period of one year from the date of issue of occupancy certificate, plant trees so as to conform to the standards prescribed by Secretary from time to time.
   (2) Planting of trees shall be made at the rate of minimum of one tree per 450 sqm of plot area for plots exceeding 450 sq. metres of area. Total number of trees would include the existing trees in the plot also.
   (3) A space of minimum 1 m X 1.5 m has to be provided for planting trees.

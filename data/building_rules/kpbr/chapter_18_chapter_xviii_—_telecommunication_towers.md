@@ -1,6 +1,7 @@
 # CHAPTER XVIII — TELECOMMUNICATION TOWERS
 
-83. Essentiality of permit . - No person shall erect or re-erect any non-Governmental telecommunication tower or telecommunication pole structures or accessory rooms or make alteration or cause the same to be done without first obtaining a separate permit for each such tower or telecommunication pole structures from the Secretary.
+
+#### 83. Essentiality of permit . - No person shall erect or re-erect any non-Governmental telecommunication tower or telecommunication pole structures or accessory rooms or make alteration or cause the same to be done without first obtaining a separate permit for each such tower or telecommunication pole structures from the Secretary.
 
 #### 84. Special Provisions .-
 
@@ -23,7 +24,9 @@
   (7) Warning lights and colour specifications.-
   (i) Every telecommunication tower shall be provided with two Aviation Warning Lights
   (ANL) each at 40 metres and 70 metres height from the ground level and one at the top, the two lights at 40 metres height shall be fixed in one set of opposite and that at 70 metres height shall be fixed at the other set of opposite corners.
-  (ii) Every telecommunication tower shall be painted with international orange and international white colors alternatively each with 5 metre band, starting with international orange at the top. 85. Damage and liability .-
+  (ii) Every telecommunication tower shall be painted with international orange and international white colors alternatively each with 5 metre band, starting with international orange at the top.
+
+#### 85. Damage and liability .-
   (1) The applicant/owner shall be responsible for the structural stability of the telecommunication tower and the building in which it is erected and for any damage caused due to inadequate safety measures.
   (2) Erection of any telecommunication tower or pole structures or accessory rooms shall be permitted only over authorised buildings which are structurally safe.
 

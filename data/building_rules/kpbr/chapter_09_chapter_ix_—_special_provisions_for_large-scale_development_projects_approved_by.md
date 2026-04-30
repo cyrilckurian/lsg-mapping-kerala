@@ -1,6 +1,9 @@
 # CHAPTER IX — SPECIAL PROVISIONS FOR LARGE-SCALE DEVELOPMENT PROJECTS APPROVED BY GOVERNMENT
 
-57. Applicability of the Provisions . - Provisions in this chapter shall apply only to large scale development projects, expansion projects approved by Government, by order, and for availing benefit of higher Floor Space Index, the projects shall have an area not less than 1 hectares, an investment exceeding Rs.100 crores including land value and which shall provide for employment, for not less than 500 persons as per commissioning of the project. 58. Constitution and functioning of the committee . -
+
+#### 57. Applicability of the Provisions . - Provisions in this chapter shall apply only to large scale development projects, expansion projects approved by Government, by order, and for availing benefit of higher Floor Space Index, the projects shall have an area not less than 1 hectares, an investment exceeding Rs.100 crores including land value and which shall provide for employment, for not less than 500 persons as per commissioning of the project.
+
+#### 58. Constitution and functioning of the committee . -
   (1) The Government may accord sanction for the project mentioned above, based on the recommendation of a committee, to be constituted by the government for the purpose, consisting of the following members:
   (i) The Principal Secretary/Secretary to Government, - Chairperson Local Self Government Department
   (ii) The Director, Department of Urban Affairs - Member

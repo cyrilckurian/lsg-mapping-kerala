@@ -16,29 +16,49 @@ State Government Department who intends to:-
   (4) In the following cases the Secretary shall obtain, if not produced by the applicant, after receiving the application for permit / written information from the applicant, whether it is Central Government, State Government, autonomous bodies, Quasi- governmental agencies, local self-government institutions, Co-operative Societies, Devaswom boards, private parties etc., a written consent/ concurrence/ NOC from the officer/ authority concerned before issuing the permit. The applicant may directly obtain NOC/Permission, if any required, from organizations and submit along with the application for permit.
 
 | Sl. no. | Location/ Use of the site and or building | Officer/ authority |
+
 | --- | --- | --- |
+
 | 1 | Proposed building is within 10m from Defence Establishment or Proposed high rise buildings within 500m from Defence Establishment or Telecommunication towers within 200m from Defence establishment or as per notification issued by Defence establishment from time to time | Officer in charge of the Defence establishment |
+
 | 2 | Proposed buildings within 30m from Railway track boundary or Telecommunication towers within 100m from Railway track boundary. | Railway Authority concerned |
+
 | 3 | Proposed site/buildings in areas declared, identified or advised by the Kerala Urban Arts Commission as possessing heritage value. | The Kerala Urban Arts Commission |
+
 | 4 | Proposed buildings within any Security Zone | District Collector |
+
 | 5 | Proposed buildings/places for religious purpose or worship | District Collector |
+
 | 6 | Proposed fuel filling stations | District Collector |
+
 | 7 | Proposed crematoria or burning and burial grounds including cemetery and vaults | District Collector |
 
 | 8 | Proposed site/buildings in any area notified by the Government of India as a coastal regulation zone under the Environment Protection Act, 1986 (Central Act 29 of 1986) and rules made there under. | Kerala Coastal Zone Management Authority (KCZMA) |
+
 | --- | --- | --- |
+
 | 9 | Any activity as specified in the schedule to the Notification No. S.O. 1533(E) dated the 14th September, 2006 and as amended from time to time, issued by the Ministry of Environment and Forests, Government of India | State Level Environment Impact Assessment Authority (SEIAA) / Ministry of Environment and Forests |
+
 | 10 | As per prevailing statutes of the Kerala State Pollution Control Board. | Kerala State Pollution Control Board |
+
 | 11 | Proposed traffic terminal stations like mobility hubs, bus stands or inter-state bus terminals | Chief Town Planner |
+
 | 12 | i. All buildings under Group A1, A2, B, C,E,F,G1,G2and H occupancy exceeding 1000 sqm of built-up area or exceeding 15 m of height ii. All buildings under Group D, I and J occupancy irrespective of the number of storeys. | Director of Department of Fire and Rescue Services or an officer authorized by him in this regard to the effect that the construction of the building conforms to the fire and safety norms specified in part 4 Fire and Life Safety of National Building Code of India, 2016 and subsequent amendments. |
+
 | 13 | All buildings under Group A1, A2, B, C, E, F, G1, G2 and H occupancy exceeding 300 sqm and below 1000 sqm of built-up area, as also in the case of buildings not exceeding 15 m height. | A self-declaration in the form in Appendix- L from the applicant along with a certificate from the architect/engineer, who had prepared the plan, to the effect that the construction of the building conforms to the fire and safety norms specified in part 4 Fire and Life Safety of National Building Code of India, 2016 and subsequent amendments. Also, a copy of the self declaration form and |
 
 |  |  | certificate of the architect/ engineer shall be submitted to the nearest Fire Station. |
+
 | --- | --- | --- |
+
 | 14 | Proposed buildings within 20km vicinity from Airport Reference Point (ARP) and/or as per the colour coded zoning map approved for each airport and/or all buildings having elevation more than 150m from ground level | Airport Authority of India (AAI) |
+
 | 15 | Proposed single storeyed buildings below the Electrical line and if clearance not available as per rule 22 (5) Table 2 and for installation of transformers | Chief Electrical Inspector / an Officer authorized by him in this regard |
+
 | 16 | Any activity within 300 metre distance from any protected monument/area notified by the Archaeological Survey of India | Archaeological Survey of India |
+
 | 17 | Buildings of various occupancies as mentioned in Table 11 of these rules | District Town Planner/ Chief Town Planner concerned, if required |
+
 | 18 | Proposed site/ building forms part of any Town Planning Scheme for the area | District Town Planner/ Chief Town Planner concerned, if required |
 
 Provided that the Secretary shall issue permit for Single family residential buildings upto 300 m2 of build up area coming under Coastal Regulation Zone, in accordance with the provisions of the relevant Coastal Regulation Zone notification in force. Provided further that, such officer/authority concerned shall furnish his reply within fifteen days from the date of receipt of the consultation letter, if such establishment has any objection to the proposed work. The objection, if any, raised by the officer within the said fifteen days shall be duly considered by the Secretary before issuing permit. All these are subjected to amendments of the relevant Acts from time to time. In cases where final remarks are not received within the said fifteen days from the Officer or Railway Authority as in sub-rule (4), the Secretary may delay final decision in the application for permit, if any interim reply is received from the Officer/Railway Authority concerned. Provided that provisions regarding the height of the building as specified in the National Building Code of India 2016 shall not apply to multiplexes. Note:
@@ -73,7 +93,9 @@ Provided that the Secretary shall issue permit for Single family residential bui
   (2) Application for Layout approval and Usage of plot/Concurrence shall be submitted in the form in Appendix-A4 along with scrutiny fee as per Schedule III
   (3) Such approval from District Town Planner or Chief Town Planner, as the case may be, may specify conditions with due consideration to various planning aspects pertaining to the particular development/construction and local developments and there may also be additional conditions not specified in these rules; Provided that these conditions so specified shall not in any form be interpreted to relax the provisions of these rules; Provided further that, before the approval of the site and plans and issue of permit, the Secretary shall ensure that the application, drawings and specifications conform to the provisions of these rules and other applicable statutes and the conditions, if any, stipulated by Chief Town Planner or District Town Planner, as the case may be.
   (4) For any deviation without change in occupancy and upto 5% of the total built up area in the plan approved by the District Town Planner / Chief Town Planner for layout of buildings and usage of plot as per these rules, but limited to 500 sqm. without change in occupancy, revised approval from the District Town Planner/ Chief Town Planner is not necessary. However, if there are serious deviations from such approved plan, fresh approvals shall be obtained from the Chief Town Planner or District Town Planner as the case may be.
-  (5) Approval / Rejection /any other communication of layout and/or usage of plot shall be intimated to the applicant in writing within one month in the case of District Town Planner and within two months in the case of Chief Town Planner. 6 Plans to be submitted -
+  (5) Approval / Rejection /any other communication of layout and/or usage of plot shall be intimated to the applicant in writing within one month in the case of District Town Planner and within two months in the case of Chief Town Planner.
+
+#### 6. Plans to be submitted -
   (1) An application for a development permit shall be accompanied by atleast 3 copies of site plan, service plan and key map together with details and specifications as prescribed in these rules.
   (2) An application for building permit shall be accompanied by atleast 3 copies of site plan, service plan, key map, building plan, safety plan in case of high rise buildings, parking plan wherever the building requires parking space as per these rules, together with details and specifications as prescribed in these rules.
   (3) All plans submitted shall include the name, address and signature of the land owner, applicant and registered Institution/Architect/ Engineer/ Town Planner/ Supervisor. Also, the plans have to be certified by the registered Architect/ Engineer/ Town Planner/ Supervisor as given in Appendix J1.
@@ -127,25 +149,27 @@ Provided that the Secretary shall issue permit for Single family residential bui
   (ii) vacant land, agricultural land, water bodies and other features;
   (iii) any other relevant information not specifically mentioned, but may be required by the Secretary/ District Town Planner/ Chief Town Planner.
   (12) The minimum size of the paper on which all plans are drawn shall not be less than 297 mm X 420 mm or A3.
-  (13) The plans accompanying the application shall have the colour scheme as specified in Table 1 and shall be indicated in the legend in the plans. TABLE 1 COLOUR SCHEME
+  (13) The plans accompanying the application shall have the colour scheme as specified in Table 1 and shall be indicated in the legend in the plans.
+
+TABLE 1 COLOUR SCHEME:
 
 | Sl.No. | Item | Notational colouring |
-| --- | --- | --- |
-| 1 | Plot line | Thick black line |
-| 2 | Street (existing) | Brown line |
-| 3 | Street (proposed) | Brown dotted line |
-| 4 | Permissible building line | Thick black dotted line |
-| 5 | Building(Existing) | Black outline |
-| 6 | Building (proposed to be demolished) | Yellow hatching |
-| 7 | Building (proposed) | Red outline |
-| 8 | Drainage sewerage work | Red dotted line |
-| 9 | Water supply works | Black dot and dash line |
-| 10 | Electric line | Green line |
 
-  (14) All plans, drawings and specifications shall be certified and signed by a registered Institution or Architect or Engineer or Town Planner or Supervisor or Building Designer, registered as provided for in these rules, as well as the applicant.
-  (15) If the plot is owned by more than one person, the application shall be submitted jointly and signed by all the persons or by legally authorized representatives of such persons, if any.
-  (16) If the application is for construction or reconstruction of a single building or block of buildings in more than one adjoining plots owned by different persons, or to make addition or extension or alteration to such building, the application shall be submitted jointly and signed by all the persons or by legally authorized representatives of such persons, if any.
-  (17) The Secretary shall, after considering the application, plans and drawings and other documents, issue development permit in the form in Appendix B1 or building permit in the form in Appendix B2, as the case may be.
+| --- | --- | --- |
+
+| 1 | Plot line | Thick black line |
+
+| 2 | Street (existing) | Brown line |
+
+| 3 | Street (proposed) | Brown dotted line |
+
+| 4 | Permissible building line | Thick black dotted line |
+
+| 5 | Building (Existing) | Black outline |
+
+| 6 | Building (proposed to be demolished) | Yellow hatching |
+
+| 7 | Building (proposed) | Red outline |
 
 #### 7. Certain operational constructions by Government to be exempted from these rules -
 
@@ -379,6 +403,8 @@ Every owner shall, on completion of development or redevelopment of land or cons
   (3) The Secretary shall, on receipt of the completion certificate and on being satisfied that the construction or reconstruction or addition or alteration has been carried out in conformity with the permit given, issue occupancy certificate in the form in Appendix F2 not later than fifteen days from the date of receipt of the completion certificate: Provided that, in case there is deficiency as per provisions of these Rules, in minimum width of mandatory open space/yard after completion of the construction, other than the distance stipulated as per section 220
   (b) of the Kerala Panchayat Raj Act, 1994 (13 of 1994) and sub-rule 5 of rule 81 of these rules, the Secretary may allow a tolerance up to 5% of the minimum mandatory open space/yard to be provided as per these rules or twenty five centimeters, whichever is less, for the building constructed: Provided further that if no such occupancy certificate is issued within the said fifteen days, the owner may proceed as if such occupancy certificate has been duly issued to him. On the expiry of fifteen clear days from the date of valid application for occupancy certificate, the applicant shall submit a letter stating that he is liable to get occupancy certificate and now it is deemed to have issued by the authority. All Secretaries of Local Self Government Institutions shall acknowledge the receipt of the letter stated in the above paragraph with stamp and date on the same day on the duplicate copy of the letter. This shall be a deemed occupancy certificate.
   (4) The owner of a building may, if he intends to occupy the building before its completion, apply to the Secretary for that purpose together with partial completion certificate by the owner and registered Institution / Architect / Building designer /Engineer / Supervisor in Appendix E2 and E4 respectively, and sufficient copies of plans and drawings of partially completed building
-  (5) Secretary shall ensure the compliance of the provisions of these rules in respect of the partially completed building and on being satisfied that such occupancy will not endanger life, issue occupancy certificate in respect of such partially completed building. 21. Post Occupancy Audit -
+  (5) Secretary shall ensure the compliance of the provisions of these rules in respect of the partially completed building and on being satisfied that such occupancy will not endanger life, issue occupancy certificate in respect of such partially completed building.
+
+#### 21. Post Occupancy Audit -
   (1) The Secretary shall carry out Post Occupancy Audit except for residential buildings upto two storey, commercial buildings upto 50 square meters, religious buildings and buildings under group G1, G2 and I occupancies, within two years of issue of Occupancy Certificate.
   (2) Post Occupancy Audit can be done at any time after two years after issue of Occupancy Certificate.

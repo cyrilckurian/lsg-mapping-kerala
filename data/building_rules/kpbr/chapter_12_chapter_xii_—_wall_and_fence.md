@@ -1,6 +1,9 @@
 # CHAPTER XII — WALL AND FENCE
 
-69. Prohibition of commencement of work . - The construction or reconstruction of any wall or fence of whatever height bounding or abutting on any public street or public property or public water course shall not be begun unless and until the Secretary has granted permission for the execution of the work: Provided that any gate or grill or door or other structure shall not open or project into the adjacent property or street. 70. Submission and disposal of application . -
+
+#### 69. Prohibition of commencement of work . - The construction or reconstruction of any wall or fence of whatever height bounding or abutting on any public street or public property or public water course shall not be begun unless and until the Secretary has granted permission for the execution of the work: Provided that any gate or grill or door or other structure shall not open or project into the adjacent property or street.
+
+#### 70. Submission and disposal of application . -
   (1) An application to construct or reconstruct a wall or fence shall be submitted in white paper, typed or written in ink and affixed with necessary court fee stamp.
   (2) Application shall contain site plan and documents to prove ownership.
   (3) The site plan shall clearly show all the streets, paths, lanes abutting or leading to the plot and also contain a description of the materials used for the work.

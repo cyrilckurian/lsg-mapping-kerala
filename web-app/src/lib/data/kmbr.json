@@ -536,7 +536,8 @@
             "3. No land development or redevelopment shall be made or no building shall be constructed on a plot liable to flood or on a slop forming an angle of more than 45 degrees with horizontal or on soil unsuitable for percolation or on area shown as floodable area in any town planning scheme or in sandy beds, unless it is proved by the owner to the satisfaction of the Secretary that construction of such a building will not be dangerous or injurious to health and the site will not be subjected to flooding or erosion or cause undue expenditure of public funds for providing sewers, sanitation, water. supply or other public services.",
             "4. Any land development or redevelopment or building construction or reconstruction in any area notified by the Government of India as a coastal regulation zone under the Environment (Protection) Act, 1986 (29 of 1986) and rules made thereunder shall be subject to the restrictions contained in the said notification as amended from time to time.",
             "5. No building or part of a building shall be constructed or reconstructed or no addition or alteration shall be made to any existing building in the intervening spaces between the building and any overhead electric supply line as described in the Table 1 below and as specified in the Indian Electricity Rules as amended from time to time.",
-            "> Provided that single storied buildings shall be allowed even if the above mentioned clearance is not available, if the applicant produces a no objection certificate from the Chief Electrical Inspector or an officer authorized by him, before issue of permit | Sl. No. | Type of Electric Supply Line | Vertical clearance in meters | Horizontal clearance in meters | | --- | --- | --- | --- | | (1) | (2) | (3) | (4) | | 1. | Low and medium voltage lines | 2.4 | 1.2 | | 2. | High voltage lines upto and including 33,000 volts | 3.7 | 1.85 | | 3. | Extra high voltage lines excluding 33,000 volts | 3.7 plus 0.3m fort every additional 33,000 volts or part thereof | 1.85 plus 0.3m fort every additional 33,000 volts or part thereof | [XXX] 24. Exterior and Interior open air spaces",
+            "> Provided that single storied buildings shall be allowed even if the above mentioned clearance is not available, if the applicant produces a no objection certificate from the Chief Electrical Inspector or an officer authorized by him, before issue of permit",
+            "[XXX] 24. Exterior and Interior open air spaces",
             "1. Every room intended for human habitation shall abut on an exterior or interior open space or verandah open to such exterior or interior open space and such open space shall be maintained for the benefit of the building exclusively and shall be entirely within the owner's own premises and shall be open to the sky and is barred from being subdivided, partitioned or legally bifurcated or transacted, in any manner whatsoever, till such date when the structure itself is demolished and shall be kept free from any erection thereon other than those specially allowed in these rules.",
             "2. In case a group of buildings are to be put up within any plot belonging to the same owner or by different owners of adjoining lands jointly the area of the land remaining after accounting for the mandatory front, rear and side yards from the boundary of the plot shall be considered as buildable area of the plot where the buildings may be constructed subject to the conditions regarding floor area ratio, coverage, access, light and ventilation,etc. for the whole plot, distance between the various blocks within this area shall be minimum 2 meters for building upto 10 meters height and 3 meters exceeding that height.",
             "3. Every building upto 10 meters in height shall have a minimum front yard of 3 meters depth:",
@@ -566,7 +567,43 @@
             "2. Any restriction under street alignment or building line or both , if any fixed for area and restriction under any development plan or any (town planning scheme or approved road widening proposal or any other or byelaws shall also apply simultaneously to all buildings in addition to the provisions contained in sub rule (1).",
             "3. The provisions contained in sub rules (1) and (2) shall apply invariable all buildings where the front, rear or side yard abuts a street or gain access through a street."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table 1 below and as specified in the Indian Electricity Rules as amended from time to time",
+              "headers": [
+                "Sl. No.",
+                "Type of Electric Supply Line",
+                "Vertical clearance in meters",
+                "Horizontal clearance in meters"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)"
+                ],
+                [
+                  "1.",
+                  "Low and medium voltage lines",
+                  "2.4",
+                  "1.2"
+                ],
+                [
+                  "2.",
+                  "High voltage lines upto and including 33,000 volts",
+                  "3.7",
+                  "1.85"
+                ],
+                [
+                  "3.",
+                  "Extra high voltage lines excluding 33,000 volts",
+                  "3.7 plus 0.3m fort every additional 33,000 volts or part thereof",
+                  "1.85 plus 0.3m fort every additional 33,000 volts or part thereof"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "26",
@@ -611,7 +648,8 @@
           "title": "Occupancy of buildings",
           "paragraphs": [
             "1. The occupancy of any building or part thereof shall be governed by the usage of plots proposed for development or redevelopment according to the provisions contained in the development plan or detailed town planning scheme prepared for the area.",
-            "2. All buildings, whether existing or hereafter proposed, shall be classified in one of the following occupancies according to the use or character of occupancy, namely:- | Group AI | Residential | | --- | --- | | Group A2 | Special Residential | | Group B | Educational | | Group C | Medical/Hospital | | Group D | Assembly | | Group E | Office/Business | | Group F | Mercantile/Commercial | | Group GI | Industrial | | Group G2 | Small industrial | | Group H | Storage | | Group 1(1) and Group 1(2) | Hazardous | Notes:- - **(i)** Any building not specifically covered by any of the occupancies under sub rule (2) shall be in the group which most nearly resembles its exiting or proposed use.",
+            "2. All buildings, whether existing or hereafter proposed, shall be classified in one of the following occupancies according to the use or character of occupancy, namely:-",
+            "Notes:- - **(i)** Any building not specifically covered by any of the occupancies under sub rule (2) shall be in the group which most nearly resembles its exiting or proposed use.",
             "- **(ii)** Any building which accommodates more than one use under sub-rule (2) shall be included under the most restrictive group.,",
             "3. The description of occupancies are given below, namely:- - **(a)** Group AI. - Residential Building shall include any building in which sleeping accommodation is provided for normal residential purposes, with or without cooking and or dining facilities. They shall include one or multifamily dwellings, apartment houses or residential flats. Small professional offices or spaces for advocates, doctors, engineers, architects, chartered accountants, beauticians, tailors, photographers, videographers, telephone booth operator, computer professionals, typists, electrical or electronic equipment service professionals, not exceeding 50 sq. metres floor area and used as part of principal residential occupancy are also included in this group. Further, lodging or rooming houses, tourist homes, dormitories, hostels and hotels not exceeding 150 sq. metres floor area are included in this group.",
             "- **(b)** Group A2. - Special Residential building shall include all lodging or rooming houses, dormitories, tourist homes, hostels hotels exceeding 150 sq. metres floor area with or without conference halls, community halls, dining halls or assembly rooms Crèches, day care centres, children's nursery, reading rooms libraries and educational buildings not exceeding 150 sq. metres floor area are also included in this group.",
@@ -634,7 +672,57 @@
             "- **(v)** crematoria, burial grounds, garbage dumping yards, abuttoirs (slaughter houses), sewerage treatment plants, petrol filling stations, coal, wood and timber yards with saw mills;",
             "[ X X X]"
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table",
+              "headers": [
+                "Group AI",
+                "Residential"
+              ],
+              "rows": [
+                [
+                  "Group A2",
+                  "Special Residential"
+                ],
+                [
+                  "Group B",
+                  "Educational"
+                ],
+                [
+                  "Group C",
+                  "Medical/Hospital"
+                ],
+                [
+                  "Group D",
+                  "Assembly"
+                ],
+                [
+                  "Group E",
+                  "Office/Business"
+                ],
+                [
+                  "Group F",
+                  "Mercantile/Commercial"
+                ],
+                [
+                  "Group GI",
+                  "Industrial"
+                ],
+                [
+                  "Group G2",
+                  "Small industrial"
+                ],
+                [
+                  "Group H",
+                  "Storage"
+                ],
+                [
+                  "Group 1(1) and Group 1(2)",
+                  "Hazardous"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "31",
@@ -642,23 +730,272 @@
           "paragraphs": [
             "1. The maximum percentage of coverage permissible for each occupancy shall limit the maximum area at any floor of a building. The floor area ratio value shall limit the maximum buildable total floor area. Floor area ratio ie, F.A.R. shall be calculated as shown below: F.A.R= Total floor area on the floors/Plot area",
             "2. The percentage of coverage and the F.A.R. value of building under different occupancies shall not exceed the maximum specified in Table 2 below.",
+            "> **Note:** - The Value of maximum permissible coverage of a building of a particular occupancy group shall be limited by the value given under column (3) and shall be the area covered by the building at any floor after accounting for the exterior open space (front, sides and rear) and interior open spaces.]",
             "3. For permitting for FAR shown in column (5) of Table 2, an additional fee at the rate of Rs.1000 per square meter exceeding the area permissible under column (4) shall be paid. 32.Height of buildings.- 2[(1) The Maximum height of any building or part thereof shall be limited according to the width of the street as follows:- - **(a)** The maximum height of the building or part thereof shall not exceed twice the width of the street abutting the plot plus twice the width of the yard from the building to the abutting street and this height may further be increased proportionately at the rate of 3 metres for every 50 cms. by which the building or the corresponding portion or floor of the building is set back from the building line;",
             "- **(b)** If a building plot abuts on two or more streets of different width, the building plot shall be deemed to abut the street that has the greater width for the purposes of this rule and the height of the building shall be regulated by the width of that street and shall be continued at this height along the narrower street:",
             "> Provided that the height restriction as per this rule shall be compulsory only for buildings or part of building coming within 12 metres of building line:",
             "Provided further that appurtenant roof structures like staircase tower over head tanks, air conditioning rooms, cellular telecommunication equipment or tower structures, cabin rooms, chimneys, parapet walls and similar roof structures other than pent houses shall not be included in the height of the building for the purpose of this rule:",
             "Provided also that architectural features serving no other function except that of decoration shall not be included in the height of the building for the purpose of this rule.]",
             "2. For buildings, structures and installations in the vicinity of airports the stipulations with regard to height shall be further limited as shown in Table 3. This shall be subject to any notification issued by Government of India under the Aircrafts Act 1, 1934.",
-            "[Provided that buildings, structures and installations exceeding the height shown in Table 3 shall be allowed if no objection certificate from the concerned airport authority is obtained and produced before the Secretary for issuing the permit.] | Sl. No. | Limits of distance from the Aerodrome reference point of buildings, structures or installations measured horizontally | Limits of distance from the Aerodrome reference point of buildings, structures or installations measured horizontally | Permissible height of building structure or installation from Aerodrome reference point | 1[ XXX ] | | --- | --- | --- | --- | --- | | Sl. No. | International Civil Air Ports ands their Alternates | Other Civil Air ports and civil Aerodromes | Permissible height of building structure or installation from Aerodrome reference point | 1[ XXX ] | | (1) | (2) | (3) | (4) | 1[ XXX ] | | 1 | Between 8.535 km. and 22 km | Between 7.925 km. and 22km | 152 m |  | | 2 | Between 7.315 km. and 8.535km | Between 6.706 km. and 7.925km | 122 m |  | | 3 | Between 6.096 km. and 7.315km | Between 5.486 km. and 6.706km | 91 m |  | | 4 | Between 4.877 km. and 6.096km | Between 4.267 km. and 5.486km | 61 m |  | | 5 | Between 4.267 km. and 4.877km | Between 3.650 km. and 4.267km | 48 m |  | | 6 | Between 3.658 km. and 4.267km | Between 3.048 km. and 3.658km | 36 m |  | | 7 | Between 3.048 km. and 3.658km | Between 2.438 km. and 3.048km | 24 m |  | | [8 | Between 2.438 km. and 3.048km | Between 1.829 km. and 2.438km | 12 m |  | | 9 | Less than 2.438 km | Less than 2.438 km | Nil |  | 3[Notes:- (1) No tree shall be allowed to grow above the height shown in column (4) within the distance shown in column (2) and (3) respectively.",
+            "[Provided that buildings, structures and installations exceeding the height shown in Table 3 shall be allowed if no objection certificate from the concerned airport authority is obtained and produced before the Secretary for issuing the permit.]",
+            "3[Notes:- (1) No tree shall be allowed to grow above the height shown in column (4) within the distance shown in column (2) and (3) respectively.",
             "2. For calculation of permissible height as per this sub rule the highest point of the building without any exemption shall be considered.]",
             "33. Access",
             "1. The minimum clear width of access to a building and plots as well as the width of the street giving access to the plot from the main street shall be as shown in Table 4.",
+            "[Provided that wherever off street parking is required for the building as per these rules, motor able access width shall be provided to the plot.] Provided further that the access width of any building shall be modified to be in accordance with the provisions in any detailed development plan for the area.",
             "2. No person shall at any time construct or cause or permit to construct or reconstruct any building which in any way encroaches upon or diminishes the area set apart as access to that building.",
             "3. No person shall construct a building or undertake construction work on a building which reduces the access to any building previously existing, below the minimum width required under these rules.",
             "4. No building shall be constructed so as to deprive any other building of an existing access.",
             "5. The space set apart as access shall be separately distinguishable from any house gully or open space required to be provided under any other rule.",
             "6. Every access shall be drained and lighted to the satisfaction of the Secretary and man-hole covers or other drainage, water or any other fittings laid in such access shall be flush with finished surface level so as not to obstruct safe travel over the same."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table 2 below",
+              "headers": [
+                "Sl.No.",
+                "Building use / Occupancy",
+                "Maximum Permissible Coverage (percentage of plot area)",
+                "Maximum permissible F.A.R without additional fee",
+                "Maximum permissible F.A.R with additional fee"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)",
+                  "(5)"
+                ],
+                [
+                  "1",
+                  "Residential A1",
+                  "65",
+                  "3.00",
+                  "4"
+                ],
+                [
+                  "2",
+                  "Special Residential A2",
+                  "65",
+                  "2.50",
+                  "4"
+                ],
+                [
+                  "3",
+                  "Educational B",
+                  "35",
+                  "2.50",
+                  "3"
+                ],
+                [
+                  "4",
+                  "Medical/Hospital C",
+                  "40",
+                  "2.00",
+                  "3"
+                ],
+                [
+                  "5",
+                  "Assembly D",
+                  "40",
+                  "1.50",
+                  "2.50"
+                ],
+                [
+                  "6",
+                  "Office/Business E",
+                  "40",
+                  "2.00",
+                  "3"
+                ],
+                [
+                  "7",
+                  "Mercantile/Commercial F",
+                  "65",
+                  "2.50",
+                  "4"
+                ],
+                [
+                  "8",
+                  "Industrial G1",
+                  "40",
+                  "1.50",
+                  "0"
+                ],
+                [
+                  "9",
+                  "Small Industrial G2",
+                  "60",
+                  "2.50",
+                  "3"
+                ],
+                [
+                  "10",
+                  "Storage H",
+                  "60",
+                  "2.50",
+                  "3"
+                ],
+                [
+                  "11",
+                  "Hazardous I(1)",
+                  "30",
+                  "1.00",
+                  "0"
+                ],
+                [
+                  "12",
+                  "Hazardous I(2)",
+                  "25",
+                  "0.70",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "title": "Table 3 shall be allowed if no objection certificate from the concerned airport authority is obtained and produced before the Secretary for issuing the permit",
+              "headers": [
+                "Sl. No.",
+                "Limits of distance from the Aerodrome reference point of buildings, structures or installations measured horizontally",
+                "Limits of distance from the Aerodrome reference point of buildings, structures or installations measured horizontally",
+                "Permissible height of building structure or installation from Aerodrome reference point",
+                "1[ XXX ]"
+              ],
+              "rows": [
+                [
+                  "Sl. No.",
+                  "International Civil Air Ports ands their Alternates",
+                  "Other Civil Air ports and civil Aerodromes",
+                  "Permissible height of building structure or installation from Aerodrome reference point",
+                  "1[ XXX ]"
+                ],
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)",
+                  "1[ XXX ]"
+                ],
+                [
+                  "1",
+                  "Between 8.535 km. and 22 km",
+                  "Between 7.925 km. and 22km",
+                  "152 m",
+                  ""
+                ],
+                [
+                  "2",
+                  "Between 7.315 km. and 8.535km",
+                  "Between 6.706 km. and 7.925km",
+                  "122 m",
+                  ""
+                ],
+                [
+                  "3",
+                  "Between 6.096 km. and 7.315km",
+                  "Between 5.486 km. and 6.706km",
+                  "91 m",
+                  ""
+                ],
+                [
+                  "4",
+                  "Between 4.877 km. and 6.096km",
+                  "Between 4.267 km. and 5.486km",
+                  "61 m",
+                  ""
+                ],
+                [
+                  "5",
+                  "Between 4.267 km. and 4.877km",
+                  "Between 3.650 km. and 4.267km",
+                  "48 m",
+                  ""
+                ],
+                [
+                  "6",
+                  "Between 3.658 km. and 4.267km",
+                  "Between 3.048 km. and 3.658km",
+                  "36 m",
+                  ""
+                ],
+                [
+                  "7",
+                  "Between 3.048 km. and 3.658km",
+                  "Between 2.438 km. and 3.048km",
+                  "24 m",
+                  ""
+                ],
+                [
+                  "[8",
+                  "Between 2.438 km. and 3.048km",
+                  "Between 1.829 km. and 2.438km",
+                  "12 m",
+                  ""
+                ],
+                [
+                  "9",
+                  "Less than 2.438 km",
+                  "Less than 2.438 km",
+                  "Nil",
+                  ""
+                ]
+              ]
+            },
+            {
+              "title": "Table 3 shall be allowed if no objection certificate from the concerned airport authority is obtained and produced before the Secretary for issuing the permit",
+              "headers": [
+                "",
+                "",
+                "Residential",
+                "Residential",
+                "Non Residential",
+                "Non Residential"
+              ],
+              "rows": [
+                [
+                  "Sl. No.",
+                  "Type of Building",
+                  "Single Units",
+                  "Multiple Units",
+                  "Up to 300Sq. meter of carpet area in each floor",
+                  "Above 300Sq. meter of carpet area in each floor"
+                ],
+                [
+                  "1.",
+                  "Single storey",
+                  "No minimum",
+                  "1.20 metres",
+                  "1.20 metres",
+                  "3.60 metres"
+                ],
+                [
+                  "2.",
+                  "Two storey",
+                  "90 cms",
+                  "3.60 metres",
+                  "2.00 metres",
+                  "5.00 metres"
+                ],
+                [
+                  "3.",
+                  "Three storeys",
+                  "1.20 metres",
+                  "5.00 metres",
+                  "3.60 metres",
+                  "5.00 metres"
+                ],
+                [
+                  "4.",
+                  "Above three storeys",
+                  "3.60 metres",
+                  "5.00 metres",
+                  "5.00 metres",
+                  "7.00 metres"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "34",
@@ -666,13 +1003,75 @@
           "paragraphs": [
             "1. Each of street parking space provided for parking motor cars shall be not less than 15 Sq. mts. area (5.5 mts. x 2.7mts.) and for scooters and cycles the area of each parking space provided shall be not less than 3 sq. mts. and 1.5 sq. mt. respectively.",
             "2. For buildings of different occupancies, off-street- parking spaces for motor cars shall be provided within the plot as specified in Table 5.",
+            "> Provided that in Second Grade Municipalities and Third Grade Municipalities it shall suffice if 75 per cent and 50 per cent respectively of the above parking is provided in village panchayats where the provisions of the Kerala Municipality Building Rules, 1999 stand extended, off street parking shall be provided as in third grade municipalities.-",
             "3. Wherever any parking space is required under these rules, 25% of that area shall be provided additionally for parking scooters or cycles.",
             "4. Every off-street parking space shall be provided with adequate vehicular access to a street; area of drives, aisles and such other provisions required and adequate area for manicuring of vehicles shall be provided in addition to the parking space.",
             "5. In addition to the parking space as in Table 5, in the case of Group F Mercantile or Commercial, Group G-Industrial and Group H storage occupancies, loading and unloading spaces each 30 sq. mts. shall be provided within the plot, at the rate of one such space for each 1000 sq. mts. of floor area or fraction thereof, exceeding the first 700 sq. mts. of floor area.",
             "6. Not exceeding fifty per cent of the area of mandatory open yard (space) shall be taken into account for calculating the required off street parking space if such open space has adequate vehicular access and area for maneuvering.",
             "7. The Government may, if adequate off street parking facility is available to their satisfaction near the site proposed for building, in any parking building or parking area provided by the Municipality or quasi-Government agency or private agency, permit the secretary by general or special order and subject to conditions specified there in to allow reduction in off street parking space in any or all buildings in that area to the extent not exceeding 50 per cent of the required number of off street parking space."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table",
+              "headers": [
+                "Sl. No",
+                "Occupancy",
+                "One parking space for every or fraction of"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "Group A1- Residential Apartment Houses/Flats",
+                  "( a) 8 units (with each unit upto 100 sq. metres of carpet area) (b) 4 units (with each unit above101 sq. metres and upto 150 sq. meter of carpet area) (c) 2 units (with each unit above151 sq. metres and upto 200 sq. meter of carpet area) (d) Single unit (exceeding 200 sq metres of carpet area)"
+                ],
+                [
+                  "(2)",
+                  "Group A2- Special Residential, Lodging and Rooming Houses, Tourist homes and hostels, Dormitories without any attached eating facility such as restaurant. Canteen, Cafeteria, mess or dining",
+                  "(i) Rooms with attached bath and w.c. (a) 8 rooms (with each room upto 12 sq, metres carpet area) (b) 5 rooms (with each room above 12 sq. metres and upto 20 sq. metres carpet area) (c) 3 rooms (with each room above 20 sq, metres carpet area) (ii) Rooms without attached bath and w.c. (a) 18 rooms (with each room upto 5 sq, metres carpet area) (b) 12 rooms (with each room above 5 sq. metres and upto12 sq. metres carpet area) (c) 6 rooms (with each room above 12 sq, metres carpet area) Note:- At the rate of one parking space for every 30 sq. metres carpet area of dining space/20 seats of dining accommodation shall be provided in addition to the above, in case of Special Residential. Buildings attached with eating facility."
+                ],
+                [
+                  "(3)",
+                  "Group B-Educational (i) High Schools, Higher Secondary Schools, Junior Technical Schools, Industrial Training Institute etc. (ii) Higher educational institutes.",
+                  "(i) 300 sq metres of carpet area. (ii) 200 sq metres of carpet area ."
+                ],
+                [
+                  "(4)",
+                  "Group C- Medical/Hospital",
+                  "100 sq metres of carpet area ."
+                ],
+                [
+                  "(5)",
+                  "Group D- Assembly",
+                  "25 seats of accommodation Note:- (i) In case of wedding halls and community halls, for calculating the carpet area or seating accommodation, for the purpose of off street parking, the carpet area of either the auditorium or the dining hall, which ever is higher, alone need be taken. (ii) for the purpose of this rule 1.50 sq metres carpet area shall be considered as one seating accommodation ."
+                ],
+                [
+                  "(6)",
+                  "Group E- Business/Office Building",
+                  "100 sq metres of carpet area ."
+                ],
+                [
+                  "(7)",
+                  "Group F- Mercantile/ Commercial building exceeding 75 sq. metre carpet area",
+                  "100 sq metres of carpet area."
+                ],
+                [
+                  "(8)",
+                  "Group G- Industrial Building exceeding 100 sq. metres of carpet area.",
+                  "200 sq metres of carpet area."
+                ],
+                [
+                  "(9)",
+                  "Group G2- Small Industrial exceeding 100 sq. metres of carpet area.",
+                  "200 sq metres of carpet area."
+                ],
+                [
+                  "(10)",
+                  "Group H-Storage",
+                  "200 sq metres of carpet area ."
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -777,7 +1176,161 @@
             "5. An exit may be a doorway corridor or passageway to an internal staircase or external staircase, ramps to the street or to the roof of a building; it may be a horizontal exit leading to an adjoining building at the same level:",
             "> Provided that lifts and escalators shall not be considered as exits."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table",
+              "headers": [
+                "Sl. No.",
+                "Group of occupancy",
+                "No. of Occupants per unit exit width of Stairway",
+                "Doors"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)"
+                ],
+                [
+                  "1.",
+                  "Group A1 Residential",
+                  "25",
+                  "75"
+                ],
+                [
+                  "2.",
+                  "Group A2 Special Residential",
+                  "50",
+                  "75"
+                ],
+                [
+                  "3.",
+                  "Group B Educational",
+                  "25",
+                  "75"
+                ],
+                [
+                  "4.",
+                  "Group C Medical/Hospital",
+                  "25",
+                  "75"
+                ],
+                [
+                  "5.",
+                  "Group D Assembly",
+                  "60",
+                  "90"
+                ],
+                [
+                  "6.",
+                  "Group E",
+                  "50",
+                  "75"
+                ],
+                [
+                  "7.",
+                  "Group F Mercantile (Commercial)",
+                  "50",
+                  "75"
+                ],
+                [
+                  "8.",
+                  "Group G1 Industrial",
+                  "50",
+                  "75"
+                ],
+                [
+                  "9.",
+                  "Group G2 Small Industrial",
+                  "50",
+                  "75"
+                ],
+                [
+                  "10.",
+                  "Group H Storage (including Warehousing)",
+                  "50",
+                  "75"
+                ],
+                [
+                  "11.",
+                  "Group I Hazardous",
+                  "25",
+                  "40"
+                ]
+              ]
+            },
+            {
+              "title": "Table",
+              "headers": [
+                "Sl. No.",
+                "Group of occupancy",
+                "Occupant Load (gross area in square meters per person)"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)"
+                ],
+                [
+                  "1.",
+                  "Group A1 Residential",
+                  "12.5"
+                ],
+                [
+                  "2.",
+                  "Group A2 Special Residential",
+                  "4.0"
+                ],
+                [
+                  "3.",
+                  "Group B Educational",
+                  "4.0"
+                ],
+                [
+                  "4.",
+                  "Group C Medical/Hospital",
+                  "15.0"
+                ],
+                [
+                  "5.",
+                  "Group D Assembly",
+                  "1.5"
+                ],
+                [
+                  "6.",
+                  "Group E Office",
+                  "1.5"
+                ],
+                [
+                  "7.",
+                  "Group F Mercantile (Commercial)",
+                  "3 to 6"
+                ],
+                [
+                  "8.",
+                  "Group G1 Industrial",
+                  "10.0"
+                ],
+                [
+                  "9.",
+                  "Group G2 Small Industrial",
+                  "10.0"
+                ],
+                [
+                  "10.",
+                  "Group H Storage (including Warehousing)",
+                  "30.0"
+                ],
+                [
+                  "11.",
+                  "Group I Hazardous",
+                  "10.0"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "46",
@@ -818,7 +1371,49 @@
             "5. Every bathroom or latrine shall be provided with sufficient light and ventilation.-",
             "6. Every bathroom or latrine shall have at least one of its walls abutting on an open space or open verandah or an air shaft if not centrally air conditioned; the size of air shaft shaft not be less than that specified in Table 8."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table",
+              "headers": [
+                "Sl. No.",
+                "No. of Storeys",
+                "Area of the airshaft in Square meter",
+                "Minimum width of Airshaft in meter"
+              ],
+              "rows": [
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)"
+                ],
+                [
+                  "1.",
+                  "Upto 3",
+                  "1.08",
+                  "0.9"
+                ],
+                [
+                  "2.",
+                  "Upto 6",
+                  "2.4",
+                  "1.2"
+                ],
+                [
+                  "3.",
+                  "Upto 10",
+                  "3.0",
+                  "1.5"
+                ],
+                [
+                  "4.",
+                  "Above 10",
+                  "5.0",
+                  "2.0"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "50",
@@ -881,6 +1476,7 @@
             "5. [All other requirements] in respect of fire protection shall conform to Part IV, Fire Protection, National Building Code of India, 1983, Amendment No. 3 and shall also be subject to any further condition laid down by the Secretary. -",
             "6. Sanitation facilities to be provided shall be computed at the rate of not less than 1 person per 4.75 Sq. m of carpet area of the building and shall be provided in numbers not less than those stipulated in Table 9 and Table 9A, as the case may be .",
             "55.Assembly occupancy.- [(1) Approval of the District Town Planner shall be obtained for the usage of plot upto 0.5 hectares and layout of buildings upto 500.Sq. metres area under assembly occupancy and approval of the Chief Town Planner shall be obtained for the usage of plot exceeding 0.5 hectares and layout of buildings with more than 500 sq. metres area.] 2[(1a) In the case of buildings used exclusively for worship the maximum permissible coverage shall be 50 per cent of the plot area.] 3[(2) Every building upto 10 metres height under assembly occupancy shall have the minimum open yard (spaces) as shown below:",
+            "> Provided that in the case of building used exclusively for worship it shall suffice if a minimum of 3 metres width open yard is maintained in the front and a minimum of 1.50 metres width of open yard is provided in other sides including rear of the building upto 10 metres height:",
             "Provided further that where more than one building is proposed to be constructed in a plot, it shall suffice if the open space under this sub rule are provided from the plot boundaries with open yards (spaces) in between the building not less than 1.5 metres upto 10 metres height building and 3 metres exceeding that height:",
             "Provided also that where the height of the building exceed 10 metres, the open yard from the boundaries shall be increased proportionately at the rate of 50 cms. for every 3 metres increase in height;] 1[(3) The height of room in Assembly occupancy buildings shall be minimum 4 metres;",
             "> Provided that in the case of air conditioned auditoriums/halls it shall be minimum 3 metres;]",
@@ -894,7 +1490,256 @@
             "10. In the case of Cinema theatres, the location, size and building construction shall conform to the Provisions in the 3 [Kerala Cinema Regulations], 1988 as amended from time to time and the IS : 4878-1968, Byelaws for construction of Cinema Buildings.",
             "11. In wedding halls where cooking and dining facilities are provided, proper and adequate arrangements for collection and hygienic disposal of solid and liquid waste shall be ensured to the satisfaction of the Secretary.(12) Sanitation facilities to be provided in assembly buildings shall be computed at the rate of not less than one person per square metre of carpet area of the building and shall be provided in numbers not less than those stipulated in Table 9 in sub rule (6) of rule 54."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table 9 and Table 9A, as the case may be",
+              "headers": [
+                "(1)",
+                "(2)",
+                "(3)",
+                "(4a)",
+                "(4b)",
+                "(4c)"
+              ],
+              "rows": [
+                [
+                  "Sl. No.",
+                  "Fitments",
+                  "Assembly occupancies",
+                  "Assembly",
+                  "Assembly",
+                  "Assembly"
+                ],
+                [
+                  "Sl. No.",
+                  "Fitments",
+                  "Theatres, Auditorium, art Galleries, Libraries, Restaurants, wedding halls, Community halls",
+                  "Bus Terminal",
+                  "Railway Station",
+                  "Air ports"
+                ],
+                [
+                  "1",
+                  "Water Closet",
+                  "1 per 200 males or part thereof and 1 per 100 females or part thereof",
+                  "4 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof",
+                  "5 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof",
+                  "5 for first 1000 person and 1 for every subsequent 1000 persons or part thereof"
+                ],
+                [
+                  "2",
+                  "Urinals",
+                  "1 per 50 person or part thereof",
+                  "6 for first 1000 persons and 1 for every subsequent 1000 persons or part thereof",
+                  "6 for first 1000 person and 1 for every subsequent 1000 persons or part thereof",
+                  "6 for first 1000 person and 1 for every subsequent 1000 persons or part thereof"
+                ],
+                [
+                  "3",
+                  "Wash Basin",
+                  "1 for every 200 males and 1 for every 200 females",
+                  "4 wash basin each in male and female toilet stalls",
+                  "4 wash basin each in male and female toilet stalls",
+                  "4 wash basin each in male and female toilet stalls"
+                ],
+                [
+                  "4",
+                  "Bath",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Sl. No.",
+                  "Hotels",
+                  "Storage occupancy",
+                  "Educational <br> Boarding Institutions",
+                  "Educational <br> Other Educational Institutions",
+                  "Office/Mercantile Occupancies",
+                  "Industrial Occupancies"
+                ],
+                [
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---"
+                ],
+                [
+                  "",
+                  "(5)",
+                  "(6)",
+                  "(7)",
+                  "(8)",
+                  "(9)",
+                  "(10)"
+                ],
+                [
+                  "1",
+                  "1 per 100 males and 1 per 100 females",
+                  "1 per 50 males and 1 per 25 females",
+                  "1 per 10 boys and 1 per every 8 girls",
+                  "1 per 40 boys and 1 per every 25 girls",
+                  "1 for every 25 males or part thereof and 1 for every15 females or part thereof",
+                  "1 per every 25 males and 1 per every 15 females"
+                ],
+                [
+                  "2",
+                  "1 per water closet fro males",
+                  "1 per 100 males or part thereof",
+                  "1 per every 25 boys",
+                  "1 per every 50 boys",
+                  "1 for every 25 person or part thereof",
+                  "1 for every 25 person or part thereof"
+                ],
+                [
+                  "3",
+                  "1 per water closet fro males and 1 per water closet fro females",
+                  "",
+                  "1 per 10 boys and 1 per every 10 girls",
+                  "1 per every 40 boys and 1 per every 40 girls",
+                  "Preferably one on each floor",
+                  ""
+                ],
+                [
+                  "4",
+                  "1 per 100 persons",
+                  "",
+                  "1 per 10 boys and 1 per every 8 girls",
+                  "",
+                  "",
+                  "As required for particular trades or occupancies"
+                ],
+                [
+                  "Sl.No.",
+                  "Fitments",
+                  "Hospitals with indoor patients ward <br> For males and females",
+                  "Hospitals with outdoor patients <br> For males",
+                  "Hospitals with outdoor patients <br> For females",
+                  "Administration Building <br> For male personnel",
+                  "Administration Building <br> For female personnel"
+                ],
+                [
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---",
+                  "---"
+                ],
+                [
+                  "(1)",
+                  "(2)",
+                  "(3)",
+                  "(4)",
+                  "(5)",
+                  "(6)",
+                  "(7)"
+                ],
+                [
+                  "1",
+                  "Water closet",
+                  "One for every 8 beds or part thereof",
+                  "One for every 100 persons or part thereof",
+                  "Two for every 100 persons or part thereof",
+                  "One for every 25 persons or part thereof",
+                  "One for every 15 persons or part thereof"
+                ],
+                [
+                  "2",
+                  "Ablution taps",
+                  "One in each water closet plus one water tap with draining arrangement in the vicinity of water closets and urinals for every 50 beds or part thereof",
+                  "One in each water closet. One water tap with draining arrangements shall be provided for every 50 persons or part thereof in the vicinity of water closet and urinals",
+                  "One in each water closet. One water tap with draining arrangements shall be provided for every 50 persons or part thereof in the vicinity of water closet and urinals",
+                  "One in each water closet. One water tap with draining arrangements shall be provided for every 50 persons or part thereof in the vicinity of water closet and urinals",
+                  "One in each water closet. One water tap with draining arrangements shall be provided for every 50 persons or part thereof in the vicinity of water closet and urinals"
+                ],
+                [
+                  "3",
+                  "Wash basins",
+                  "Two upto 30 beds; add one for every additional 30 beds or part thereof",
+                  "One for every 100 persons or part thereof",
+                  "One for every 100 persons or part thereof",
+                  "One for every 25 persons of part thereof",
+                  "One for every 25 persons of part thereof"
+                ],
+                [
+                  "4",
+                  "Baths with shower",
+                  "One bath with shower for every 8 beds or part thereof",
+                  "",
+                  "",
+                  "One on each floor",
+                  "One on each floor"
+                ],
+                [
+                  "5",
+                  "Bed pan washing sink",
+                  "One for each ward",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "6",
+                  "Cleaners sink",
+                  "One for each ward minimum",
+                  "One per floor minimum",
+                  "One per floor minimum",
+                  "One per floor minimum",
+                  "One per floor minimum"
+                ],
+                [
+                  "7",
+                  "Kitchen sink & dish washers (where kitchen is provided)",
+                  "One for each ward",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "8",
+                  "Urinals",
+                  "",
+                  "One for every 50 persons or part thereof",
+                  "One for every 50 persons or part thereof",
+                  "Nil up to 6 persons1for 7-20 persons 2 for 21-45 persons 3 for 46-70 persons 4 for 71-100 persons From 101 to 200 persons add at the rate of 3%. For over 200 persons add at the rate of 2.5%.",
+                  "Nil up to 6 persons1for 7-20 persons 2 for 21-45 persons 3 for 46-70 persons 4 for 71-100 persons From 101 to 200 persons add at the rate of 3%. For over 200 persons add at the rate of 2.5%."
+                ]
+              ]
+            },
+            {
+              "title": "Table 9 and Table 9A, as the case may be",
+              "headers": [
+                "Sl. No.",
+                "Total floor area",
+                "Minimum open space"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Exceeding 300 sq. metres but not exceeding 500 sq. metres",
+                  "(i) Front yard - Average 6 metres with minimum 4.5 metres (ii) Side yards, (each side)- Average 2 metres with minimum 1.5 metres. (iii) Rear yard-Average 2 metres with minimum 1.5 metres"
+                ],
+                [
+                  "2",
+                  "Exceeding 500 sq. metres but not exceeding 800 sq. metres",
+                  "1[(i) Front yard-Average 6.00 metres with minimum4.50 metres (ii) Side yard (each side)-Average 2 metres with minimum 1.5 metres (iii) Rear yard - Average 2 metres with minimum 1.50 metres.]"
+                ],
+                [
+                  "3",
+                  "Exceeding 800 sq. metres",
+                  "(i) Front yard -Average 10.5 metres with minimum 6 metres (ii) Side Yard (each side)-Average 5 metres with minimum 1.5 metres (iii) Rear yard-Average 3 metres with minimum 1.5 metres"
+                ]
+              ]
+            }
+          ]
         },
         {
           "number": "56",
@@ -922,7 +1767,8 @@
             "2. Approval of district town planner shall be obtained for the usage of plot up to 0.5 hectares area and for layout of buildings upto 500 sq. metres area under industrial occupancy and approval of Chief Town Planner shall be obtained for the use of plot exceeding 0.5 hectares area and layout of buildings with more than 500 sq. metres area.-.",
             "3. The usage of plots proposed for development or redevelopment of land or construction of any building shall be governed by the provisions contained in the detailed town planning scheme or development plan for the area:",
             "> Provided that where no such plan exists the usage of the plot and or building shall be decided by the Chief Town Planner or by an officer authorised by him in this behalf.",
-            "4. All industrial buildings upto 10 metres in height from ground level with built up area exceeding 200 sq. metres or where the power used exceeds 30 H.P. or where the number of workers employed exceeds 20, shall have open spaces not less than that specified below:- | Open Space | Group G1 | Group G2 | | --- | --- | --- | | Front Yard | 7.5 mts. | 3.0 mts. | | Yard on either side | 3.0mts. | 3.0 mts. | | Rear yard | 7.5 mts. | 3.0 mts | > Provided that in industrial growth centres or industrial development areas or any declared industrial areas, it shall suffice, if the building has an open space of not less than 3 metres in all sides :",
+            "4. All industrial buildings upto 10 metres in height from ground level with built up area exceeding 200 sq. metres or where the power used exceeds 30 H.P. or where the number of workers employed exceeds 20, shall have open spaces not less than that specified below:-",
+            "> Provided that in industrial growth centres or industrial development areas or any declared industrial areas, it shall suffice, if the building has an open space of not less than 3 metres in all sides :",
             "Provided further that where more than one building is proposed to be constructed in the same plot, it shall suffice if the open spaces under this sub rule are provided from the plot boundaries with open yards (spaces) in between the buildings not less than 3 metres for buildings upto 10 metres in height;",
             "Provided further that in the case of small industrial buildings with height upto 10 metres, the width of open yard from all the boundaries except front and that in between buildings shall be minimum 1.50 metres :",
             "Provided further that where the height of the building exceeds 10 metres, the open yard from the boundaries and in between the buildings shall be increased proportionately at the rate of 50 cms for every 3 metres increase in height;",
@@ -972,7 +1818,33 @@
             "14. The Secretary shall, after considering the access roads, traffic congestion in the locality and in consultation with the Chief Town Planner decide the location of the traffic stations like municipal bus stands or inter State bus terminals and the construction of buildings shall conform to the provisions in these rules.",
             "[X X X X]."
           ],
-          "tables": []
+          "tables": [
+            {
+              "title": "Table 9 referred in sub-rule (6) of rule 54",
+              "headers": [
+                "Open Space",
+                "Group G1",
+                "Group G2"
+              ],
+              "rows": [
+                [
+                  "Front Yard",
+                  "7.5 mts.",
+                  "3.0 mts."
+                ],
+                [
+                  "Yard on either side",
+                  "3.0mts.",
+                  "3.0 mts."
+                ],
+                [
+                  "Rear yard",
+                  "7.5 mts.",
+                  "3.0 mts"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },

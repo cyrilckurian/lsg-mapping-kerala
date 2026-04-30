@@ -34,7 +34,9 @@ building having a height of 16 metres or more, or with more than 4 floors (exclu
   (ii) Take adequate safety precautions at all stages of construction or reconstruction or addition or alteration or repair or demolition or removal of the various parts of the building for safe guarding the life of workers and public against hazards consequent on any aspect of the work.
   (iii) Ensure that all protective works carried out to safe guard the adjoining properties during construction are sufficient and in good order to ensure safety.
   (iv) Ensure at every stage of construction, that the quality of construction and/or materials used for construction is as per the specifications for that work.
-  (v) Ensure that the debris, construction wastes or materials are safely and clearly disposed. 82. Display of the details of the permit etc.
+  (v) Ensure that the debris, construction wastes or materials are safely and clearly disposed.
+
+#### 82. Display of the details of the permit etc.
   (1) For the entire period of construction, the owner shall display the details of the building permit near the entrance to the site in a board of size not less than 100 centimetres X 75 centimetres. The details to be displayed include the date and the number of building permit, name and address of the owner and developer with phone number, the occupancy group of the building, the number of floors, coverage, F.S.I., area earmarked for parking in sq.metres and the use in each floor.
   (2) Prior to commencement of the construction, all sides of the plot shall be covered with protective fencing and screen to ensure safety and convenience of the adjoining properties. Such protective fencing and screen shall be retained throughout the construction period.
   (3) Adequate safety measures shall be ensured by the owner and the developer for protection against damage to health, life, buildings and property of the inhabitants around, during and after building construction and land development. The owner and developer shall be solely responsible for any such damages.

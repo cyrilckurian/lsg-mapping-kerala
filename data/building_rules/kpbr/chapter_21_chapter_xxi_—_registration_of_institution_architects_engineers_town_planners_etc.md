@@ -1,10 +1,13 @@
 # CHAPTER XXI — REGISTRATION OF INSTITUTION, ARCHITECTS, ENGINEERS, TOWN PLANNERS, ETC.
 
-97. Plans and drawings to be prepared and signed by Architect, etc. - In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department.
+
+#### 97. Plans and drawings to be prepared and signed by Architect, etc. - In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department.
 
 #### 98. Registering Authority . - The Regional Joint Director, Urban Affairs Department, shall be the
 
-Registering Authority for the respective regions of the State. 99. Application and procedure for registration .-
+Registering Authority for the respective regions of the State.
+
+#### 99. Application and procedure for registration .-
   (1) Any person or institution having the requisite qualification may submit an application for registration in the form in Appendix- H1-A or Appendix H1-B as the case may be.
   (2) A person employed in the service of Government or Quasi-Government or Government owned Corporation or Board, Authority or Government Companies or Banks is not eligible for registration. Provided that paid Apprentices under the Apprentices Act,1961 (Central Act 52 of 1961) are considered as not employed for this purpose.
   (3) The application shall be affixed with necessary court fee stamp and shall be attached with true copy of certificate showing educational qualification and experience. In the case of institutional registration, true copy of the following documents shall be attached with the application affixed with necessary court fee stamp:-
