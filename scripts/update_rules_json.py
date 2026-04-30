@@ -7,14 +7,47 @@ def parse_markdown_to_json(md_content, chapter_title):
     sections = []
     current_section = None
     
-    lines = md_content.split('\n')
+    # Pre-process lines to join broken sentences and multi-line titles
+    raw_lines = md_content.split('\n')
+    processed_lines = []
     
+    for line in raw_lines:
+        line = line.strip()
+        if not line:
+            processed_lines.append("")
+            continue
+            
+        # Join logic: If the current line doesn't start with a header or list marker,
+        # and there is a previous non-empty line that doesn't end with a terminal punctuation, join them.
+        last_non_empty_idx = len(processed_lines) - 1
+        while last_non_empty_idx >= 0 and processed_lines[last_non_empty_idx] == "":
+            last_non_empty_idx -= 1
+            
+        if last_non_empty_idx >= 0:
+            prev = processed_lines[last_non_empty_idx]
+            is_header = prev.startswith('#')
+            # Check for list markers like (1), (a), (i)
+            is_list_start = re.match(r'^(\(\d+\)|\d+\.|\([a-z]\)|\([ivx]+\))', line)
+            is_new_header = line.startswith('#')
+            
+            # If the current line is a continuation of a title or a paragraph
+            if not is_new_header and not is_list_start:
+                # Merge if it was a header OR if the previous paragraph didn't end in punctuation
+                if is_header or not re.search(r'[.:;]$', prev):
+                    # Remove intervening blank lines
+                    while len(processed_lines) > last_non_empty_idx + 1:
+                        processed_lines.pop()
+                    processed_lines[last_non_empty_idx] = prev + " " + line
+                    continue
+        
+        processed_lines.append(line)
+
     # Pattern for section headers: ### 1. Title.- or #### 1. Title .-
     section_pattern = re.compile(r'^#{3,4}\s+(\d+[A-Z]?)\.\s+(.*)')
     
     i = 0
-    while i < len(lines):
-        line = lines[i].strip()
+    while i < len(processed_lines):
+        line = processed_lines[i].strip()
         if not line:
             i += 1
             continue
@@ -34,14 +67,25 @@ def parse_markdown_to_json(md_content, chapter_title):
             continue
             
         if not current_section:
-            i += 1
-            continue
+            # If we haven't found a section yet, but there's text, 
+            # create a "0" or "Intro" section if it's substantial
+            if line and not line.startswith('#'):
+                current_section = {
+                    "number": "0",
+                    "title": "Introduction",
+                    "paragraphs": [],
+                    "tables": []
+                }
+                sections.append(current_section)
+            else:
+                i += 1
+                continue
 
         # Check for table
         if line.startswith('|'):
             table_lines = []
-            while i < len(lines) and lines[i].strip().startswith('|'):
-                table_lines.append(lines[i].strip())
+            while i < len(processed_lines) and processed_lines[i].strip().startswith('|'):
+                table_lines.append(processed_lines[i].strip())
                 i += 1
             
             if len(table_lines) >= 3:
@@ -70,7 +114,7 @@ def parse_markdown_to_json(md_content, chapter_title):
                     print(f"Warning: Failed to parse table in {chapter_title}: {e}")
             continue
 
-        # Otherwise it's a paragraph or list item
+        # Otherwise it's a paragraph
         current_section["paragraphs"].append(line)
         i += 1
                 
@@ -124,10 +168,10 @@ def process_rule(rule_id, rule_name):
         else:
             chapter_title = full_title
         
-        # Clean up known artifacts
-        content = re.sub(r'This is a digitally signed Gazette\.', '', content, flags=re.I)
-        content = re.sub(r'Authenticity may be verified through https://compose\.kerala\.gov\.in/ \d+', '', content, flags=re.I)
-        content = re.sub(r'KERALA MUNICIPALITY BUILDING RULES.*', '', content, flags=re.I)
+        # Clean up known artifacts - only if they appear to be headers/footers (start of line)
+        content = re.sub(r'^\s*This is a digitally signed Gazette\..*$', '', content, flags=re.M | re.I)
+        content = re.sub(r'^\s*Authenticity may be verified through https://compose\.kerala\.gov\.in/.*$', '', content, flags=re.M | re.I)
+        content = re.sub(r'^\s*KERALA MUNICIPALITY BUILDING RULES.*$', '', content, flags=re.M | re.I)
 
         parsed_chapter = parse_markdown_to_json(content, chapter_title)
         new_content[chapter_id] = parsed_chapter
