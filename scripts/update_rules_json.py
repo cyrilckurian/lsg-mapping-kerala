@@ -43,8 +43,8 @@ def parse_markdown_to_json(md_content, chapter_title):
         
         processed_lines.append(line)
 
-    # Pattern for section headers: ### 1. Title.- or #### 1. Title .-
-    section_pattern = re.compile(r'^#{3,4}\s+(\d+[A-Z]?)\.\s+(.*)')
+    # Pattern for section headers: ### 1. Title.- or #### 49.1. Title .-
+    section_pattern = re.compile(r'^#{3,4}\s+(\d+(?:\.\d+)?\s?[A-Z]?)\.\s+(.*)')
     
     i = 0
     while i < len(processed_lines):
@@ -53,51 +53,57 @@ def parse_markdown_to_json(md_content, chapter_title):
             i += 1
             continue
             
-        section_match = section_pattern.match(line)
-        if section_match:
-            number = section_match.group(1)
-            raw_title = section_match.group(2).strip()
-            
-            # Smart split: many titles end with separators followed by the paragraph text
-            split_patterns = [r'\s+\.-\s+', r'\.-\s+', r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+']
-            split_done = False
-            for pattern in split_patterns:
-                parts = re.split(pattern, raw_title, maxsplit=1)
-                if len(parts) == 2:
-                    title, first_para = parts
-                    title = title.strip(' .-–—')
+        # If it's a header line, try to match section pattern
+        if line.startswith('#'):
+            section_match = section_pattern.match(line)
+            if section_match:
+                number = section_match.group(1).strip()
+                raw_title = section_match.group(2).strip()
+                
+                # Smart split: many titles end with separators followed by the paragraph text
+                split_patterns = [r'\s+\.-\s+', r'\.-\s+', r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+']
+                split_done = False
+                for pattern in split_patterns:
+                    parts = re.split(pattern, raw_title, maxsplit=1)
+                    if len(parts) == 2:
+                        title, first_para = parts
+                        title = title.strip(' .-–—')
+                        current_section = {
+                            "number": number,
+                            "title": title,
+                            "paragraphs": [first_para.strip()] if first_para.strip() else [],
+                            "tables": []
+                        }
+                        split_done = True
+                        break
+                
+                if not split_done:
                     current_section = {
                         "number": number,
-                        "title": title,
-                        "paragraphs": [first_para.strip()] if first_para.strip() else [],
+                        "title": raw_title.strip(' .-–—'),
+                        "paragraphs": [],
                         "tables": []
                     }
-                    split_done = True
-                    break
+                sections.append(current_section)
+                i += 1
+                continue
+            else:
+                # If it's a header but doesn't match section pattern, just skip it (it's a chapter header)
+                i += 1
+                continue
             
-            if not split_done:
-                current_section = {
-                    "number": number,
-                    "title": raw_title.strip(' .-–—'),
-                    "paragraphs": [],
-                    "tables": []
-                }
+        if not current_section:
+            # If we haven't found a section yet, and there's text, 
+            # create an "Introduction" section
+            current_section = {
+                "number": "0",
+                "title": "Introduction",
+                "paragraphs": [line],
+                "tables": []
+            }
             sections.append(current_section)
             i += 1
             continue
-            
-        if not current_section:
-            if line and not line.startswith('#'):
-                current_section = {
-                    "number": "0",
-                    "title": "Introduction",
-                    "paragraphs": [],
-                    "tables": []
-                }
-                sections.append(current_section)
-            else:
-                i += 1
-                continue
 
         # Check for table
         if line.startswith('|'):
