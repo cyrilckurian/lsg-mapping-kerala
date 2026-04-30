@@ -25,15 +25,16 @@ def parse_markdown_to_json(md_content, chapter_title):
         if last_non_empty_idx >= 0:
             prev = processed_lines[last_non_empty_idx]
             is_header = prev.startswith('#')
-            is_list_start = re.match(r'^(\(\d+\)|\d+\.|\([a-z]\)|\([ivx]+\))', line)
+            # Check for list markers like (1), (a), (i) OR plain numbers like 1, 2 at start of line
+            is_list_start = re.match(r'^(\(\d+\)|\d+\.|\d+\s+[A-Z]|\([a-z]\)|\([ivx]+\))', line)
             is_new_header = line.startswith('#')
             is_table_marker = line.startswith('|') or line.startswith('TABLE')
             
             # If the current line is NOT a new block (header, list, table)
             if not is_new_header and not is_list_start and not is_table_marker:
                 # Merge if it was a header OR if the previous paragraph didn't end in punctuation
-                # AND ensure we don't merge into a table marker or header
-                if not prev.startswith('|') and not prev.startswith('TABLE') and (is_header or not re.search(r'[.:;]$', prev)):
+                # EXCEPT: Don't join if the current line starts with a number (likely a missed sub-point)
+                if not re.match(r'^\d+\s+', line) and not prev.startswith('|') and not prev.startswith('TABLE') and (is_header or not re.search(r'[.:;]$', prev)):
                     # Remove intervening blank lines
                     while len(processed_lines) > last_non_empty_idx + 1:
                         processed_lines.pop()
@@ -55,13 +56,32 @@ def parse_markdown_to_json(md_content, chapter_title):
         section_match = section_pattern.match(line)
         if section_match:
             number = section_match.group(1)
-            title = section_match.group(2).strip(' .-')
-            current_section = {
-                "number": number,
-                "title": title,
-                "paragraphs": [],
-                "tables": []
-            }
+            raw_title = section_match.group(2).strip()
+            
+            # Smart split: many titles end with separators followed by the paragraph text
+            split_patterns = [r'\s+\.-\s+', r'\.-\s+', r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+']
+            split_done = False
+            for pattern in split_patterns:
+                parts = re.split(pattern, raw_title, maxsplit=1)
+                if len(parts) == 2:
+                    title, first_para = parts
+                    title = title.strip(' .-–—')
+                    current_section = {
+                        "number": number,
+                        "title": title,
+                        "paragraphs": [first_para.strip()] if first_para.strip() else [],
+                        "tables": []
+                    }
+                    split_done = True
+                    break
+            
+            if not split_done:
+                current_section = {
+                    "number": number,
+                    "title": raw_title.strip(' .-–—'),
+                    "paragraphs": [],
+                    "tables": []
+                }
             sections.append(current_section)
             i += 1
             continue
