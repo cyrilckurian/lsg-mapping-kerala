@@ -17,10 +17,16 @@ def parse_markdown_to_json(md_content, chapter_title):
             pre_processed.append("")
             continue
             
+        # Clean known PDF artifacts aggressively
+        if re.match(r'^\d+$', line): continue # Standalone page numbers
+        if 'This is a digitally signed Gazette' in line: continue
+        if 'Authenticity may be verified' in line: continue
+        if 'KERALA MUNICIPALITY BUILDING RULES' in line: continue
+        if line == 'FEELA': continue
+
         # Detect merged headers like "... building(s). 68. Temporary..."
         # Pattern: terminal punctuation + optional space + number + dot + optional space + Capital letter
-        # Only promote if number > 10 (most sub-rules are 1-10)
-        merged_header_match = re.search(r'([.:;])\s*(\d+(?:\.\d+)?)\s*\.\s*([A-Z].*)', line)
+        merged_header_match = re.search(r'([.:;])\s*(\d+(?:\.\d+)?)\s*\.\s*([A-Z][a-z].{0,100})', line)
         if merged_header_match:
             punct = merged_header_match.group(1)
             num_str = merged_header_match.group(2)
@@ -36,13 +42,14 @@ def parse_markdown_to_json(md_content, chapter_title):
                 pass
             
         # Standardize headers that are missing #### but look like headers
-        # Only promote if number > 10
-        standalone_header_match = re.match(r'^(\d+(?:\.\d+)?)\s*\.\s+([A-Z].*)', line)
+        standalone_header_match = re.match(r'^(\d+(?:\.\d+)?)\s*\.\s+([A-Z].{0,120})$', line)
         if standalone_header_match:
             num_str = standalone_header_match.group(1)
             try:
                 num_val = float(num_str)
-                if num_val > 10 and not line.startswith('('):
+                # Heuristic: Legitimate headers usually don't start with sub-rule language
+                is_subrule_start = re.match(r'^\d+\.\s+(For|In|To|The|A|An|If|When|Where)\s+', line)
+                if num_val > 10 and not line.startswith('(') and not is_subrule_start:
                     pre_processed.append(f"#### {line}")
                     continue
             except:
@@ -69,6 +76,7 @@ def parse_markdown_to_json(md_content, chapter_title):
             is_table_marker = line.startswith('|') or line.startswith('TABLE')
             
             if not is_new_header and not is_list_start and not is_table_marker:
+                # Avoid merging into headers or tables
                 if not re.match(r'^\d+\s+', line) and not prev.startswith('|') and not prev.startswith('TABLE') and (is_header or not re.search(r'[.:;]$', prev)):
                     while len(processed_lines) > last_non_empty_idx + 1:
                         processed_lines.pop()
@@ -81,7 +89,6 @@ def parse_markdown_to_json(md_content, chapter_title):
     section_pattern = re.compile(r'^#{3,4}\s+(\d+(?:\.\d+)?\s?[A-Z]?)\.\s+(.*)')
     
     current_section = None
-    # Check if this chapter HAS any formal headers at all
     has_any_formal_header = any(l.startswith('####') for l in processed_lines)
     
     i = 0
@@ -97,11 +104,14 @@ def parse_markdown_to_json(md_content, chapter_title):
                 number = section_match.group(1).strip()
                 raw_title = section_match.group(2).strip()
                 
-                # Smart split logic: include single dash and colons
+                # Smart split logic
                 split_patterns = [
                     r'\s+\.-\s+', r'\.-\s+', 
                     r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+', 
-                    r'\s+-\s+', r'\s?:\s?-\s?'
+                    r'\s+-\s+', r'\s?:\s?-\s?',
+                    r'\s?\._\s?', r"'\s?-\s?", # For KMBR
+                    r'\.\s+(?=\(\d+\))', # Split at ". (1)"
+                    r'\.\s+(?=\([a-z]\))', # Split at ". (a)"
                 ]
                 split_done = False
                 for pattern in split_patterns:
@@ -120,7 +130,7 @@ def parse_markdown_to_json(md_content, chapter_title):
                 
                 if not split_done:
                     # Fallback for very long titles that don't have separators but have a period
-                    if len(raw_title) > 200 and '. ' in raw_title:
+                    if len(raw_title) > 120 and '. ' in raw_title:
                         title, first_para = raw_title.split('. ', 1)
                         current_section = {
                             "number": number,
@@ -146,7 +156,6 @@ def parse_markdown_to_json(md_content, chapter_title):
             
         if not current_section:
             if not has_any_formal_header:
-                # synthetic section for chapters like Schedules
                 current_section = {
                     "number": "1",
                     "title": chapter_title,
@@ -154,11 +163,10 @@ def parse_markdown_to_json(md_content, chapter_title):
                     "tables": []
                 }
                 sections.append(current_section)
-            elif line and not line.startswith('#') and len(line) > 20:
-                # real introduction text - ignore if very short (likely metadata)
+            elif line and not line.startswith('#') and len(line) > 30:
                 current_section = {
                     "number": "0",
-                    "title": "Introduction",
+                    "title": "Overview",
                     "paragraphs": [line],
                     "tables": []
                 }
@@ -276,10 +284,6 @@ def process_rule(rule_id, rule_name):
         else:
             chapter_title = full_title
         
-        content = re.sub(r'^\s*This is a digitally signed Gazette\..*$', '', content, flags=re.M | re.I)
-        content = re.sub(r'^\s*Authenticity may be verified through https://compose\.kerala\.gov\.in/.*$', '', content, flags=re.M | re.I)
-        content = re.sub(r'^\s*KERALA MUNICIPALITY BUILDING RULES.*$', '', content, flags=re.M | re.I)
-
         parsed_chapter = parse_markdown_to_json(content, chapter_title)
         new_content[chapter_id] = parsed_chapter
         

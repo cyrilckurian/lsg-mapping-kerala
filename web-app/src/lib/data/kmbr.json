@@ -270,7 +270,7 @@
           "number": "3",
           "title": "Applicability These rules shall apply to,",
           "paragraphs": [
-            "**(i)** any public or private building as described below, narnelv :- - **(a)** where a building is newly erected, these rules shall apply to the designs and construction of the building; - **(b)** where the building is altered, these rules shall apply to the altered portion of the building; - **(c)** where the occupancy or use of building is changed, these rules shall apply to all the parts of the building affected by the change; - **(d)** where addition or extension is made to a building, the rules shall apply to the addition or extension only, but for calculation of floor area ratio and coverage permissible and for calculation of required off street parking area to be provided, the whole building [existing and proposed] shall betaken in to account. - **(e)** where the whole or any part of a building is removed, the rules shall apply to all parts of building whether removed or not; - **(ii)** all lands which is proposed to be re developed or developed for construction or buildings; - **(iii)** all developments and constructions existing or proposed in any village panchayath area to which the provisions of these rules stand extended. KERALA MUNICIPALITY BUILDING RULES Ch.1 is and coverage permissible and for calculation of required off street parking area to be provided, the whole building (existing and the proposed) shall be taken into account; 1 [ X X X 11 (it) all lands which is proposed to be redeveloped or developed for construction of buildings; 7[(iii) all developments and constructions existing or proposed in any village panchayath area to which the provisions ofthese rules stand extended.]"
+            "**(i)** any public or private building as described below, narnelv :- - **(a)** where a building is newly erected, these rules shall apply to the designs and construction of the building; - **(b)** where the building is altered, these rules shall apply to the altered portion of the building; - **(c)** where the occupancy or use of building is changed, these rules shall apply to all the parts of the building affected by the change; - **(d)** where addition or extension is made to a building, the rules shall apply to the addition or extension only, but for calculation of floor area ratio and coverage permissible and for calculation of required off street parking area to be provided, the whole building [existing and proposed] shall betaken in to account. - **(e)** where the whole or any part of a building is removed, the rules shall apply to all parts of building whether removed or not; - **(ii)** all lands which is proposed to be re developed or developed for construction or buildings;"
           ],
           "tables": []
         }
@@ -380,31 +380,18 @@
         {
           "number": "11",
           "title": "All plans shall be signed by the owner /applicant also in all cases",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "12",
-          "title": "If the plot is owned by more than one person, the application shall be submitted jointly and signed by all the persons or shall be submitted by any such person or a third person if so legally authorized",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "13",
-          "title": "If the application is for construction or reconstruction of a single building or block of buildings in more than one adjoining plots owned by different persons, or to make addition or extension or alteration to such building the application shall be submitted jointly and signed by all the persons",
-          "paragraphs": [],
+          "paragraphs": [
+            "12. If the plot is owned by more than one person, the application shall be submitted jointly and signed by all the persons or shall be submitted by any such person or a third person if so legally authorized.",
+            "13. If the application is for construction or reconstruction of a single building or block of buildings in more than one adjoining plots owned by different persons, or to make addition or extension or alteration to such building the application shall be submitted jointly and signed by all the persons."
+          ],
           "tables": []
         },
         {
           "number": "14",
           "title": "Application for site approval and issue of permit shall be submitted in the form in Appendix A",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "15",
-          "title": "If the construction proposed is within 100 meters from any property maintained by Defense establishment or 30 meters from any property maintained by Railway Authority, the applicant shall submit sufficient number of drawings along with the application and the Secretary shall transmit the same to the officer in charge of the Defense establishment or Railway authority, as the case may be, for remarks as specified in sub-rule (5) or (6)",
-          "paragraphs": [],
+          "paragraphs": [
+            "15. If the construction proposed is within 100 meters from any property maintained by Defense establishment or 30 meters from any property maintained by Railway Authority, the applicant shall submit sufficient number of drawings along with the application and the Secretary shall transmit the same to the officer in charge of the Defense establishment or Railway authority, as the case may be, for remarks as specified in sub-rule (5) or (6)."
+          ],
           "tables": []
         },
         {
@@ -505,7 +492,7 @@
       "sections": [
         {
           "number": "0",
-          "title": "Introduction",
+          "title": "Overview",
           "paragraphs": [
             "1. The applicant shall, if he intends to make any deviation from the approved plan or specification during the execution of any development or redevelopment of land or construction or reconstruction or alteration of any building, submit revised plans and drawings showing the@ deviation and obtain revised permit:",
             "1. The applicant shall, if he intends to make any deviation from the approved plan or specification during the execution of any development or redevelopment of land or construction or reconstruction or alteration of any building, submit revised plans and drawings showing the@ deviation and obtain revised permit:",
@@ -620,7 +607,13 @@
             "8. For buildings above 10 meters in height, in addition to the minimum front, rear and side open spaces required for height upto 10 meters, there shall be provided proportionate increase in such minimum open space at the rate of 0.5 meter per every 3 meters height exceeding 10 meters:",
             "> Provided that such additional set back corresponding to increase in may be provided, for the whole building at ground level or for corresponding floors at their level.",
             "[XXX]",
-            "10. No construction or hanging of any sort shall be permitted to project outside the boundaries of the site."
+            "10. No construction or hanging of any sort shall be permitted to project outside the boundaries of the site.",
+            "11. Every open space provided, either interior or exterior shall be kept free from any erection thereon and shall be open to the sky and only cornice, roof or whether shade not more than 0.60 meter width shall overhang or project over the said open space so as to reduce the width to less than the minimum required:",
+            "> Provided that where the open space is minimum 0.60 meter the cornice, roof or weather shade shall be limited to 30 cms. and where the open space is less than 0.60 meter no projection whatsoever shall be permitted:",
+            "Provided further that where the open space has minimum 1.50 meters. cornice roof or weather shade upto 75cms shall be permitted and increase in the width of cornice roof of weather shade shall be permitted corresponding to increase in the open space:",
+            "Provided further that no door or window shall he permitted if the open space on that portion is less than 1 meter:",
+            "Provided further that open stair or flight of steps or ramps meant as access to upper or lower floors shall be permitted in the open space if such stair, step or ramp has minimum 60cms distance from the boundaries. Provided also that the underneath of the ramp shall not be enclosed however pillars may be permitted for its support.",
+            "12. The front, rear and side set backs for constructions below ground level (basement floor, etc) shall be the same as that required for a 10 meters height building of the same occupancy group constructed above ground level."
           ],
           "tables": [
             {
@@ -661,15 +654,6 @@
           ]
         },
         {
-          "number": "11",
-          "title": "Every open space provided, either interior or exterior shall be kept free from any erection thereon and shall be open to the sky and only cornice, roof or whether shade not more than 0.60 meter width shall overhang or project over the said open space so as to reduce the width to less than the minimum required: > Provided that where the open space is minimum 0.60 meter the cornice, roof or weather shade shall be limited to 30 cms",
-          "paragraphs": [
-            "and where the open space is less than 0.60 meter no projection whatsoever shall be permitted: Provided further that where the open space has minimum 1.50 meters. cornice roof or weather shade upto 75cms shall be permitted and increase in the width of cornice roof of weather shade shall be permitted corresponding to increase in the open space: Provided further that no door or window shall he permitted if the open space on that portion is less than 1 meter: Provided further that open stair or flight of steps or ramps meant as access to upper or lower floors shall be permitted in the open space if such stair, step or ramp has minimum 60cms distance from the boundaries. Provided also that the underneath of the ramp shall not be enclosed however pillars may be permitted for its support.",
-            "12. The front, rear and side set backs for constructions below ground level (basement floor, etc) shall be the same as that required for a 10 meters height building of the same occupancy group constructed above ground level."
-          ],
-          "tables": []
-        },
-        {
           "number": "25",
           "title": "Minimum distance between central fine of a street and building",
           "paragraphs": [
@@ -683,15 +667,17 @@
         },
         {
           "number": "26",
-          "title": "Prohibition for constructions abutting public roads._ [X X X] No person shall construct any building other than compound wall within 3 metres, from any plot boundary abutting national highways, state highways or other roads-notified by Municipality: > Provided that open ramps or bridges or steps or similar structures with or without parapets or railings shall be permitted as access from the street to the building within that 3 meters and cornice roof or weather shade not exceeding 75 cms shall be permitted to project from the building into such 3 meters",
-          "paragraphs": [],
+          "title": "Prohibition for constructions abutting public roads",
+          "paragraphs": [
+            "[X X X] No person shall construct any building other than compound wall within 3 metres, from any plot boundary abutting national highways, state highways or other roads-notified by Municipality: > Provided that open ramps or bridges or steps or similar structures with or without parapets or railings shall be permitted as access from the street to the building within that 3 meters and cornice roof or weather shade not exceeding 75 cms shall be permitted to project from the building into such 3 meters."
+          ],
           "tables": []
         },
         {
           "number": "27",
           "title": "Developments including land subdivision and plot development for residential use",
           "paragraphs": [
-            "All new developments including land subdivisions and plot developments shall be subject to the following, namely:- - **(i)** the area of any newly subdivided plot, reconstituted plot or building plot shall be not less than 125 square meters with an average width of 6.00 meters: > Provided that for row housing where side open spaces are not required, it is sufficient if the plot has an average width of 4.50 meters. - **(ii)** every plot shall have a frontage of not less than 4 meters on any abutting street; - **(iii)** every street shall have not less than 7.00 meters width and shall be motorable: > Provided that in the case of cul-de-sacs with length not exceeding 250 meters, it is sufficient if the street (cul-de-sac) has not less than 5.00 metres width and in the case of cul-de-sacs not exceeding 75 meters, it is sufficient if the street (cul-de-sac) has not less than 3.00 meters width: Provided further that in residential areas where motor able street cannot made due to difficult terrain, the width of any new street shall be not less 5.00 meters and where the length of such street does not exceed 250 meter it is sufficient if the street has not less than 3.00 meters width - **(iv)** when the area of the land under development work, layout or subdivision is 50 ares or more, ten percent of the total area shall be provided for recreational open spaces and shall be suitably located to be accessible the residents of the layout. > Provided that while considering the area of the land, the area of any contiguous land belonging to the same owner, though not proposed 1 immediate development shall be taken into account; - **(v)** the recreational open space to be provided under item (iv) shall have an access as if it were a separate plot and as far as possible it shall be in 1 piece and in no case less than 2 areas in area with a minimum width of 6 meters - **(vi)** the layout or subdivision proposal shall be in conformity with the provisions of published or sanctioned development plan for the area and if the land is affected by any reservation for a public purpose, the Secretary may agree to adjust its exact location to suit the development but not so as to affect its area; - **(vii)** the street junctions shall be splayed or rounded off to give sufficient turning radii and sight distance for vehicles and the side if the splay shall be a minimum of 4 meters for roads up to 10 meters and shall be a minimum of 1 meters for roads exceeding 10 meters width as shown in the figure below: - **(viii)** in the case of lay out or sub division of land having an area of two hectares or more a suitable plot for an electric transformer shall be provided; - **(ix)** in the case of development permits, approval of the District Town Planner shall be obtained for land upto 0.5 hectares in area and approval of chief Town Planner shall be obtained for land exceeding that area. - **(x)** if the site forms part of approved layout, copy of sub division layout shall be enclosed along with the plans for approval; and - **(xi)** adequate arrangements for surface water drainage shall be provided."
+            "All new development - **(i)** the area of any newly subdivided plot, reconstituted plot or building plot shall be not less than 125 square meters with an average width of 6.00 meters: > Provided that for row housing where side open spaces are not required, it is sufficient if the plot has an average width of 4.50 meters. - **(ii)** every plot shall have a frontage of not less than 4 meters on any abutting street; - **(iii)** every street shall have not less than 7.00 meters width and shall be motorable: > Provided that in the case of cul-de-sacs with length not exceeding 250 meters, it is sufficient if the street (cul-de-sac) has not less than 5.00 metres width and in the case of cul-de-sacs not exceeding 75 meters, it is sufficient if the street (cul-de-sac) has not less than 3.00 meters width: Provided further that in residential areas where motor able street cannot made due to difficult terrain, the width of any new street shall be not less 5.00 meters and where the length of such street does not exceed 250 meter it is sufficient if the street has not less than 3.00 meters width - **(iv)** when the area of the land under development work, layout or subdivision is 50 ares or more, ten percent of the total area shall be provided for recreational open spaces and shall be suitably located to be accessible the residents of the layout. > Provided that while considering the area of the land, the area of any contiguous land belonging to the same owner, though not proposed 1 immediate development shall be taken into account; - **(v)** the recreational open space to be provided under item (iv) shall have an access as if it were a separate plot and as far as possible it shall be in 1 piece and in no case less than 2 areas in area with a minimum width of 6 meters - **(vi)** the layout or subdivision proposal shall be in conformity with the provisions of published or sanctioned development plan for the area and if the land is affected by any reservation for a public purpose, the Secretary may agree to adjust its exact location to suit the development but not so as to affect its area; - **(vii)** the street junctions shall be splayed or rounded off to give sufficient turning radii and sight distance for vehicles and the side if the splay shall be a minimum of 4 meters for roads up to 10 meters and shall be a minimum of 1 meters for roads exceeding 10 meters width as shown in the figure below: - **(viii)** in the case of lay out or sub division of land having an area of two hectares or more a suitable plot for an electric transformer shall be provided; - **(ix)** in the case of development permits, approval of the District Town Planner shall be obtained for land upto 0.5 hectares in area and approval of chief Town Planner shall be obtained for land exceeding that area. - **(x)** if the site forms part of approved layout, copy of sub division layout shall be enclosed along with the plans for approval; and - **(xi)** adequate arrangements for surface water drainage shall be provided."
           ],
           "tables": []
         },
@@ -707,7 +693,7 @@
           "number": "29",
           "title": "Development including land sub-division and plot development for industrial development",
           "paragraphs": [
-            "All new developments including land sub- divisions and plot developments shall be subject to the following:- - **(i)** the width of every new street, public or private, intended for use as a cart or carriage way giving access to or through an organized industrial area with not less than six constituent units, shall be minimum 10 meters: > Provided that in the case of small industrial units or cul-de-sac not exceeding 150 meters length, the minimum road width shall be 7 meters. - **(ii)** the minimum size of industrial plot abutting street shall be 400 sq. meters in extent with a width of not less than 15 meters: > Provided that the minimum plot requirement in item (ii) shall not apply to small industrial units; - **(iii)** in industrial layouts a place for installation of transformer shall be provided in consultation with the Chief Electrical Inspector or an officer authorized by him; - **(iv)** the approval of the Chief Town Planner or an officer authorized by him shall be obtained for the layout of industrial streets and land sub-division exceeding five plots; > **Note:** - For the purpose of these rules small industrial unit means an industrial unit classified as such by Government from time to time or an industrial unit not included in Schedule 1 of the Factories Act, 1948. - **(v)** the usage of plots proposed for development or redevelopment shall be governed by the provisions contained in the development plan or detailed town planning scheme prepared for the locality: > Provided that where no such plan exists, the usage of plots shall be as approved by the Chief Town Planner or an officer authorized by him."
+            "All new deve - **(i)** the width of every new street, public or private, intended for use as a cart or carriage way giving access to or through an organized industrial area with not less than six constituent units, shall be minimum 10 meters: > Provided that in the case of small industrial units or cul-de-sac not exceeding 150 meters length, the minimum road width shall be 7 meters. - **(ii)** the minimum size of industrial plot abutting street shall be 400 sq. meters in extent with a width of not less than 15 meters: > Provided that the minimum plot requirement in item (ii) shall not apply to small industrial units; - **(iii)** in industrial layouts a place for installation of transformer shall be provided in consultation with the Chief Electrical Inspector or an officer authorized by him; - **(iv)** the approval of the Chief Town Planner or an officer authorized by him shall be obtained for the layout of industrial streets and land sub-division exceeding five plots; > **Note:** - For the purpose of these rules small industrial unit means an industrial unit classified as such by Government from time to time or an industrial unit not included in Schedule 1 of the Factories Act, 1948. - **(v)** the usage of plots proposed for development or redevelopment shall be governed by the provisions contained in the development plan or detailed town planning scheme prepared for the locality: > Provided that where no such plan exists, the usage of plots shall be as approved by the Chief Town Planner or an officer authorized by him."
           ],
           "tables": []
         }
@@ -915,7 +901,7 @@
           "number": "32",
           "title": "Height of buildings",
           "paragraphs": [
-            "2[(1) The Maximum height of any building or part thereof shall be limited according to the width of the street as follows:- - **(a)** The maximum height of the building or part thereof shall not exceed twice the width of the street abutting the plot plus twice the width of the yard from the building to the abutting street and this height may further be increased proportionately at the rate of 3 metres for every 50 cms. by which the building or the corresponding portion or floor of the building is set back from the building line; - **(b)** If a building plot abuts on two or more streets of different width, the building plot shall be deemed to abut the street that has the greater width for the purposes of this rule and the height of the building shall be regulated by the width of that street and shall be continued at this height along the narrower street: > Provided that the height restriction as per this rule shall be compulsory only for buildings or part of building coming within 12 metres of building line: Provided further that appurtenant roof structures like staircase tower over head tanks, air conditioning rooms, cellular telecommunication equipment or tower structures, cabin rooms, chimneys, parapet walls and similar roof structures other than pent houses shall not be included in the height of the building for the purpose of this rule: Provided also that architectural features serving no other function except that of decoration shall not be included in the height of the building for the purpose of this rule.]",
+            "2[(1) The Maximum height of any building or part thereof shall be limited accord - **(a)** The maximum height of the building or part thereof shall not exceed twice the width of the street abutting the plot plus twice the width of the yard from the building to the abutting street and this height may further be increased proportionately at the rate of 3 metres for every 50 cms. by which the building or the corresponding portion or floor of the building is set back from the building line; - **(b)** If a building plot abuts on two or more streets of different width, the building plot shall be deemed to abut the street that has the greater width for the purposes of this rule and the height of the building shall be regulated by the width of that street and shall be continued at this height along the narrower street: > Provided that the height restriction as per this rule shall be compulsory only for buildings or part of building coming within 12 metres of building line: Provided further that appurtenant roof structures like staircase tower over head tanks, air conditioning rooms, cellular telecommunication equipment or tower structures, cabin rooms, chimneys, parapet walls and similar roof structures other than pent houses shall not be included in the height of the building for the purpose of this rule: Provided also that architectural features serving no other function except that of decoration shall not be included in the height of the building for the purpose of this rule.]",
             "2. For buildings, structures and installations in the vicinity of airports the stipulations with regard to height shall be further limited as shown in Table 3. This shall be subject to any notification issued by Government of India under the Aircrafts Act 1, 1934.",
             "[Provided that buildings, structures and installations exceeding the height shown in Table 3 shall be allowed if no objection certificate from the concerned airport authority is obtained and produced before the Secretary for issuing the permit.]",
             "3[Notes:- (1) No tree shall be allowed to grow above the height shown in column (4) within the distance shown in column (2) and (3) respectively.",
@@ -1558,7 +1544,7 @@
           "number": "54",
           "title": "Educational, Medical or Hospital and office or business occupancies",
           "paragraphs": [
-            "(1) Approval of the District Town Planner shall be obtained for the usage of plot upto 0.5 hectares and the layout of buildings upto 500 sq. metre area under educational, medical / hospital and official business occupancies and approval of the Chief Town Planner shall be obtained for the usage of plot exceeding 0.5 hectare area and layout of buildings with more than 500 sq. metres of area;",
+            "(1) Approval of the District Tow",
             "2. The usage of plots proposed for development or redevelopment of land or construction of any building shall be governed by the provisions contained in the detailed town planning scheme or development plan for the area:",
             "> Provided that where no such plan exists the usage of plot and or building shall be decided by the District Town Planner or Chief Town Planner, as the case may be.",
             "3. All buildings upto 10 metres height under educational, medical/ hospital or office/ business or storage occupancy with more than 300 sq. metres built up area and shall have the minimum open (yards) spaces as shown below:- - **(i)** front yard-average 6 metres with minimum 4.5 metres - **(ii)** side yards-average 2 metres with minimum 1.5 meters (each side).",
@@ -1581,7 +1567,8 @@
             "8. The Standard of ventilation in assembly occupancy buildings shall be 28 cu.rn. fresh air per scat per hour and shall be in accordance with part VIII Building Services, section 1, Lighting and Ventilation of National Building Code of India, 1983.",
             "1[(8a) In the case of assembly Occupancy buildings, irrespective of their number of floors, a certificate of approval from the Director of Fire Force or an officer authorised by him in this behalf shall be obtained and produced for issuing building permit;]",
             "9. 2[All Other requirements] in respect Of fire Protection in assembly buildings shall conform to Part IV, Fire Protection of National Building Code of India, 1983 and Amendment No.3.",
-            "10. In the case of Cinema theatres, the location, size and building construction shall conform to the Provisions in the 3 [Kerala Cinema Regulations], 1988 as amended from time to time and the IS : 4878-1968, Byelaws for construction of Cinema Buildings."
+            "10. In the case of Cinema theatres, the location, size and building construction shall conform to the Provisions in the 3 [Kerala Cinema Regulations], 1988 as amended from time to time and the IS : 4878-1968, Byelaws for construction of Cinema Buildings.",
+            "11. In wedding halls where cooking and dining facilities are provided, proper and adequate arrangements for collection and hygienic disposal of solid and liquid waste shall be ensured to the satisfaction of the Secretary.(12) Sanitation facilities to be provided in assembly buildings shall be computed at the rate of not less than one person per square metre of carpet area of the building and shall be provided in numbers not less than those stipulated in Table 9 in sub rule (6) of rule 54."
           ],
           "tables": [
             {
@@ -1835,12 +1822,6 @@
           ]
         },
         {
-          "number": "11",
-          "title": "In wedding halls where cooking and dining facilities are provided, proper and adequate arrangements for collection and hygienic disposal of solid and liquid waste shall be ensured to the satisfaction of the Secretary.(12) Sanitation facilities to be provided in assembly buildings shall be computed at the rate of not less than one person per square metre of carpet area of the building and shall be provided in numbers not less than those stipulated in Table 9 in sub rule (6) of rule 54",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
           "number": "56",
           "title": "Mercantile or commercial occupancy",
           "paragraphs": [
@@ -1870,7 +1851,7 @@
           "number": "57",
           "title": "Industrial and small industrial occupancy",
           "paragraphs": [
-            "(1) Location of any industry shall conform to the provisions contained in the Kerala Factories Rules, 1957 or any other Central or State Act or rules or regulations in respect of industrial location and licensing in force.",
+            "(1) Location of any industry shall conform to the provisio",
             "2. Approval of district town planner shall be obtained for the usage of plot up to 0.5 hectares area and for layout of buildings upto 500 sq. metres area under industrial occupancy and approval of Chief Town Planner shall be obtained for the use of plot exceeding 0.5 hectares area and layout of buildings with more than 500 sq. metres area.-.",
             "3. The usage of plots proposed for development or redevelopment of land or construction of any building shall be governed by the provisions contained in the detailed town planning scheme or development plan for the area:",
             "> Provided that where no such plan exists the usage of the plot and or building shall be decided by the Chief Town Planner or by an officer authorised by him in this behalf.",
@@ -1888,7 +1869,11 @@
             "> Provided that the height of any work room shall not be less than 3.6 metres measured from the floor level to the lowest point in the ceiling.",
             "8. Height of office, laboratory, entrance hall, canteen, clockroom etc. shall not be less than 3 metres.",
             "9. In the case of store rooms and toilets, the height shall not be less than 2.4 metres",
-            "10. Where the internal drainage system of a factory is proposed to be connected to the public sewerage system, prior approval of the arrangements shall be obtained from the Pollution Control Board and Water Authority and in such cases the internal drainage system of a factory shall be connected by means of a suitable trap so as to exclude volatile or other objectionable matters."
+            "10. Where the internal drainage system of a factory is proposed to be connected to the public sewerage system, prior approval of the arrangements shall be obtained from the Pollution Control Board and Water Authority and in such cases the internal drainage system of a factory shall be connected by means of a suitable trap so as to exclude volatile or other objectionable matters.",
+            "11. The Industrial sewage effluents, if proposed to be discharged into nearby water bodies such as rivers, lakes, canals or sea, the dilution of such waste shall be such that the water, bodies are not polluted. Such effluents shall be got tested as to its harmlessness to the satisfaction of the Pollution Control Board and as per the standards Prescribed by the Bureau of Indian Standards for treatment of industrial waste and effluents. The approval of the Pollution Control Board shall be obtained in all cases.",
+            "(11 a) In the case of industrial occupancy buildings, irrespective of their number of floors, a certificate of approval from the Director of Fire Force or an officer authorised by him in this behalf shall be obtained and produced for issuing building permit-",
+            "12. All other requirements in respect of fire protection in industrial buildings shall conform to Part IV, Fire Protection,, National Building Code of India, 1983. amendment No. 3.",
+            "(1 3) The minimum sanitation facilities to be provided for industrial occupancy building shall be as described in Table 9 given in sub rule (6) of rule 54."
           ],
           "tables": [
             {
@@ -1919,26 +1904,10 @@
           ]
         },
         {
-          "number": "11",
-          "title": "The Industrial sewage effluents, if proposed to be discharged into nearby water bodies such as rivers, lakes, canals or sea, the dilution of such waste shall be such that the water, bodies are not polluted",
-          "paragraphs": [
-            "Such effluents shall be got tested as to its harmlessness to the satisfaction of the Pollution Control Board and as per the standards Prescribed by the Bureau of Indian Standards for treatment of industrial waste and effluents. The approval of the Pollution Control Board shall be obtained in all cases. (11 a) In the case of industrial occupancy buildings, irrespective of their number of floors, a certificate of approval from the Director of Fire Force or an officer authorised by him in this behalf shall be obtained and produced for issuing building permit-"
-          ],
-          "tables": []
-        },
-        {
-          "number": "12",
-          "title": "All other requirements in respect of fire protection in industrial buildings shall conform to Part IV, Fire Protection,, National Building Code of India, 1983",
-          "paragraphs": [
-            "amendment No. 3. (1 3) The minimum sanitation facilities to be provided for industrial occupancy building shall be as described in Table 9 given in sub rule (6) of rule 54."
-          ],
-          "tables": []
-        },
-        {
           "number": "58",
           "title": "Storage and warehousing occupancy",
           "paragraphs": [
-            "(1) The Provisions in this rule shall apply to storage or warehousing occupancy buildings with area exceeding 300 sq. metres.",
+            "(1) The Provisions in this rule shall apply to storage or warehous",
             "2. Approval of District Town Planner shall be obtained for the usage of plot upto 0.5 hectares and layout of buildings upto 500 square metres area under storage and warehousing occupancy and approval of Chief Town Planner shall be obtained for the usage of plot exceeding 0.5 hectare area and layout of buildings exceeding 500 square metres area.",
             "3. The usage of plots proposed for development or redevelopment or for construction of any building shall be governed by the provisions contained in the detailed town planning scheme or development plan for the locality :",
             "> Provided that where no such plan exists the usage of the plot and or building shall be decided by the Chief Town Planner or by an officer authorised by him.",
@@ -1957,7 +1926,7 @@
           "number": "59",
           "title": "Hazardous occupancy",
           "paragraphs": [
-            "(1) Approval of District Town Planner shall be obtained for the usage of plot upto 0.5 hectares area and layout of building upto 500 sq. metres area under hazardous occupancy and approval of Chief Town Planner shall be obtained for the usage of plot exceeding 0.5 hectares area and lay out of buildings exceeding 500 sq. metres areas.",
+            "(1) Approval of District Town Planner shall be obtained for the usage of plot up",
             "2. The usage of plots proposed for development or redevelopment or construction of any building shall be governed by the provisions contained in the detailed town planning scheme or development plan for the locality :",
             "> Provided that where no such plan exists the usage of the plot and or building shall be decided by the Chief Town Planner or an Officer authorised by him in this behalf.",
             "3. The minimum width of open yard all round the building shall be 3 metres in the case of buildings under Group 1(1) hazardous occupancy and 7.5 metres in the case of Group 1 (2) hazardous occupancy.",
@@ -1972,32 +1941,17 @@
             "- **(d)** at the rate of one washing facility for 50 persons or part thereof ; and - **(e)** the number of sanitation facilities like water closet, urinal, etc. to be provided shall in no case be less than as computed at the rate of one person per every 30 Sq. mts. of the gross floor area of the building.",
             "8. The Secretary shall, after considering the width of roads, traffic generated, location with respect to points of intersections and nearness to occupancies of educational, assembly, mercantile, storage and hazardous uses, in consultation with the District Collector and Chief Town Planner decide the location of petrol filling stations and its layout.",
             "9. The location and or construction of petrol tank and vent-pipe shall be governed by the provisions of the Petroleum Rules, 1976.",
-            "10. The retail dispensing unit of a petrol filling station shall be installed at a distance of 7.5 metres. from any point of the marked boundary of its premises."
+            "10. The retail dispensing unit of a petrol filling station shall be installed at a distance of 7.5 metres. from any point of the marked boundary of its premises.",
+            "11. The kiosk or sales office shall have a minimum open space of 1.00 metre from the plot boundaries other than that abutting the street.",
+            "12. The location and area limits of crematoria or burning and burial grounds including cemetery shall be as approved by the District Collector."
           ],
-          "tables": []
-        },
-        {
-          "number": "11",
-          "title": "The kiosk or sales office shall have a minimum open space of 1.00 metre from the plot boundaries other than that abutting the street",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "12",
-          "title": "The location and area limits of crematoria or burning and burial grounds including cemetery shall be as approved by the District Collector",
-          "paragraphs": [],
           "tables": []
         },
         {
           "number": "13",
           "title": "There shall be minimum 7.5 metres open space all round the crematorium",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "14",
-          "title": "The Secretary shall, after considering the access roads, traffic congestion in the locality and in consultation with the Chief Town Planner decide the location of the traffic stations like municipal bus stands or inter State bus terminals and the construction of buildings shall conform to the provisions in these rules",
           "paragraphs": [
+            "14. The Secretary shall, after considering the access roads, traffic congestion in the locality and in consultation with the Chief Town Planner decide the location of the traffic stations like municipal bus stands or inter State bus terminals and the construction of buildings shall conform to the provisions in these rules.",
             "[X X X X]."
           ],
           "tables": []
@@ -2196,7 +2150,7 @@
       "sections": [
         {
           "number": "0",
-          "title": "Introduction",
+          "title": "Overview",
           "paragraphs": [
             "1. In the case of buildings proposed or alteration or addition proposed on existing buildings in plots left after part of the same plot has been surrendered free of cost to a Municipality, Development Authority, Government Department or Quasi-Government Department or Institution for new road formation or for road widening or for junction improvement or formation or development of any facility relating to road structure other provisions in the Kerala Municipality Building Rules, 1999 shall apply subject to the modifications in this chapter > Provided that such road formation or road widening or junction improvement or formation or development of facility relating to road structure shall be one proposed or taken up as a project by the Municipality or Development Authority by resolution or have been sanctioned or undertaken by a Government or Quasi-Government Department or Institution or shall form part of any published or sanctioned Master Plan or Development plan or Detailed Town Planning Scheme or shall be one proposed or taken up by a Residents Association or a Social Welfare Organisation with the approval of the Government for the purpose of this rule.",
             "1. In the case of buildings proposed or alteration or addition proposed on existing buildings in plots left after part of the same plot has been surrendered free of cost to a Municipality, Development Authority, Government Department or Quasi-Government Department or Institution for new road formation or for road widening or for junction improvement or formation or development of any facility relating to road structure other provisions in the Kerala Municipality Building Rules, 1999 shall apply subject to the modifications in this chapter > Provided that such road formation or road widening or junction improvement or formation or development of facility relating to road structure shall be one proposed or taken up as a project by the Municipality or Development Authority by resolution or have been sanctioned or undertaken by a Government or Quasi-Government Department or Institution or shall form part of any published or sanctioned Master Plan or Development plan or Detailed Town Planning Scheme or shall be one proposed or taken up by a Residents Association or a Social Welfare Organisation with the approval of the Government for the purpose of this rule.",
@@ -2213,7 +2167,7 @@
           "number": "80",
           "title": "Use of Plot",
           "paragraphs": [
-            "The Secretary may permit any use which is otherwise compatible with the uses of buildings in that area, which does not adversely affect the existing trend of development and which does not cause indirect condemnation of the uses in the neighbouring plots of land and buildings."
+            "The Secretary may permit any use which is otherwise compatible with the uses of building"
           ],
           "tables": []
         },
@@ -2313,8 +2267,10 @@
         },
         {
           "number": "89",
-          "title": "Certain provisions not to apply.-Provisions regarding floor area ratio shall not apply to the constructions under this chapter. [90.XXXX]",
-          "paragraphs": [],
+          "title": "Certain provisions not to apply.-Provisions regarding floor area ratio shall not apply to the constructions under this chapter",
+          "paragraphs": [
+            "[90.XXXX]"
+          ],
           "tables": []
         }
       ]
@@ -2326,7 +2282,7 @@
           "number": "92",
           "title": "Certain provisions not to apply",
           "paragraphs": [
-            "General provisions regarding distance from central line of road, set back, coverage, floor area ratio and dimension with regard to building parts, light and ventilation shall not apply to works under this chapter"
+            "General provisions regarding distance from central line of road, set"
           ],
           "tables": []
         },
@@ -2536,8 +2492,10 @@
         },
         {
           "number": "111",
-          "title": "Provisions to apply as modified for high rise buildings'- In the case of high rise buildings, the provisions in these rules elsewhere shall apply subject to modification in this chapter",
-          "paragraphs": [],
+          "title": "Provisions to apply as modified for high rise buildings",
+          "paragraphs": [
+            "In the case of high rise buildings, the provisions in these rules elsewhere shall apply subject to modification in this chapter."
+          ],
           "tables": []
         },
         {
@@ -2802,20 +2760,10 @@
             "7. For the purpose of levying fee, the height of the tower shall be taken from the base of the tower and not from the base of the building.",
             "8. The secretary shall, if convinced of the boundaries and ownership of the plot, plan and drawings and genuineness of the certificates, issue permit, not later than 30 days from the date of receipt of application.",
             "9. The permit issued under sub rule (8) shall be a work permit and the construction or erection of telecommunication tower or telecommunication pole structures or accessory rooms essential for the use of such tower or pole structures shall be completed within one year from the date of issue of permit.",
-            "10. The period of the permit shall be extended for a further period of one year if an application for the same is submitted to the secretary, within the valid period of the permit."
+            "10. The period of the permit shall be extended for a further period of one year if an application for the same is submitted to the secretary, within the valid period of the permit.",
+            "11. The application for extension of the period of permit shall be submitted in white paper, typed or written in ink, affixed with necessary court fee stamp; original permit shall also be attached.",
+            "12. No application fee shall be necessary for extension of period of permit but but fee for extension shall be equal to fifty per cent of the fee for original permit in force at the time of extension."
           ],
-          "tables": []
-        },
-        {
-          "number": "11",
-          "title": "The application for extension of the period of permit shall be submitted in white paper, typed or written in ink, affixed with necessary court fee stamp; original permit shall also be attached",
-          "paragraphs": [],
-          "tables": []
-        },
-        {
-          "number": "12",
-          "title": "No application fee shall be necessary for extension of period of permit but but fee for extension shall be equal to fifty per cent of the fee for original permit in force at the time of extension",
-          "paragraphs": [],
           "tables": []
         },
         {
@@ -2949,14 +2897,9 @@
             "8. The Registering Authority may, if convinced on enquiry that the person against whom action has been taken under sub rule (7) has violated any rule, provision or issued false certificate or recorded false information, suspend the registration for a period not exceeding one year or cancel the registration or disqualify him for future registration:",
             "> Provided that before finalizing the decision, the person concerned shall be given sufficient opportunity to explain and the explanation, if any, submitted shall be duly considered by the Registering Authority.",
             "9. Any person aggrieved by the decision of the Registering Authority under sub rule (8) may appeal to Government within 30 days from the date of receipt of the decision.",
-            "10. The appeal shall be submitted in white paper stating the reasons therefor, typed or written in ink, affixed with necessary court fee stamp, along with copy of the order of registering authority."
+            "10. The appeal shall be submitted in white paper stating the reasons therefor, typed or written in ink, affixed with necessary court fee stamp, along with copy of the order of registering authority.",
+            "11. Government shall dispose of the appeal within 60 days, after hearing the appellant in person or by authorized representative."
           ],
-          "tables": []
-        },
-        {
-          "number": "11",
-          "title": "Government shall dispose of the appeal within 60 days, after hearing the appellant in person or by authorized representative",
-          "paragraphs": [],
           "tables": []
         }
       ]
