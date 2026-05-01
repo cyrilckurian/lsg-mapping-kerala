@@ -1,30 +1,5 @@
 # Chapter 7: Special Provisions for Certain Occupancy
 
-Substituted ibid., for: (2) Every building under assembly occupancy shall have open spaces as shown below:
-
-"Extent of Built-up Area
-
-Nature of open space
-
-Dimensions
-
-  - **(i)** Built up area exceeding 100 sq.m. but below 300 sq.m.
-Front yard Side yard (each) Rear yard
-
-6.0 m. 3.0 m. 3.0 m.
-
-  - **(ii)** Built up area exceeding 300 sq.m. but below 600 sq.m.
-Front yard Side yard
-
-7.5 m. 5m. on one side & 3m on the other side
-
-  - **(iii)** Built up area exceeding 600 sq. m.
-Rear yard Front yard Side yard (each) Rear yard
-
-3.0 m. 10.5 m. 5.0 m. 3.0 m." CHAPTER VII
-
-SPECIAL PROVISIONS FOR CERTAIN OCCUPANCY BUILDING,
-
 ### 52. Additional provisions to certain occupancy groups :- The provisions in rules rules 23 to 51 shall apply to certain occupancy groups, subject to the provisions or modifications contained in rules 53 to 59.
 
 ### 53. Residential occupancy (1) Every floor of a flat, apartment house lodging or rooming house, dormitory, hostel or hotel with residential accommodation exceeding 150 sq. metres of floor area with a capacity for accommodating more than 20 persons shall have at least 2 door ways as remote as practicable from each other; such doorways shall provide access to separate exits or may open upon a common corridor, leading to separate exit in opposite direction.

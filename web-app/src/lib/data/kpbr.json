@@ -949,8 +949,9 @@
         },
         {
           "number": "11",
-          "title": "Grounds on which approval of site or permission to construct or reconstruct building may be rejected - Any application made under these rules shall be rejected by the Secretary if the application is not in compliance with these rules or any other relevant statutes in force. The Secretary shall specify the grounds for rejection in the order rejecting the application. The grounds on which approval of site for construction or reconstruction of a building or permission to construct or reconstruct a building shall be refused are the following; namely:",
+          "title": "Grounds on which approval of site or permission to construct or reconstruct building may be rejected - Any application made under these rules shall be rejected by the Secretary if the application is not in compliance with these rules or any other relevant statutes in force",
           "paragraphs": [
+            "The Secretary shall specify the grounds for rejection in the order rejecting the application. The grounds on which approval of site for construction or reconstruction of a building or permission to construct or reconstruct a building shall be refused are the following; namely:-",
             "(i) that the work or use of the site for the work or any particulars comprised in the site plan, building plan etc., elevations, sectional elevation, or specifications would contravene provisions of any law or order, rule, declaration or bye law made under such law;",
             "(ii) that the application for such permission does not contain the particulars or is not prepared in the manner required by these rules or bye law made under the Act;",
             "(iii) that any of the documents required to be signed by a registered Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and/or the owner /applicant as required under the Act or these rules or bye laws made under the Act has not been signed by such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and/or the owner/applicant;",
@@ -1004,8 +1005,10 @@
         },
         {
           "number": "16",
-          "title": "Suspension and Revocation of permit - The Secretary shall suspend or revoke any permit issued under these rules if it is satisfied that the applicant has violated any provisions of the Act or rules or any conditions stipulated in the permit or that the construction is carried out in deviation of the approved plan or Town Planning scheme or that the permit was happened to be issued on misrepresentation of fact or law or that the construction, if carried on, will be a threat to life or property: Provided that before revoking permit, the owner of the permit shall be given an opportunity to be heard and the same shall be duly considered by the Secretary. Provided further that if the permit issued under these rules is revoked before the commencement of the building construction, then the additional fee for FAR remitted by the applicant ,if any, shall be refunded to the applicant on request and the permit issued shall be canceled henceforth",
-          "paragraphs": [],
+          "title": "Suspension and Revocation of permit - The Secretary shall suspend or revoke any permit issued under these rules if it is satisfied that the applicant has violated any provisions of the Act or rules or any conditions stipulated in the permit or that the construction is carried out in deviation of the approved plan or Town Planning scheme or that the permit was happened to be issued on misrepresentation of fact or law or that the construction, if carried on, will be a threat to life or property: Provided that before revoking permit, the owner of the permit shall be given an opportunity to be heard and the same shall be duly considered by the Secretary",
+          "paragraphs": [
+            "Provided further that if the permit issued under these rules is revoked before the commencement of the building construction, then the additional fee for FAR remitted by the applicant ,if any, shall be refunded to the applicant on request and the permit issued shall be canceled henceforth ."
+          ],
           "tables": []
         },
         {
@@ -1117,8 +1120,9 @@
         },
         {
           "number": "20",
-          "title": "Completion certificate, development certificate and occupancy certificate - (1) Every owner shall, on completion of development or redevelopment of land or construction or reconstruction or addition or alteration of building, as per the permit issued to him, submit a completion certificate certified and signed by him to the Secretary in the form in Appendix E1 together with sufficient copies of plans and drawings of completed building. Provided that in the case of buildings, other than residential buildings upto two floors with total built-up area not exceeding 150 sq. metres, the completion certificate shall be certified and signed by the owner and registered Institution or Architect or Building Designer or Engineer or Supervisor also as in Appendix E3 together with sufficient copies of plans and drawings of completed building",
+          "title": "Completion certificate, development certificate and occupancy certificate - (1) Every owner shall, on completion of development or redevelopment of land or construction or reconstruction or addition or alteration of building, as per the permit issued to him, submit a completion certificate certified and signed by him to the Secretary in the form in Appendix E1 together with sufficient copies of plans and drawings of completed building",
           "paragraphs": [
+            "Provided that in the case of buildings, other than residential buildings upto two floors with total built-up area not exceeding 150 sq. metres, the completion certificate shall be certified and signed by the owner and registered Institution or Architect or Building Designer or Engineer or Supervisor also as in Appendix E3 together with sufficient copies of plans and drawings of completed building.",
             "(2) The Secretary shall, on receipt of the completion certificate and on being satisfied that the development or redevelopment of land has been effected in conformity with the permit given, issue a development certificate in the form in Appendix F1 along with a copy of the plans duly signed by the Secretary, not later than 15 days from the date of receipt of the completion certificate: Provided that if no such development certificate is received within the said fifteen days, the owner may proceed as if such a development certificate has been duly issued to him. On the expiry of fifteen clear days from the date of valid application for development certificate, the applicant shall submit a letter stating that he is liable to get development certificate and now it is deemed to have issued by the authority. All Secretaries of Local Self Government Institutions shall acknowledge the receipt of the letter stated in the above paragraph with stamp and date on the same day on the duplicate copy of the letter. This shall be a deemed development certificate.",
             "(3) The Secretary shall, on receipt of the completion certificate and on being satisfied that the construction or reconstruction or addition or alteration has been carried out in conformity with the permit given, issue occupancy certificate in the form in Appendix F2 not later than fifteen days from the date of receipt of the completion certificate: Provided that, in case there is deficiency as per provisions of these Rules, in minimum width of mandatory open space/yard after completion of the construction, other than the distance stipulated as per section 220",
             "(b) of the Kerala Panchayat Raj Act, 1994 (13 of 1994) and sub-rule 5 of rule 81 of these rules, the Secretary may allow a tolerance up to 5% of the minimum mandatory open space/yard to be provided as per these rules or twenty five centimeters, whichever is less, for the building constructed: Provided further that if no such occupancy certificate is issued within the said fifteen days, the owner may proceed as if such occupancy certificate has been duly issued to him. On the expiry of fifteen clear days from the date of valid application for occupancy certificate, the applicant shall submit a letter stating that he is liable to get occupancy certificate and now it is deemed to have issued by the authority. All Secretaries of Local Self Government Institutions shall acknowledge the receipt of the letter stated in the above paragraph with stamp and date on the same day on the duplicate copy of the letter. This shall be a deemed occupancy certificate.",
@@ -1184,8 +1188,9 @@
         },
         {
           "number": "23",
-          "title": "Prohibition for constructions abutting public roads - (1) No person shall construct any building other than compound wall or fence or outdoor display structure within 3 meters, from any plot boundary abutting national highways, state highways, district roads, other roads notified by Panchayat, other un-notified roads with width 6m and above: Provided that ramps or bridges or steps or similar structures, all open to sky, with or without parapets or railings shall be permitted as access from the street to the building only in such cases where the level difference between the street and the plot does not permit natural access to the building.Cornice roof or weather shade, not exceeding 75 cms shall be permitted to project from the building into such 3 metres. In no case, access to more than one floor can be provided within this 3 metres. Provided further that the underneath of such flight of steps or ramp shall not be enclosed or made usable, however pillars may be permitted for its support",
+          "title": "Prohibition for constructions abutting public roads - (1) No person shall construct any building other than compound wall or fence or outdoor display structure within 3 meters, from any plot boundary abutting national highways, state highways, district roads, other roads notified by Panchayat, other un-notified roads with width 6m and above: Provided that ramps or bridges or steps or similar structures, all open to sky, with or without parapets or railings shall be permitted as access from the street to the building only in such cases where the level difference between the street and the plot does not permit natural access to the building.Cornice roof or weather shade, not exceeding 75 cms shall be permitted to project from the building into such 3 metres",
           "paragraphs": [
+            "In no case, access to more than one floor can be provided within this 3 metres. Provided further that the underneath of such flight of steps or ramp shall not be enclosed or made usable, however pillars may be permitted for its support.",
             "(2) The minimum distance between plot boundary abutting the street and building other than a compound wall or fence or outdoor display structure shall be provided as in Table 3."
           ],
           "tables": [
@@ -1462,8 +1467,9 @@
         },
         {
           "number": "29",
-          "title": "Parking, loading and unloading spaces - (1) Area of each off-street parking space provided for parking motor cars shall not be less than 15 sq. metres, length of the parking bay shall not be less than 5.5 m",
+          "title": "Parking, loading and unloading spaces - (1) Area of each off-street parking space provided for parking motor cars shall not be less than 15 sq",
           "paragraphs": [
+            "metres, length of the parking bay shall not be less than 5.5 m.",
             "(2) For buildings of different occupancies, off-street parking spaces for motor cars shall be provided within the plot as specified in Table 9 and 10 as the case be.",
             "(3) Parking requirement is calculated based on built-up area. The area provided for parking inside the building shall not be taken into account while calculating the built-up area for assessing the parking requirement of the building.",
             "Note: Fractions if any in the total number of parking worked out shall be rounded off to the next whole number.",
@@ -1759,8 +1765,10 @@
         },
         {
           "number": "33",
-          "title": "Height of room .-. The height of room intended for human entry in a building other than residential occupancy and livestock/poultry farm shall not be less than 3 metres: Provided that in the case of air conditioned rooms it shall not be less than 2.4 metres",
-          "paragraphs": [],
+          "title": "Height of room",
+          "paragraphs": [
+            "The height of room intended for human entry in a building other than residential occupancy and livestock/poultry farm shall not be less than 3 metres: Provided that in the case of air conditioned rooms it shall not be less than 2.4 metres."
+          ],
           "tables": []
         },
         {
@@ -2249,7 +2257,7 @@
       "title": "SPECIAL PROVISIONS FOR HUTS AND CERTAIN OTHER CONSTRUCTIONS, TRIBAL COLONIES AND BUILDINGS IN SMALL PLOTS",
       "sections": [
         {
-          "number": "49.1",
+          "number": "1",
           "title": "Special provisions for huts and certain other constructions",
           "paragraphs": [
             "(1) Provisions in this rule shall apply to the following constructions or reconstructions or additions or alterations and development or redevelopment of land pertaining to;",
@@ -2272,7 +2280,7 @@
           "tables": []
         },
         {
-          "number": "49.2",
+          "number": "2",
           "title": "Special provisions for Tribal colonies",
           "paragraphs": [
             "(1) When the Panchayat in which these rules are extended comprises Tribal Area Declared/notified by Government, the provisions in this chapter need only be made applicable to those constructions/developments intended for Tribal people or made by Tribal people, in Tribal areas.",
@@ -2305,17 +2313,7 @@
         {
           "number": "51",
           "title": "Special provisions for row buildings",
-          "paragraphs": [
-            "1 Applicability: The provisions in the Kerala Panchayat Building Rules, 2019 shall apply to construction of row buildings subject to modifications in this chapter:",
-            "2 Row buildings to be allowed on declared streets.- The Secretary shall permit the construction or reconstruction of row buildings only on the sides or part of a side or sides of any street, where the Panchayat has by declaration published, decided to allow row buildings.",
-            "3 Number of units that can be permitted.- The number of dwelling units in a row of buildings shall not exceed ten.",
-            "Note :- A row building with separate entry and exit and separated by common wall from other row buildings abutting it shall be deemed to be one unit for this purpose.",
-            "4 Plot area.- The area of plot for one unit shall not exceed 85 sq. metres.",
-            "5 Maximum floors.- The maximum number of floors permitted shall be two and a staircase room.",
-            "6 Certain provisions not to apply.- Provisions regarding F.S.I., Coverage, access width, height restriction with regard to width of road and the yard abutting the road, dimension of building parts, light and ventilation and off street parking contained in these rules shall not be applicable to row buildings.",
-            "7 Submission of applications etc.- Application for permit and other documents required as per these rules may be submitted either jointly or individually.",
-            "8 Reconstruction, etc. of existing row buildings.- Notwithstanding anything contained in these rules, in the case of existing row buildings, under Group A1 – Residential occupancy, reconstruction, repair, alternation or addition, both horizontal and vertical shall be permitted irrespective of whether it is on the side of a street where row buildings are permitted or not, and irrespective of the plot area, and setbacks provided. In such case, the number of floors shall be limited to two."
-          ],
+          "paragraphs": [],
           "tables": []
         }
       ]
@@ -2414,8 +2412,10 @@
         },
         {
           "number": "60",
-          "title": "Memorandum of Understanding. - There shall be Memorandum of Understanding between the developer and the Secretary of the Local Self Government Institution concerned with adequate provisions for bringing the project into effect",
-          "paragraphs": [],
+          "title": "Memorandum of Understanding",
+          "paragraphs": [
+            "- There shall be Memorandum of Understanding between the developer and the Secretary of the Local Self Government Institution concerned with adequate provisions for bringing the project into effect."
+          ],
           "tables": []
         },
         {
@@ -2435,10 +2435,9 @@
       "title": "CONSTRUCTION IN PLOTS PART OF WHICH HAVE BEEN SURRENDERED FREE OF COST FOR ROAD DEVELOPMENT",
       "sections": [
         {
-          "number": "0",
-          "title": "Introduction",
+          "number": "62",
+          "title": "Provisions to apply as modified for constructions in certain plots",
           "paragraphs": [
-            "62 . Provisions to apply as modified for constructions in certain plots .-",
             "(1) In the case of buildings newly proposed or alteration or addition proposed on existing buildings in plots left after part of the same plot has been surrendered free of cost to the Panchayat, Development Authority, or Government Department or Quasi-Government organization for new road formation or road widening or junction improvement or formation or development of any facility relating to road structure, other provisions in these rules shall apply subject to the modifications in this chapter: Provided that the applicants seeking benefit under this chapter shall apply in writing to the Secretary in the form in Appendix A2: Provided further that the provisions under this chapter shall not apply to the road envisaged in any layout as per these rules: Provided also that the benefit under the provisions in this chapter shall not be allowed to the constructions in such plots, if the land is not surrendered for the implementation of the scheme in total: Provided also that such road formation or road widening or junction improvement or formation or development of facility relating to road structure shall form part of the annual plan or five year plan of the implementing agency concerned or shall have a budgetary allocation and shall form part of and conform to any Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016) , if any such plan / scheme/ order exists: Provided also that any deviation from the proposals of a Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016), in the new road formation or road widening or junction improvement or formation or development of any facility relating to road structure, shall be carried out only affecting variation or revision, as the case may be, of such plan / scheme / order: Provided also that in the case of roads which have no widening proposals as per any Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016), or which falls in areas which are not covered by any such plan / scheme / order, it shall be a project proposed or taken up, with the prior approval of the Local Self Government Department in consultation with the Chief Town Planner of the state:",
             "(i) by the local self-government institutions or Development Authority by resolution;or",
             "(ii) Sanctioned or undertaken by a Government Department, Quasi- Government Organization or institution; or",
@@ -2519,7 +2518,14 @@
           "title": "Certain buildings and sheds exempted",
           "paragraphs": [
             "Permit, as per these rules, is not necessary for the construction of any building used or intended to be used exclusively for the purposes of a plant house or metre house, bathrooms or toilets or cabin for watch and ward or sheds for keeping fuel or firewood for the domestic use of its owner or for keeping agricultural implements, tools, rubbish or other materials or for watching crops or kennel for keeping not more than six dogs or cattle shed for keeping not more than six cattle and their calves or cage/aviary for keeping not more than twenty hens or ducks, all incidental to Group A1 residential occupancy building: Provided that area of such structures shall be limited to fifteen per cent of the open space. Provided further that the height of such structure",
-            "(s) shall be limited to 2.5 metres. Provided also that the distance from the boundary abutting the road to the accessory building shall be equal to that necessary for a single storeyed residential building. Provided also that the accessory building shall have minimum 1metre distance from the boundaries and other building(s). 68. Temporary hut or shed .-",
+            "(s) shall be limited to 2.5 metres. Provided also that the distance from the boundary abutting the road to the accessory building shall be equal to that necessary for a single storeyed residential building. Provided also that the accessory building shall have minimum 1metre distance from the boundaries and other building(s)."
+          ],
+          "tables": []
+        },
+        {
+          "number": "68",
+          "title": "Temporary hut or shed",
+          "paragraphs": [
             "(1) The Secretary may grant permission to a person to erect for a specified period or huts or sheds of a purely temporary nature for stabling or similar purposes or hot mix plant or concrete mix plant, on general conditions as may be fixed by the Council.",
             "(2) The Secretary may, on the failure of the person to demolish or dismantle the shed or hut or hot mix plant or concrete mix plant at the expiry of the period specified, cause it to be demolished or dismantled and the cost thereof shall be recovered from such person as if it were an arrear of property tax due under the Act",
             "(3) Application for permission to erect temporary hut or shed or hot mix plant or concrete mix plant shall be submitted in white paper typed or written in ink, affixed with necessary court fee stamp and accompanied by document to prove ownership or consent of the owner, if the land is not owned by the applicant.",
@@ -2550,8 +2556,14 @@
             "(4) Application fee shall be as in Schedule – I",
             "(5) The Secretary shall, if convinced of the plan and genuineness of the ownership, issue permit not later than 15 days from the date of receipt of the application.",
             "(6) A wall or fence abutting a street junction shall be sufficiently splayed as in rule 23(4).",
-            "(7) The permit fee shall be as in Schedule - II . 71. Completion report : - The owner shall on completion of the work submit a completion report to the Secretary, in white paper typed or written in ink, specifying the date of completion."
+            "(7) The permit fee shall be as in Schedule - II ."
           ],
+          "tables": []
+        },
+        {
+          "number": "71",
+          "title": "Completion report : - The owner shall on completion of the work submit a completion report to the Secretary, in white paper typed or written in ink, specifying the date of completion",
+          "paragraphs": [],
           "tables": []
         }
       ]
@@ -2707,8 +2719,9 @@
       "sections": [
         {
           "number": "77",
-          "title": "Rooftop Solar Energy Installations. (1)The following categories of new buildings with total built-up area exceeding 500 sq. metres shall be provided with Rooftop Solar Energy Installations (Rooftop photovoltaic power station, or rooftop PV system) so as to generate minimum 5% of the connected load: - Group A1 Apartment houses or residential flats Group A2 All buildings under Lodging houses and special residential Group C Medical or hospital buildings (with inpatients) Group D Community halls, Auditorium, wedding halls Provided that, there shall be provision for Rooftop Solar Energy Installations in the case of single family residential building having built-up area for more than 400 sq.metres",
+          "title": "Rooftop Solar Energy Installations",
           "paragraphs": [
+            "(1)The following categories of new buildings with total built-up area exceeding 500 sq. metres shall be provided with Rooftop Solar Energy Installations (Rooftop photovoltaic power station, or rooftop PV system) so as to generate minimum 5% of the connected load: - Group A1 Apartment houses or residential flats Group A2 All buildings under Lodging houses and special residential Group C Medical or hospital buildings (with inpatients) Group D Community halls, Auditorium, wedding halls Provided that, there shall be provision for Rooftop Solar Energy Installations in the case of single family residential building having built-up area for more than 400 sq.metres.",
             "(2) Such buildings shall have open area on the roof top, which receives direct sunlight where the Rooftop Solar Energy Installations can be installed.",
             "(3) The Secretary shall, before issuing occupancy certificate, ensure that all new buildings mentioned in sub rule",
             "(1) have completed installation of Rooftop Solar Energy Installations."
@@ -2717,8 +2730,9 @@
         },
         {
           "number": "78",
-          "title": "Solar assisted water heating system in buildings - (1) All new buildings with total built-up area exceeding 500 sq. metres in the following categories in which there is a system of installation for supplying hot water shall also have an auxiliary solar assisted water heating system:- Group A1 Apartment houses or residential flats Group A2 All buildings under Lodging houses and special residential Group C Medical or hospital buildings (with inpatients) Group D Community halls, Auditorium, wedding halls Provided that, there shall be provision for solar water heater system in the case of single family residential building having built-up area for more than 400 sq.metres",
+          "title": "Solar assisted water heating system in buildings - (1) All new buildings with total built-up area exceeding 500 sq",
           "paragraphs": [
+            "metres in the following categories in which there is a system of installation for supplying hot water shall also have an auxiliary solar assisted water heating system:- Group A1 Apartment houses or residential flats Group A2 All buildings under Lodging houses and special residential Group C Medical or hospital buildings (with inpatients) Group D Community halls, Auditorium, wedding halls Provided that, there shall be provision for solar water heater system in the case of single family residential building having built-up area for more than 400 sq.metres.",
             "(2) Such buildings shall have open area on the rooftop, which receives direct sun light where the solar water heating system can be installed. There shall be provisions for continuous water supply to the solar water heating system and for distribution of hot water from the solar water heating system to various distribution points where hot water is required through insulated pipe lines.",
             "(3) The water storage capacity requirements of the solar water heating system shall be decided on each case by the registered Institution/Architect/Engineer/Building Designer/Supervisor, as the case may be. The recommended minimum capacity shall not be less than 25 litres per day for each bathroom and kitchen, subject to the condition that maximum of 50% of the total roof area is provided with the system.",
             "(4) Specifications: Installation of Solar Assisted Water Heating Systems shall conform to BIS specification IS 12933. The solar collectors used in the system shall have the BIS certification mark.",
@@ -2755,8 +2769,10 @@
       "sections": [
         {
           "number": "80",
-          "title": "High rise building - For the purposes of this Chapter, ‘high rise building” means a building having a height of 16 metres or more, or with more than 4 floors (excluding basement floor(s)), other than telecommunication towers /poles. In the case of high rise buildings, the provisions in these rules elsewhere shall apply subject to modification in this chapter",
-          "paragraphs": [],
+          "title": "High rise building - For the purposes of this Chapter, ‘high rise building” means a building having a height of 16 metres or more, or with more than 4 floors (excluding basement floor(s)), other than telecommunication towers /poles",
+          "paragraphs": [
+            "In the case of high rise buildings, the provisions in these rules elsewhere shall apply subject to modification in this chapter."
+          ],
           "tables": []
         },
         {
@@ -2905,8 +2921,9 @@
       "sections": [
         {
           "number": "89",
-          "title": "Deviation during construction and power of Secretary to require alteration in work. - (1) The applicant shall, if he intends to make any deviation from the approved plan or specification, submit revised plans and drawings and obtain permit afresh, against the previous permit. Provided that in such cases the permit fee in excess of the original permit fee already remitted need only be paid and the date of expiry of the permit shall be that of such previous permit; Provided further that no permit is necessary for effecting minor deviations such as shifting the position of access to plots in the case of lay outs and shifting the position of rooms, stairs, lifts, windows, doors or ventilators and their sizes in the case of building constructions if they do not conflict with these rules; Provided also that the deviations mentioned in the above proviso shall be incorporated in the completion plan and submitted along with completion certificate",
+          "title": "Deviation during construction and power of Secretary to require alteration in work",
           "paragraphs": [
+            "- (1) The applicant shall, if he intends to make any deviation from the approved plan or specification, submit revised plans and drawings and obtain permit afresh, against the previous permit. Provided that in such cases the permit fee in excess of the original permit fee already remitted need only be paid and the date of expiry of the permit shall be that of such previous permit; Provided further that no permit is necessary for effecting minor deviations such as shifting the position of access to plots in the case of lay outs and shifting the position of rooms, stairs, lifts, windows, doors or ventilators and their sizes in the case of building constructions if they do not conflict with these rules; Provided also that the deviations mentioned in the above proviso shall be incorporated in the completion plan and submitted along with completion certificate.",
             "(2) Where it comes to the notice of the Secretary that a work:-",
             "(i) is not in accordance with the plans or specifications approved;",
             "(ii) is in contravention of any of the provisions of the Act or these rules, bye-law or declaration made there under; he may, by notice, require the person for whom such work is done:-",
@@ -2959,8 +2976,10 @@
       "sections": [
         {
           "number": "92",
-          "title": "Power of the Secretary to regularise certain constructions. - The Secretary shall have the power to regularise construction or reconstruction or addition or alteration of any building or digging of any well or telecommunication tower or any structure or land development or any other work for which permission of the Secretary is necessary under this rule commenced, being carried on or completed without obtaining approved plan or in deviation of the approved plan: Provided that such work shall not be in violation of any of the provisions of the Act or these rules. Provided further that permit may be granted for continuing works already commenced without obtaining permit after levying fee equivalent to the compounding fee for regularization as per these rules for such part already constructed and permit fee for the remaining unconstructed part; Provided further that such power shall not relieve the Secretary of his responsibility in detecting and preventing such work and in taking other actions as per these rules: Provided also that where the work was commenced, being carried on or completed after the statutory period specified in rules 14, 49(6), 70 or 87 and as per rules, such work shall be considered as duly permitted and not one requiring regularisation",
-          "paragraphs": [],
+          "title": "Power of the Secretary to regularise certain constructions",
+          "paragraphs": [
+            "- The Secretary shall have the power to regularise construction or reconstruction or addition or alteration of any building or digging of any well or telecommunication tower or any structure or land development or any other work for which permission of the Secretary is necessary under this rule commenced, being carried on or completed without obtaining approved plan or in deviation of the approved plan: Provided that such work shall not be in violation of any of the provisions of the Act or these rules. Provided further that permit may be granted for continuing works already commenced without obtaining permit after levying fee equivalent to the compounding fee for regularization as per these rules for such part already constructed and permit fee for the remaining unconstructed part; Provided further that such power shall not relieve the Secretary of his responsibility in detecting and preventing such work and in taking other actions as per these rules: Provided also that where the work was commenced, being carried on or completed after the statutory period specified in rules 14, 49(6), 70 or 87 and as per rules, such work shall be considered as duly permitted and not one requiring regularisation."
+          ],
           "tables": []
         },
         {
@@ -3009,8 +3028,10 @@
       "sections": [
         {
           "number": "97",
-          "title": "Plans and drawings to be prepared and signed by Architect, etc. - In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department",
-          "paragraphs": [],
+          "title": "Plans and drawings to be prepared and signed by Architect, etc",
+          "paragraphs": [
+            "- In these rules, wherever it is required that a plan or drawing or specification shall be one prepared and signed by or a certificate shall be one so certified and signed by an Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor and such Institution, Architect, Building Designer, Engineer, Town Planner or Supervisor shall be a person registered or deemed to have been registered under the provisions in this chapter. An Institution under any university in the state, offering Bachelor’s degree and/or Master’s degree in Architecture and/or Civil Engineering may also register under the provisions in this chapter. In such situations, the Head of Department of Architecture or Civil Engineering as the case may be, shall certify and sign the plan or drawing or specification, affixing the official seal of the department."
+          ],
           "tables": []
         },
         {
@@ -3049,8 +3070,10 @@
         },
         {
           "number": "101",
-          "title": "Registration in more than one category. - A person shall be eligible for registration in more than one category if he possesses the requisite qualification and submits separate application, and fee for registration in each such category",
-          "paragraphs": [],
+          "title": "Registration in more than one category",
+          "paragraphs": [
+            "- A person shall be eligible for registration in more than one category if he possesses the requisite qualification and submits separate application, and fee for registration in each such category."
+          ],
           "tables": []
         },
         {
@@ -3120,8 +3143,9 @@
         },
         {
           "number": "106",
-          "title": "Stoppage of dangerous or defective works. - (1) Notwithstanding anything contained in these rules, the Secretary may, at any time stop the construction or reconstruction or alteration of any building, if in his opinion, the work in progress is a danger to human life",
+          "title": "Stoppage of dangerous or defective works",
           "paragraphs": [
+            "- (1) Notwithstanding anything contained in these rules, the Secretary may, at any time stop the construction or reconstruction or alteration of any building, if in his opinion, the work in progress is a danger to human life.",
             "(2) The Secretary shall have the power to condemn any work or material which in his opinion is unsatisfactory or as per the direction given by the Chief Town Planner (Vigilance)or is likely to constitute a danger to health and any work or material so condemned shall be remedied, amended or made good or shall be removed in full or in part and replaced by new work or material, to the Satisfaction of the Secretary."
           ],
           "tables": []
@@ -3191,7 +3215,14 @@
           "title": "Address:",
           "paragraphs": [
             "(i) Permanent address of the owner :",
-            "(ii) To which communications are to be sent : 3. Nature of development/construction:",
+            "(ii) To which communications are to be sent :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "3",
+          "title": "Nature of development/construction:",
+          "paragraphs": [
             "(i) Division of plot :",
             "(ii) New construction",
             "(iii) Reconstruction",
@@ -3213,14 +3244,22 @@
             "(ix) Registrar's Office :",
             "(x) Ward No. :",
             "(xi) Authorised number of the nearest building :",
-            "(xii) Nearest Electric Post/Telecom Post number : 5. Whether the land, if any, contiguous to this plot of the owner shown in the site plan (Rule 6(4)(a)(i)) : Yes /No 6. Usage of surrounding plots in general North : East : South : West : 7 .Whether Government or Quasi Government : 8. Details of the Construction",
+            "(xii) Nearest Electric Post/Telecom Post number :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "5",
+          "title": "Whether the land, if any, contiguous to this plot of the owner shown in the site plan (Rule 6(4)(a)(i)) : Yes /No 6",
+          "paragraphs": [
+            "Usage of surrounding plots in general North : East : South : West : 7 .Whether Government or Quasi Government : 8. Details of the Construction",
             "(i) Details of Proposed Building(s)",
             "(ii) Details of Existing Building(s)",
             "(iii) Total Built-up Area :",
             "(iv) Total Covered Area :",
             "(v) Total parking area provided inside the building",
             "(s) :",
-            "(vi) Total Built-up Area for F.S.I. : 9. Basic KMBR Verification w.r.t. proposed plot"
+            "(vi) Total Built-up Area for F.S.I. :"
           ],
           "tables": [
             {
@@ -3412,7 +3451,14 @@
                   ""
                 ]
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Basic KMBR Verification w.r.t. proposed plot",
+          "paragraphs": [],
+          "tables": [
             {
               "title": "Table",
               "headers": [
@@ -3720,10 +3766,23 @@
           "title": "Permissibility with respect to Kerala Conservation of Paddy Land and Wet Land Act 2008 / KLU order 1967. :",
           "paragraphs": [
             "(i) Type of land as per BTR :",
-            "(ii) Type of land as per Data Bank : 13. If the application is for regularisation,",
-            "(i) Whether construction completed or not :",
-            "(ii) If not completed, the stage of construction : 14. Details of permit/approved plan already obtained."
+            "(ii) Type of land as per Data Bank :"
           ],
+          "tables": []
+        },
+        {
+          "number": "13",
+          "title": "If the application is for regularisation,",
+          "paragraphs": [
+            "(i) Whether construction completed or not :",
+            "(ii) If not completed, the stage of construction :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "14",
+          "title": "Details of permit/approved plan already obtained",
+          "paragraphs": [],
           "tables": []
         },
         {
@@ -3779,11 +3838,27 @@
         },
         {
           "number": "18",
-          "title": "DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX- A2 FORM OF APPLICATION FOR CONSTRUCTION IN PLOTS PARTS OF WHICH HAVE BEEN SURRENDERED FREE OF COST FOR ROAD DEVELOPMENT [See rule 62(1)] (To be submitted along with the application for permit) ..…………………………………………………………. Panchayat 1. Name of applicant(s)(in capital letters) : 2. Address:",
+          "title": "DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction",
           "paragraphs": [
+            "Place: Signature of the applicant with name Date:"
+          ],
+          "tables": []
+        },
+        {
+          "number": "19",
+          "title": "CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct",
+          "paragraphs": [
+            "Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX- A2 FORM OF APPLICATION FOR CONSTRUCTION IN PLOTS PARTS OF WHICH HAVE BEEN SURRENDERED FREE OF COST FOR ROAD DEVELOPMENT [See rule 62(1)] (To be submitted along with the application for permit) ..…………………………………………………………. Panchayat 1. Name of applicant(s)(in capital letters) : 2. Address:",
             "(i) Permanent address of the applicant",
             "(s) :",
-            "(ii) To which communications are to be sent : 3. Details of land surrendered under Rule 62",
+            "(ii) To which communications are to be sent :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "3",
+          "title": "Details of land surrendered under Rule 62",
+          "paragraphs": [
             "(1) :",
             "(i) Details of Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 as per rule 62",
             "(1)",
@@ -3804,8 +3879,14 @@
             "(d) Percentage of land surrendered :",
             "(iv) Survey No./Re Survey No. of the surrendered land :",
             "(v) Name of the owner of the land so surrendered :",
-            "(vi) Details of Relinquishment : (Enclose copies of relinquishment) : 4. Applicability of special provisions :"
+            "(vi) Details of Relinquishment : (Enclose copies of relinquishment) :"
           ],
+          "tables": []
+        },
+        {
+          "number": "4",
+          "title": "Applicability of special provisions :",
+          "paragraphs": [],
           "tables": [
             {
               "title": "Table",
@@ -3879,8 +3960,10 @@
         },
         {
           "number": "5",
-          "title": "DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.: (seal) Address: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX –A3 [See rule 5(1)(a)] APPLICATION FORM FOR PERMIT FOR DEVELOPMENT/ REDEVELOPMENT OF LAND To The Secretary, ..…………………………………………………………. Panchayat Sir, I intend to develop/ redevelop the land in Survey/Re survey Number………………………of ............................................. Village in .................................................Taluk............................ owned by me. I forward herewith the site plan, service plan and specification in duplicate duly signed by me and by…………………….…………….(Name in Block letters of the registered Institution /Architect/ Building Designer/ Engineer/ Town Planner/ Supervisor) having Register No………….……………together with the required documents. I hereby undertake to abide by the provisions of the Kerala Panchayat Building Rules, 2019 in all respect. I request that the development/ redevelopment may be approved and development permit may be granted to me. Signature…………..…………………… Name of owner……………………... Place: (in Block letters) Date: Address…………………………….. Appendix-A4 (See rule 5(6)(2)) APPLICATION FOR LAYOUT APPROVAL AND USAGE OF PLOT/CONCURRENCE ………………………………………………………….District 1. Name in capital letters :",
-          "paragraphs": [],
+          "title": "DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction",
+          "paragraphs": [
+            "Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.: (seal) Address: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX –A3 [See rule 5(1)(a)] APPLICATION FORM FOR PERMIT FOR DEVELOPMENT/ REDEVELOPMENT OF LAND To The Secretary, ..…………………………………………………………. Panchayat Sir, I intend to develop/ redevelop the land in Survey/Re survey Number………………………of ............................................. Village in .................................................Taluk............................ owned by me. I forward herewith the site plan, service plan and specification in duplicate duly signed by me and by…………………….…………….(Name in Block letters of the registered Institution /Architect/ Building Designer/ Engineer/ Town Planner/ Supervisor) having Register No………….……………together with the required documents. I hereby undertake to abide by the provisions of the Kerala Panchayat Building Rules, 2019 in all respect. I request that the development/ redevelopment may be approved and development permit may be granted to me. Signature…………..…………………… Name of owner……………………... Place: (in Block letters) Date: Address…………………………….. Appendix-A4 (See rule 5(6)(2)) APPLICATION FOR LAYOUT APPROVAL AND USAGE OF PLOT/CONCURRENCE ………………………………………………………….District 1. Name in capital letters :"
+          ],
           "tables": [
             {
               "title": "Table",
@@ -3902,12 +3985,26 @@
           "title": "Address:",
           "paragraphs": [
             "(i) Permanent address of the owner :",
-            "(ii) To which communications are to be sent : 3. Nature of development/construction:",
+            "(ii) To which communications are to be sent :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "3",
+          "title": "Nature of development/construction:",
+          "paragraphs": [
             "(i) Division of plot :",
             "(ii) New construction :",
             "(iii) Reconstruction :",
             "(iv) Alteration /Addition/Extension :",
-            "(v) Change in occupancy : 4. Details of plot",
+            "(v) Change in occupancy :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "4",
+          "title": "Details of plot",
+          "paragraphs": [
             "(i) Name of Local Self Government Institution :",
             "(ii) Revenue Village :",
             "(iii)",
@@ -3919,13 +4016,21 @@
             "(viii) Nature of ownership :",
             "(ix) Ward No. :",
             "(x) Authorised number of the nearest building :",
-            "(xi) Nearest Electric Post/Telecom Post number : 5. Whether the land, if any, contiguous to this plot of the owner shown in the site plan (Rule 6(4)(a)(i)) : Yes /No 6. Usage of surrounding plots in general North : East : South : West : 7 .Whether Government or Quasi Government : 8. Details of the proposed construction",
+            "(xi) Nearest Electric Post/Telecom Post number :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "5",
+          "title": "Whether the land, if any, contiguous to this plot of the owner shown in the site plan (Rule 6(4)(a)(i)) : Yes /No 6",
+          "paragraphs": [
+            "Usage of surrounding plots in general North : East : South : West : 7 .Whether Government or Quasi Government : 8. Details of the proposed construction",
             "(i) Details of Proposed Building(s)",
             "(ii) Details of Existing Building(s)",
             "(iii) Total Built-up Area :",
             "(iv) Total parking area provided inside the building",
             "(s) :",
-            "(v) Total Built-up Area for F.S.I. 9. Basic KPBR Verification w.r.t. proposed plot"
+            "(v) Total Built-up Area for F.S.I."
           ],
           "tables": [
             {
@@ -4135,7 +4240,14 @@
                   ""
                 ]
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Basic KPBR Verification w.r.t. proposed plot",
+          "paragraphs": [],
+          "tables": [
             {
               "title": "Table",
               "headers": [
@@ -4388,8 +4500,14 @@
           "title": "If the application is for regularisation,",
           "paragraphs": [
             "(i) Whether construction completed or not :",
-            "(ii) If not completed, the stage of construction : 13. Details of permit/layout approval already obtained."
+            "(ii) If not completed, the stage of construction :"
           ],
+          "tables": []
+        },
+        {
+          "number": "13",
+          "title": "Details of permit/layout approval already obtained",
+          "paragraphs": [],
           "tables": []
         },
         {
@@ -4405,164 +4523,7 @@
           "number": "16",
           "title": "Details of NOC / Clearances obtained",
           "paragraphs": [
-            "If Yes, file no. of the application in the Local Self Goverment Institution : 18. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/Engineer/ APPENDIX B1 [See rule 6(17)] DEVELOPMENT PERMIT ……………………………………………………………….……………. Panchayat No……………….. Dated……………… Ref:- Application dated……………..……..from Sri/ Smt……………………………..……………. Permission is hereby granted for the development or redevelopment of land to the extent of ....…..................…Ares/ hectares comprised in Survey No./Re survey No. ....................………………Village……………………………Taluk……………………..District… …………………for……………………………………… use (specify)subject to the following conditions:-",
-            "(1) Existing trees should be retained as far as possible and more number of trees planted in the available space after development.",
-            "(2) The permit is subject to the satisfaction of the provisions in the Kerala Conservation of Paddy Land and Wet Land Act 2008 / KLU order 1967 and the permit issued thereunder.",
-            "(3) Adequate safety measures shall be ensured for protection against damage to health, life buildings and property of the inhabitants around, during and after development. The owner and the developer shall be solely responsible for any such damages",
-            "(4) ..……………………………………………………………………",
-            "(5) ……………………………………………………………………. Place: Date: Signature and name of Secretary (Seal) APPENDIX B2 [See rule 6(17)&9(4)] SITE APPROVAL AND BUILDING PERMIT …………………………………………………………. Panchayat No……………………………… Dated….……………… Ref:- Application dated……………………….from Sri./Smt. ……………………. Site approval and permission is granted for the construct/reconstruct/erection/re-erection/ addition/alteration of building/ hut/ digging of well/ ......…………………………(specify the construction) in building No………………………or near the building No………………..............................in Survey/Re survey No ……………………………………………. Village …………………………………Taluk……………………………………… District …………………………………………… for………………………………………(specify the occupancy) purpose subject to the conditions stated below:",
-            "(1) Adequate safety measures shall be ensured for protection against damage to health, life, buildings and property of the workers and inhabitants around, during and after building construction. The owner and the developer shall be solely responsible for any such damages.",
-            "(2) ……………………………………………………………………….",
-            "(3) ………………………………………………………………………..",
-            "(4) ………………………………………………………………………..",
-            "(a) Set backs",
-            "(m) (minimum & average) Building 1 Front Rear Side Side - 1 Side 2 Building 2 Front Rear Side Side - 1 Side 2 Building 3 Front Rear Side Side - 1 Side 2 (b ) Plot Area (sq m) -",
-            "(c) FAR : Coverage :",
-            "(d) Details of proposed building",
-            "Signature and name of Secretary (Seal) APPENDIX C [See rule 10 (7)] Concurrence / Usage of Plot No…………………………………………. Dated….……………….…… Name of the Local Self Government Institution: ___________________________________ Ref:-",
-            "(1) Application dated……………………….from Sri./Smt ……………………………………………….….…",
-            "(3) Permit No:……………………………………………………. Dated………………………………………………..….. Concurrence is granted for proceeding with the construction above the ground level as per the permit cited in ref",
-            "(2) for………………………………………………………………………………..(specify the construction) in building No:……………………………..………………………or near the building No…………..…… in Survey No/Re Survey No …….… ………………in ……………………………………..……Village in ......................Taluk in …………………………… District …………………………………for ………………………......……… (specify the occupancy) purpose subject to the conditions stated below:",
-            "(i) ……………………………………………………………………….",
-            "(ii) ……………………………………………………………………….",
-            "(iii) ………………………………………………………………………..",
-            "(iv) ………………………………………………………………………..",
-            "(1) Built-up area of the building is as follows:- Basement Ground Floor First Floor …………………………… ……………………………..",
-            "(2) FAR - Coverage -",
-            "(3) Access width",
-            "(m) - Place: Signature and name of Secretary Date:",
-            "(Seal) APPENDIX - D [See Rule 17",
-            "(5) (d)] NOTICE REGARDING THE INTENTION TO START WORK I hereby give notice that I intend to start the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building on………………………as per permit No……………………………………………dated…………………………………… Signature Place: Name and address of owner Date: APPENDIX E1 [See rules 17(5)(e),20(1)&88 (1)] COMPLETION CERTIFICATE BY THE OWNER CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building / erection of Telecommunication tower or pole structure has been completed on . . . . . . . . . . . . . . . . . as per the approved plan and permit number . . . . . . . . . . . .. . .. . .dated . . . . . . . . . . . . . . . . Place: Signature Date: Name and address of owner. APPENDIX E2 [See rules 17(5)(e)&20 (4)] PARTIAL COMPLETION CERTIFICATE BY THE OWNER CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building",
-            "(s) / erection of telecommunication tower or pole structure have been partly completed on . . . . . . . . . . . . . . . . . as in the approved plan and permit number . . . . . . . . . . . .. . .. . .dated . . . . . . . . . . . . . . . . Also certified that the above partially completed building",
-            "(s) comply in all respects with the provisions contained in the Kerala Panchayat Building Rules, 2019 and other applicable statutes and the work has been carried out as per the drawings signed and attached. Place: Signature Date: Name and address of owner APPENDIX E3 [See rule 20(1)&88(1)] COMPLETION CERTIFICATE BY INSTITUTION, ARCHITECT, ENGINEER, ETC. CERTIFICATE Certified that the development or redevelopment of land or construction or reconstruction or addition or alteration of building(s)/ erection of telecommunication tower or pole structure or work has been supervised by me and has been completed on . . . . . . . .. . . .. . . . . . . . . . . . as per the approved plan and permit No. . . . . .. . . .. . .………. dated…………………… Signature: Place:",
-            "(seal) Name: Date: Register No: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX E4 [See rule 20 (4)] PARTIAL COMPLETION CERTIFICATE BY INSTITUTION, ARCHITECT, ENGINEER, ETC. CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building(s)/erection of telecommunication tower or pole structure or work has been supervised by me and has been partially completed on . . . . . . . .. . . .. . . . . . . . . . . . as in the approved plan and permit No. . . . . .. . . .. . .………. dated…………………… Also certified that the above partially completed building",
-            "(s) comply in all respects with the provisions contained in the Kerala Panchayat Building Rules, 2019 and other applicable statutes and the work has been carried out as per the drawings signed and attached. Signature: Name: Place: Register No: Date: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX F1 [See rule 17(5)(f)&20 (2)] DEVELOPMENT CERTIFICATE ………………………………………………………………………… Panchayat Certified that the development or redevelopment of land under the Permit No……………..dated…………………issued to Sri ………………….……………………… and supervised by …………………………… has been inspected by me and that the work executed is in accordance with the permit and that the land is now fit for building construction. Place: Signature and name of Secretary Date:",
-            "(Seal) APPENDIX F2 [See rule 17",
-            "(5) (f), 20",
-            "(3) and 88 (2)] OCCUPANCY CERTIFICATE OR USE CERTIFICATE ………………………………………………………………………… Panchayat Reference: Completion certificate / Partial Completion certificate submitted by the applicant (Name) …………………................ dated ......................... and the licensee (Name & Reg. No.) .................................... dated ........................ Certified that the construction or reconstruction or addition or alteration of building or erection of telecommunication tower or pole structure or work under the permit No……….…… …………………………dated…………………………issued to…….……………………………………………and supervised by……………………………………………………………..has been inspected by me and that the work executed is in accordance with the permit and the building/ tower or pole structure is now fit for occupation/ use. Place: Signature of the Secretary Date:",
-            "(Seal) APPENDIX G1 [See rule 95 (3)] ………………………………………………………………………… Panchayat Abstract BUILDING CONSTRUCTION/ LAND DEVELOPMENT WITHOUT PERMISSION OR DEVIATION FROM APPROVED PLAN - REGULARISATION GRANTED - ORDERS ISSUED Ref:- Application dated…………………….…from Sri./Smt……………………………… No. ………………………………………………………Dated ………………………………. ORDER Whereas the application submitted by Sri/Smt ………………….………………………… for regularisation of a construction or reconstruction or alteration or addition of ……………………….. (specify the use)building / hut / shed / wall / erection of telecommunication tower or pole structure / digging of well / conversion of roof / conversion or erection of shutter or door/ land development / any other work (………………..……… specify )commenced/ being carried on / completed in the land comprised in Sy.No/Resurvey No. ……………………............... Village......................…………………………Taluk……………………………………… District ……………………………………………in the building bearing No……………………………………… / near the building bearing No………………has been duly considered by me and decision to regularise the same has been communicated in letter No.…………………………. dated………………………… And whereas the said Sri/Smt………………………………………………has remitted Rs…………………as compounding fee …………………………………….……….… vide receipt No………………………..… dated………………………………………….and has complied with the directions/conditions stipulated in the letter dated……………………………….. Now, therefore, in exercise of the powers conferred by Rule 95",
-            "(3) of Kerala Panchayat Building Rules, 2019 I …………………………………. (name), Secretary of the………………………………………………… Panchayat hereby order that the said person has been absolved from the liabilities in respect of the construction or reconstruction or alteration or addition of ….................…………………….. (specify the use) building/ hut/ shed / wall / erection of telecommunication tower or pole structure / digging of well/ conversion of roof / conversion or erection of shutter or door / land development / any other work (………………..……… specify )and that the construction or reconstruction or alteration or addition of ……………………….. (specify the use) building / hut / shed / wall / erection of telecommunication tower or pole structure / digging of well / conversion of roof / conversion or erection of shutter or door/ land development / any other work (………………..……… specify )has been regularised. Built-up area of the regularized part of the building is as follows:- Basement Floor : Ground Floor : First Floor : ……………… : ……………… : Total : [Continuation of the work, if any, as per the drawings submitted shall be subject to permit No:………….............. dated ………………………. being issued herewith.] (strike off if not applicable) Plans and details of the construction regularised are appended with this order. Signature of Secretary (Seal) APPENDIX –G2 [See rule 95 (3)] REGISTER FOR REGULARISED CONSTRUCTIONS ..................................………………………………………………… Panchayat",
-            "APPENDIX –H1-A [See rule 99(1)] GOVERNMENT OF KERALA Application for Registration as Architect/Engineer/Town Planner/Supervisor etc. under the Kerala Panchayat Building Rules, 2019 Affix Passport Size photo (One extra copy of the photo should be separately enclosed for issuing identity card) 1. Name of Applicant : 2. Permanent Address : 3. Address to which communications are to be sent : 4. Educational Qualifications (Attested copies should be enclosed) : 5. Age and Date of Birth (with proof) : 6. Sex : 7. Experience (Attested copies should be enclosed) : 8 References of previous licenses, if any : 9 Details of show cause notices received/ cancellation of licenses, etc if any : 10 Whether employed in the service of Government : or Quasi-Government or Government owned Corporation or Board, Authority or Government Companies or Banks or not (If so employed give particulars) 11 Whether retired from service or not (If retired, give details) : (Proof to be attached) 12. Specimen Signature :",
-            "(i)",
-            "(ii)",
-            "(iii) DECLARATION I,……………………………………………………………………………………..hereby declare that the details furnished above are correct, complete and true to the best of my knowledge and belief. Signature:…………………………………… Name:………………………….…… Place: Date: APPENDIX –H1-B [See rule 99(1)] GOVERNMENT OF KERALA Application for Registration as Institution (Architecture) / Institution (Civil Engineering) under the Kerala Panchayat Building Rules, 2019 1. Name of Institution : 2. Permanent Address : 3. Address to which communications : are to be sent 4. The University in Kerala to which the institution is affiliated and the date of affiliation(with proof) : 5. Whether the registration is required for : Institution (Architecture) / Institution (Civil Engineering) (Attested copies of document showing valid registration/recognition of Bachelor’s degree course in Architecture from Council of Architecture or that in Civil Engineering from AICTE, as the case may be, should be enclosed) 6 References of previous licenses, if any : 7 Details of show cause notices received/ cancellation of licenses, etc if any : 8. Name and Specimen Signature of the Head of Department of Architecture / Civil Engineering, as the case may be: Name:……………………………………… Signature:",
-            "(i)",
-            "(ii)",
-            "(iii) DECLARATION I,……………………………………………………………………………………..hereby declare that the details furnished above are correct, complete and true to the best of my knowledge and belief. Any change of person in the capacity of the Head of Department of Architecture or Civil Engineering, as the case may be, will be officially intimated to the registering authority with name and specimen signature of such person. Signature: ………………………………… Name:……………………………………… Designation:………………………………… (of the Principal / Head of the Institution) (Office seal) Place: Date:",
-            "(i) APPENDIX –H2 (See rule 81(11)& 100) QUALIFICATION AND FUNCTION OF ARCHITECT, ENGINEER, ETC. Category Qualifications Function",
-            "(1)",
-            "(2)",
-            "(3) Institution (Architecture)",
-            "(ii) Valid registration / recognition of Bachelor’s degree in Architecture in the institution from the Council of Architecture and affiliation of the institution to a university in the state",
-            "(iii)",
-            "(iv)",
-            "(v) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of one hectare. To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations. To prepare and sign all plans and information connected with the building permit. To prepare and sign structural design and calculations, for building",
-            "(s) upto 500 sq.m. and upto 3 storeys or 11 metres height. To issue certificates of supervision and completion for all types of buildings. Institution",
-            "(i) (Civil Engineering) To sign plans, drawings and specifications in connection with development permit for area upto the extent of one hectare. Valid registration / recognition of Bachelor’s degree in Civil Engineering in the institution from AICTE",
-            "(ii) and affiliation of the institution to a university in the state To issue certificates of supervision in connection with development permit for areas upto the extent of one hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
-            "(iii) To prepare and sign all plans information connected with building permit.",
-            "(i) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of one hectare.",
-            "(iv) To prepare and sign structural designs and calculations connected with all types of buildings other than high rise buildings",
-            "(v) To issue certificates of supervision and completion for all types of buildings. Architect Registration with the Council of Architecture, India as prescribed under Architect’s Act 1972 (Central Act 20 of 1972)",
-            "(ii) To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations.",
-            "(iii) To prepare and sign all plans and information connected with the building permit.",
-            "(iv) To prepare and sign structural design and calculations, for buildings upto 500 sq.m. and upto 3 storeys, or 11 metres height.",
-            "(v)",
-            "(i) To sign plans, drawings and To issue certificate of supervision and completion for all buildings. Building Designer-A",
-            "(i) Associated membership of the Indian Institute of Architects; or specifications in connection with development permit for areas upto the extent of one hectare.",
-            "(ii) Any Degree or Diploma required for membership of the Indian Institute of Architects; or",
-            "(ii) To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations.",
-            "(iii) Any of the qualifications",
-            "(iii) included in the schedule to Architects Act, 1972; or To prepare and sign all plans and information connected with the building permit.",
-            "(iv) Degree in Architectural",
-            "(iv) To prepare and sign structural Engineering",
-            "(i) design and calculations, for building upto 500 sq.m. and upto 3 storeys, or 11 metres height",
-            "(v) To issue certificate of supervision and completion for all buildings. Building Designer-B",
-            "(ii) Any person retired from Government or Quasi Government service from a post not below the rank of Assistant Architect and not possessing the qualifications for registration as Architect shall be eligible for registration as Building Designer- B. To sign plans, drawings and specifications in connection with development permit for area upto the extent of 0.5 hectares. To issue certificates of supervision in connection with development permit for areas up to the extent of 0.5 hectares pertaining to road work, water supply, drainage, sewerage and light installation.",
-            "(iii) To prepare and sign all plans and information connected with buildings up to 1000 sq.metres in area or upto 4 floors and stair cabin or 14.5 metres. height excluding the height of the stair cabin.",
-            "(iv) To issue certificate of supervision and completion for all buildings coming under item",
-            "(iii) above. Engineer A",
-            "(i) Corporate membership (Civil) of the Institution of Engineers; or",
-            "(i) To sign plans, drawings and specifications in connection with development permit for area upto the extent of one hectare.",
-            "(ii) Any degree or equivalent",
-            "(ii) qualification in Civil Engineering which is required for the corporate membership of the Institution of Engineers; or To issue certificates of supervision in connection with development permit for areas upto the extent of one hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
-            "(iii) Any person having valid",
-            "(iii) To prepare and sign all plans information connected with building permit. registration as Engineer under the Kerala Municipal Building Rules, 1999 shall be eligible for registration as Engineer- A.",
-            "(iv) To prepare and sign structural designs and calculations connected with all types of buildings other than high rise buildings",
-            "(v) To issue certificates of supervision and completion for all types of buildings. Structural",
-            "(i) To sign all structural drawings Engineer",
-            "(i) Post Graduate in Structural Engineering from a recognized institution",
-            "(i)",
-            "(ii) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of 0.5 hectare. To issue certificates of supervision in connection with development permit for an area upto the extent of 0.5 hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
-            "(ii) To issue certificate with respect to the structural stability of the building Engineer B Any person retired from Government or Quasi government service from a post not below the rank of Assistant Engineer/Assistant Town Planner and not possessing the qualifications for registration as Engineer-A shall be eligible for registration as Engineer- B.",
-            "(iii) To prepare and sign all plans, information connected with building permit for buildings upto 1000 sq.metres in area and upto 4 floor and stair cabin and 14.5 metres height, excluding height of stair cabin.",
-            "(iv) To issue certificates of supervision and completion for buildings coming under item",
-            "(iii) above. Town Planner",
-            "(i) Associate membership of",
-            "(i) To sign plans, drawings and A specifications in connection with development permit of all area. the Institute of Town Planner; or",
-            "(ii) Any degree or diploma in",
-            "(ii) To issue certificate of supervision for development permit of all areas. Town and Country Planning which is required for associate membership of the Institute of Town Planners. Town Planner",
-            "(i) B",
-            "(ii) To sign plans, drawings and specifications in connection with development permit for an area up to one hectare To issue certificate of supervision for development permit for an area up to 1 hectare. Any person retired from Government or Quasi Government service from a post not below the rank of Assistant Town Planner and not possessing the qualifications for registration as Town Planner-A shall be eligible for registration as Town Planner- B",
-            "(i)",
-            "(i) Supervisor Senior",
-            "(ii)",
-            "(ii) Diploma in Civil Engineering and having 6 years’ experience as supervisor-A, or others having 10 years’ experience as supervisor- A. To prepare and sign building plans and other specifications connected with buildings upto total built up area 1000 sq.m. and upto four floors and stair cabin and 14.5 metres height, excluding the height of stair cabin. To issue certificates of supervision and completion for buildings coming under item",
-            "(i) above. Supervisor A",
-            "(i)",
-            "(i)",
-            "(ii) Diploma in Civil Engineering/Architecture and having completed 4 years’ experience as supervisor-B; or Any person having eight years’ experience as supervisor B; or To prepare and sign building plans and other specifications connected with buildings upto total built up area 750 sq.m. andupto three floors and stair cabin and 11metres height, excluding the height of stair cabin.",
-            "(iii) Any person having valid",
-            "(ii) To issue certificates of supervision and completion for all types of buildings coming under",
-            "(i) above. registration as Supervisor (Special) under Kerala Panchayat Building Rules, 2011; or",
-            "(iv) Any person retired from Government or Quasi - Government service from a post not below the rank of first grade Overseer (Civil) or first grade Draftsman (Civil) or first grade Building Inspector or first grade Town Planning Surveyor having completed 8 years in service in any of those post, shall be eligible for registration as Supervisor A. Note:-For counting experience, continuous practice as supervisor under Kerala Municipality Building Rules, 1999 shall also be taken into account. Supervisor B",
-            "(i) Three years Architectural Assistantship with two years’ experience under an Architect or Engineer; or",
-            "(ii) To issue certificates of supervision and completion for all types of buildings coming under",
-            "(i) above",
-            "(i) To prepare and sign plans and other specifications connected with buildings upto an area 300sq.m. and upto two floors and stair cabin and 7.5 metres height, excluding the height of stair cabin",
-            "(ii) Diploma in Civil Engineering/Architecture with two years’ experience under an Architect or Engineer; or",
-            "(iii) Draftsman in Civil Engineering from Industrial Training Institute with five years’ experience under an Architect or Engineer; or",
-            "(iv) K.G.C.E. in Civil Engineering Draftsmanship survey with Five years’ experience under an Architect or Engineer; or",
-            "(v) Certificate in Building Technology approved by Government; with 10years’ experience under an Architect or Engineer;or (va) Any qualification equivalent to that in item",
-            "(iii) with five years’ experience or that in item",
-            "(v) with ten years’ experience, under an Architect or Engineer;or",
-            "(vi) Any person having valid license as Supervisor under Kerala Panchayat Building Rules, 2011 is eligible for registration as Supervisor-B. Note – A person registered under the Architects Act, 1972 as Architect shall be deemed to be registered under this Rule. A person registered as Chartered Engineer with the Institution of Engineers (India) shall deemed to be registered under these rules. A Structural Engineer qualified from a recognised university shall deemed to be registered under these rules. A person registered as a corporate member (Assosiate / Fellow) of the Institute of Town Planners (India) shall be deemed to be registered under these rules. APPENDIX –H3 [See rule 99 (4)] CERTIFICATE OF REGISTRATION This is to certify that ……………………………… Sri/Smt ………………………………….………… (state the name and full address) has been registered as …………………………………………………………………. (state the category) under the provisions of the Kerala Panchayat Building Rules, 2019 Place: Signature of Date: Registering Authority with name (Seal) APPENDIX-I [See rule 5(4)(Note ii)] .....................………………………………………………… Panchayat DETAILS REGARDING APPLICATIONS FOR RENOVATION WITHOUT INVOLVING ADDITIONAL BUILT-UP AREA OR STRUCTURAL ALTERATIONS OF EXISTING BUILDINGS FOR RELIGIOUS PURPOSE OR PLACES OF WORSHIP (To be submitted by the applicant to the Secretary in triplicate) 1. Name of Applicant : 2. Address : 3. Village and Survey Number : 4. Extend of land : 5. Details of Renovation works : 6. Nature of ownership : 7. Built-up area of existing building(s)",
-            "Certified that the works for the above specified building",
-            "(s) involved only renovation works without any structural alterations or addition in the existing built-up area.",
-            "(Signature) Name and address of the owner Place: Date: For Office Purpose: 9. Forwarded to District Collector along with verified drawings and other relevant details, if any. File/Application No: Date of receipt of application : (Signature of Secretary) (office seal) 10. Acknowledgement of the receipt from District Collector (Signature) Name and designation of the authorized signatory Place: Date: 11. Action taken by the Secretary: APPENDIX – J1 [See rule 6(3)] CERTIFICATE (To be recorded in the drawings) Certified that:",
-            "(i) the plot boundaries, measurements and other details shown in the site plan are correct and",
-            "(ii) the drawings are in conformity with the provisions of the Master Plan/Detailed Town Planning Scheme/ Interim Development Order as applicable under the Kerala Town and Country Planning Act 2016.",
-            "(iii) the drawings are in conformity with the provisions of the Kerala Panchayat Building Rules, 2019 and other applicable statutes. (Signature ) Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX – J2 [See rule 9(2)] CERTIFICATE (To be recorded in the drawings) Certified that:",
-            "(i) the document",
-            "(s) in support of the ownership of the plot has/have been verified and that the applicant",
-            "(s) has/have every right of construction in this plot;",
-            "(ii) the plot boundaries, measurements and other details shown in the site plan have been verified at site and found correct and",
-            "(iii) the drawings are in conformity with the provisions of the Master Plan/Detailed Town Planning Scheme/ Interim Development Order as applicable under the Kerala Town and Country Planning Act 2016.",
-            "(iv) the drawings are in conformity with the provisions of the Kerala Panchayat Building Rules, 2019 and other applicable statutes. (Signature ) Secretary ..................................………………………………………………… Panchayat Office Seal Appendix (K)",
-            "(a) [See rule 5 (5)(2)] Approval forms for KSECBC Form 1 Application for seeking Building Permit in respect of erection/re-erection/making alteration of KSECBC Compliant Building. To The Secretary, ..................................………………………………………………… Panchayat Subject: Application for erection of KSECBC compliant Building in Survey/Re Survey No: ------ ---------- Block No ----------------- of ---------------------------- village in -------------------------------- ---- Panchayat Sir, I/we the undersigned hereby give you notice of my intention to erect / re- erect / alter KSECBC Compliant Building in plot under Survey/ Re Survey No: ----------- Block No ------- of -------------- village in ---------- Panchayat and request for issue of building permit for the construction of the building. The following documents are enclosed.",
-            "(i) Undertaking by owner for construction of KSECBC compliant building;",
-            "(ii) Construction Documents and Compliance Forms together with check-lists incorporating the installation of Energy Conservation Measures specified in the aforesaid rules;",
-            "(iii) Compliance Forms together with check-lists duly verified by Sri ----------- Regd. Number ----------------- KSECBC licensed engineer/ BEE certified building energy auditor and a certificate in Form II duly signed by him under his seal in this regard is enclosed. Yours faithfully, (Name of the owner) Address---------------- Tel.No/Mobile No---------------- Appendix (K)",
-            "(b) [See rule 5 (5)(2)] Form IA [Undertaking by owner for construction of ECBC compliant building] I am the owner of the aforesaid in plot under Survey/Re Survey No --------- Block -------- of ----- -------- village in ------------------ Panchayat. And the building on completion of construction shall have a connected load/contract demand of 100kW/120kVA or greater and is proposed to be constructed as KSECBC compliant building and shall be used or intended to be used for commercial purposes. The proposed building accordingly attracts the provisions of Kerala State Energy Conservation Building Code 2017. I/we undertake that the aforesaid building shall be constructed in accordance with the bye-laws of the Panchayat Authority and the provisions of KSECBC, 2017. In case any deviation is noticed during the construction of the Building, I/We shall indemnify the loss to the Authority having jurisdiction. I/we further undertake that the information supplied in the enclosed drawings and application is accurate to the best of my knowledge, and if any of the information supplied is found to be incorrect and such information result in loss to the Central or the State Government or any other authority under them, I/we undertake to indemnify such loss. Signature (Name of the owner) Address…………….. Mobile No/Tel No………… Appendix (K)",
-            "(c) [See rule 5 (5)(2)] Form II [Certificate from KSECBC licensed engineer /BEE certified building energy auditor to be enclosed with the application for Building Permit for KSECBC compliant building] Certificate I am Kerala State Energy Conservation Building Code (KSECBC) certified professional/ BEE certified building energy auditor having registration No/ ----------- under the Energy Conservation Act 2001 and am / are authorized to scrutinize and verify the design of KSECBC Compliant Building. I certify that –",
-            "(a) I have scrutinized the construction documents duly signed by the owner/design professional showing all the pertinent data and features of the building, equipment and systems in sufficient details covering Building Envelope, HVAC, Service hot water, Lighting and Electrical power in accordance with Panchayat Bye-laws and with the KSECBC, in respect of building proposed to be constructed on plot under Survey/Re Survey No: --------- Block No ------ of village in ---------------- Panchayat.",
-            "(b) I have scrutinized the compliance forms together with the check- lists to ensure compliance with the KSECBC.",
-            "(c) The requisite documents incorporating the energy conservation measures have been duly inspected by the undersigned.",
-            "(d) The Energy Performance Index Ratio of the building design as per construction documents at the design stage is equal to or less than one and is therefore in compliance with the KSECBC.",
-            "(e) It is certified that all the required scrutiny and verification on the documents submitted have been carried out diligently and truthfully and all reasonable professional skill, care and diligence have been taken in scrutinizing and verifying the drawings of the buildings and compliance forms together with check-lists covering the various components of the KSECBC.",
-            "(f) The contents of all the documents submitted along with the application are a true representation of the facts and nothing has been concealed.",
-            "(g) There is no objection for issue of Building Permit in respect of the aforesaid proposed Building in so far as requirements of KSECBC are concerned. Signature. Name of the KSECBC certified Licensed Engineer/ BEECertified building energy auditor Registration No/SEAL. Date. Appendix (K)",
-            "(d) [See rule 17(19)] Form III Notice of completion To The Secretary, -------------- Panchayat Subject: Erection of Kerala State Energy Conservation Building Code (KSECBC) Compliant Building in plot under Survey/Re Survey No:------------ Block No--------------- ---------of -------------- village in ------------------- Panchayat notice for completion of works. Sir, I / we hereby give notice that the erection of the building on Plot no. _____Block No.______ Scheme________ Street________ Name of the town/city_______ including execution and implementation of the energy conservation measures have been completed in accordance with the plans sanctioned vide your office communication No........ dated..........The following documents are enclosed: -",
-            "(i) A certificate of inspection on completion of the aforesaid building from Sri _________KSECBC Licensed Engineer/BEE certified building energy auditor vide Panchayat Authority Order No ____________dated ________is enclosed. The building is fit for use for which it has been erected/re-erected/constructed. It is requested that permission to occupy or use the aforesaid building may be granted. Yours faithfully, Signature............... Name of the owner Plot no. Block no. Address APPENDIX - L [See rule 5(4)] SELF DECLARATION FORM I do hereby declare that all the measurements mentioned in the civil plan are correct, and complete. I also hereby declare that all the required fire protection arrangements as listed in the National building code are installed in the building and are ready for inspection and testing.",
-            "(Signature) (Signature ) Name of Owner. Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/ Town Planner/ Supervisor) AFFIDAVIT Name and address of the applicant : Occupancy of the building : Survey Number : Village : Panchayat/Municipality : I/We do hereby affirm that, 1. the materials proposed to be used or installed for the construction of the building will be as per required fire resistant rating in NBC of India – 2005, Part IV Annexure C 2. all the proposed installations and power supply fixed for the proposed building will be as per NBC of India 2005 Part IV Annexure C 3. all the proposed Air conditioning, Smoke Management, Ventilation and staircase Pressurization systems for the building, if installed, will be as per NBC of India Part IV Annexure C 4. all the proposed lightning protection installations for the building will be as per NBC of India 2005 Part IV Annexure C 5. the proposed gas bank for the building, supply lines and other fitting associated with it, if installed will be as per NBC of India 2005 Part IV Annexure C Place: Signature of Applicant Date: Name: Note: If on any subsequent inspection the fire protection arrangements are found to be ineffective, the owner of the building shall be liable to pay fine @ Rs.100 per sq. meter build up area, not exceeding Rs.1,00,000/- in total. Appendix M See rule 3",
-            "(5) CRITERIA FOR CONSIDERING AN APPLICATION FOR EXEMPTION Application Fees :The applicants seeking exemption under this rule shall apply in writing to the Secretary in form in Appendix N along with challan receipt remitting the application fee in the Government treasury as detailed below. i) Single family residential building of built up area up to 100 sqm …. No application fee ii) Single family residential building of built up area up to 100 -300 sqm - Rs 1000 iii) All other buildings with built up area up to 100 sqm - Rs 2000 iv) All other buildings with built up area exceeding 100 sqm but up to 1000 sqm …Rs10000 v) All other buildings with built up area exceeding 1000 sqm - Rs 20000 Technical remarks: The Secretary shall submit the applications to the Chief Town Planner and Chief Town Planner shall submit the application to the Government with technical remarks for consideration. Rules exempted: The following occupancies / rules will not be considered for exemption",
-            "Criteria and Fee for exemption The appeal application will be considered for exemption from the rules based on the criteria stipulated in table given below. The fee for exemption from various rules mentioned in the table will be cumulative and total fee will be calculated by summing of the exemptions fees individually for each rules as per the fee stipulated against each rules. However the exemption fee for Single family residential building & commercial building having built up area up to 100 sqm is limited to Rs 5000/- and exemption fee for Single family residential building having built up area above 100 upto 300 sqm is limited to Rs 20000/-.",
-            "Appendix N See rule 3",
-            "(5) APPLICATION FOR EXEMPTION FROM BUILDING RULES (to be submitted in duplicate) To The Secretary, …………………….. Corporation / Municipality. I have obtained permit No. ……………………………. dated ………………………. for the construction or reconstruction or addition or alteration to an existing building with building no. ………………… in ……………………………… Corporation / Municipality in Survey No. ……………………………….. Village ………………………….. Taluk ……………………… District ……………………………. and have carried out the construction in deviation to plans approved by the Secretary. I realise that the construction so carried out is in violation of the provisions contained in the building rules and / or the Act and the date of commencement of the construction is ……………… and date of Completion of construction is ………………. I realize that the said construction is an unauthorized one. I request that sanction may be accorded for granting exemption of the said constructions from the building rules. The application fee of …………………………………………… has been remitted vide ………………………………………………… Necessary documents and plans in triplicate are enclosed. The application details and checklist of the documents to be enclosed is given below:",
-            "Signature of Applicant …………………………….. Name of applicant (In Block letters)…………………………… SCHEDULE-I [[See rules 5(1), 15(6),70(4), 74(3),75(4)& 94] APPLICATION FEE",
-            "Note :-",
-            "(1) No separate application or fee for land development is required along with application for building permit except in cases specified otherwise in these rules.",
-            "(2) Separate application and fee is required only for the conversion or erection of shutters or doors or roof in an existing building under rules 72 and 74(3)."
+            "If Yes, file no. of the application in the Local Self Goverment Institution :"
           ],
           "tables": [
             {
@@ -4599,7 +4560,53 @@
                   ""
                 ]
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "title": "DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction",
+          "paragraphs": [
+            "Place: Signature of the applicant with name Date: 19. CERTIFICATE Certified that the site plan is prepared after verification of ownership document and site and the measurements shown are found to be correct. Signature: Name: Place: Reg.No.: Date: Address: (Registered Institution, Architect, Engineer, Town Planner, Supervisor) 20. CERTIFICATE Certified that the building plan is prepared in accordance with the provisions in the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act, 1994 and the provisions contained in the sanctioned Town Planning Schemes, if any. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/ Engineer/Town Planner/Supervisor) 21. UNDERTAKING I,………………………………………………..hereby undertake that the building construction and/or land development will be carried on/ being carried on/ was carried on as per the approved plan and permit in accordance with the rules in force. Place: Signature: Date: Name: Reg.No.: Address: (Registered Institution/Architect/Engineer/ APPENDIX B1 [See rule 6(17)] DEVELOPMENT PERMIT ……………………………………………………………….……………. Panchayat No……………….. Dated……………… Ref:- Application dated……………..……..from Sri/ Smt……………………………..……………. Permission is hereby granted for the development or redevelopment of land to the extent of ....…..................…Ares/ hectares comprised in Survey No./Re survey No. ....................………………Village……………………………Taluk……………………..District… …………………for……………………………………… use (specify)subject to the following conditions:-",
+            "(1) Existing trees should be retained as far as possible and more number of trees planted in the available space after development.",
+            "(2) The permit is subject to the satisfaction of the provisions in the Kerala Conservation of Paddy Land and Wet Land Act 2008 / KLU order 1967 and the permit issued thereunder.",
+            "(3) Adequate safety measures shall be ensured for protection against damage to health, life buildings and property of the inhabitants around, during and after development. The owner and the developer shall be solely responsible for any such damages",
+            "(4) ..……………………………………………………………………",
+            "(5) ……………………………………………………………………. Place: Date: Signature and name of Secretary (Seal) APPENDIX B2 [See rule 6(17)&9(4)] SITE APPROVAL AND BUILDING PERMIT …………………………………………………………. Panchayat No……………………………… Dated….……………… Ref:- Application dated……………………….from Sri./Smt. ……………………. Site approval and permission is granted for the construct/reconstruct/erection/re-erection/ addition/alteration of building/ hut/ digging of well/ ......…………………………(specify the construction) in building No………………………or near the building No………………..............................in Survey/Re survey No ……………………………………………. Village …………………………………Taluk……………………………………… District …………………………………………… for………………………………………(specify the occupancy) purpose subject to the conditions stated below:",
+            "(1) Adequate safety measures shall be ensured for protection against damage to health, life, buildings and property of the workers and inhabitants around, during and after building construction. The owner and the developer shall be solely responsible for any such damages.",
+            "(2) ……………………………………………………………………….",
+            "(3) ………………………………………………………………………..",
+            "(4) ………………………………………………………………………..",
+            "(a) Set backs",
+            "(m) (minimum & average) Building 1 Front Rear Side Side - 1 Side 2 Building 2 Front Rear Side Side - 1 Side 2 Building 3 Front Rear Side Side - 1 Side 2 (b ) Plot Area (sq m) -",
+            "(c) FAR : Coverage :",
+            "(d) Details of proposed building",
+            "Signature and name of Secretary (Seal) APPENDIX C [See rule 10 (7)] Concurrence / Usage of Plot No…………………………………………. Dated….……………….…… Name of the Local Self Government Institution: ___________________________________ Ref:-",
+            "(1) Application dated……………………….from Sri./Smt ……………………………………………….….…",
+            "(3) Permit No:……………………………………………………. Dated………………………………………………..….. Concurrence is granted for proceeding with the construction above the ground level as per the permit cited in ref",
+            "(2) for………………………………………………………………………………..(specify the construction) in building No:……………………………..………………………or near the building No…………..…… in Survey No/Re Survey No …….… ………………in ……………………………………..……Village in ......................Taluk in …………………………… District …………………………………for ………………………......……… (specify the occupancy) purpose subject to the conditions stated below:",
+            "(i) ……………………………………………………………………….",
+            "(ii) ……………………………………………………………………….",
+            "(iii) ………………………………………………………………………..",
+            "(iv) ………………………………………………………………………..",
+            "(1) Built-up area of the building is as follows:- Basement Ground Floor First Floor …………………………… ……………………………..",
+            "(2) FAR - Coverage -",
+            "(3) Access width",
+            "(m) - Place: Signature and name of Secretary Date:",
+            "(Seal) APPENDIX - D [See Rule 17",
+            "(5) (d)] NOTICE REGARDING THE INTENTION TO START WORK I hereby give notice that I intend to start the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building on………………………as per permit No……………………………………………dated…………………………………… Signature Place: Name and address of owner Date: APPENDIX E1 [See rules 17(5)(e),20(1)&88 (1)] COMPLETION CERTIFICATE BY THE OWNER CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building / erection of Telecommunication tower or pole structure has been completed on . . . . . . . . . . . . . . . . . as per the approved plan and permit number . . . . . . . . . . . .. . .. . .dated . . . . . . . . . . . . . . . . Place: Signature Date: Name and address of owner. APPENDIX E2 [See rules 17(5)(e)&20 (4)] PARTIAL COMPLETION CERTIFICATE BY THE OWNER CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building",
+            "(s) / erection of telecommunication tower or pole structure have been partly completed on . . . . . . . . . . . . . . . . . as in the approved plan and permit number . . . . . . . . . . . .. . .. . .dated . . . . . . . . . . . . . . . . Also certified that the above partially completed building",
+            "(s) comply in all respects with the provisions contained in the Kerala Panchayat Building Rules, 2019 and other applicable statutes and the work has been carried out as per the drawings signed and attached. Place: Signature Date: Name and address of owner APPENDIX E3 [See rule 20(1)&88(1)] COMPLETION CERTIFICATE BY INSTITUTION, ARCHITECT, ENGINEER, ETC. CERTIFICATE Certified that the development or redevelopment of land or construction or reconstruction or addition or alteration of building(s)/ erection of telecommunication tower or pole structure or work has been supervised by me and has been completed on . . . . . . . .. . . .. . . . . . . . . . . . as per the approved plan and permit No. . . . . .. . . .. . .………. dated…………………… Signature: Place:",
+            "(seal) Name: Date: Register No: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX E4 [See rule 20 (4)] PARTIAL COMPLETION CERTIFICATE BY INSTITUTION, ARCHITECT, ENGINEER, ETC. CERTIFICATE Certified that the development or redevelopment of land and/or construction or reconstruction or addition or alteration of building(s)/erection of telecommunication tower or pole structure or work has been supervised by me and has been partially completed on . . . . . . . .. . . .. . . . . . . . . . . . as in the approved plan and permit No. . . . . .. . . .. . .………. dated…………………… Also certified that the above partially completed building",
+            "(s) comply in all respects with the provisions contained in the Kerala Panchayat Building Rules, 2019 and other applicable statutes and the work has been carried out as per the drawings signed and attached. Signature: Name: Place: Register No: Date: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX F1 [See rule 17(5)(f)&20 (2)] DEVELOPMENT CERTIFICATE ………………………………………………………………………… Panchayat Certified that the development or redevelopment of land under the Permit No……………..dated…………………issued to Sri ………………….……………………… and supervised by …………………………… has been inspected by me and that the work executed is in accordance with the permit and that the land is now fit for building construction. Place: Signature and name of Secretary Date:",
+            "(Seal) APPENDIX F2 [See rule 17",
+            "(5) (f), 20",
+            "(3) and 88 (2)] OCCUPANCY CERTIFICATE OR USE CERTIFICATE ………………………………………………………………………… Panchayat Reference: Completion certificate / Partial Completion certificate submitted by the applicant (Name) …………………................ dated ......................... and the licensee (Name & Reg. No.) .................................... dated ........................ Certified that the construction or reconstruction or addition or alteration of building or erection of telecommunication tower or pole structure or work under the permit No……….…… …………………………dated…………………………issued to…….……………………………………………and supervised by……………………………………………………………..has been inspected by me and that the work executed is in accordance with the permit and the building/ tower or pole structure is now fit for occupation/ use. Place: Signature of the Secretary Date:",
+            "(Seal) APPENDIX G1 [See rule 95 (3)] ………………………………………………………………………… Panchayat Abstract BUILDING CONSTRUCTION/ LAND DEVELOPMENT WITHOUT PERMISSION OR DEVIATION FROM APPROVED PLAN - REGULARISATION GRANTED - ORDERS ISSUED Ref:- Application dated…………………….…from Sri./Smt……………………………… No. ………………………………………………………Dated ………………………………. ORDER Whereas the application submitted by Sri/Smt ………………….………………………… for regularisation of a construction or reconstruction or alteration or addition of ……………………….. (specify the use)building / hut / shed / wall / erection of telecommunication tower or pole structure / digging of well / conversion of roof / conversion or erection of shutter or door/ land development / any other work (………………..……… specify )commenced/ being carried on / completed in the land comprised in Sy.No/Resurvey No. ……………………............... Village......................…………………………Taluk……………………………………… District ……………………………………………in the building bearing No……………………………………… / near the building bearing No………………has been duly considered by me and decision to regularise the same has been communicated in letter No.…………………………. dated………………………… And whereas the said Sri/Smt………………………………………………has remitted Rs…………………as compounding fee …………………………………….……….… vide receipt No………………………..… dated………………………………………….and has complied with the directions/conditions stipulated in the letter dated……………………………….. Now, therefore, in exercise of the powers conferred by Rule 95",
+            "(3) of Kerala Panchayat Building Rules, 2019 I …………………………………. (name), Secretary of the………………………………………………… Panchayat hereby order that the said person has been absolved from the liabilities in respect of the construction or reconstruction or alteration or addition of ….................…………………….. (specify the use) building/ hut/ shed / wall / erection of telecommunication tower or pole structure / digging of well/ conversion of roof / conversion or erection of shutter or door / land development / any other work (………………..……… specify )and that the construction or reconstruction or alteration or addition of ……………………….. (specify the use) building / hut / shed / wall / erection of telecommunication tower or pole structure / digging of well / conversion of roof / conversion or erection of shutter or door/ land development / any other work (………………..……… specify )has been regularised. Built-up area of the regularized part of the building is as follows:- Basement Floor : Ground Floor : First Floor : ……………… : ……………… : Total : [Continuation of the work, if any, as per the drawings submitted shall be subject to permit No:………….............. dated ………………………. being issued herewith.] (strike off if not applicable) Plans and details of the construction regularised are appended with this order. Signature of Secretary (Seal) APPENDIX –G2 [See rule 95 (3)] REGISTER FOR REGULARISED CONSTRUCTIONS ..................................………………………………………………… Panchayat",
+            "APPENDIX –H1-A [See rule 99(1)] GOVERNMENT OF KERALA Application for Registration as Architect/Engineer/Town Planner/Supervisor etc. under the Kerala Panchayat Building Rules, 2019 Affix Passport Size photo (One extra copy of the photo should be separately enclosed for issuing identity card) 1. Name of Applicant :"
+          ],
+          "tables": [
             {
               "title": "Table",
               "headers": [
@@ -4807,7 +4814,125 @@
                   ""
                 ]
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Permanent Address : 3",
+          "paragraphs": [
+            "Address to which communications are to be sent : 4. Educational Qualifications (Attested copies should be enclosed) : 5. Age and Date of Birth (with proof) : 6. Sex : 7. Experience (Attested copies should be enclosed) : 8 References of previous licenses, if any : 9 Details of show cause notices received/ cancellation of licenses, etc if any : 10 Whether employed in the service of Government : or Quasi-Government or Government owned Corporation or Board, Authority or Government Companies or Banks or not (If so employed give particulars) 11 Whether retired from service or not (If retired, give details) : (Proof to be attached) 12. Specimen Signature :",
+            "(i)",
+            "(ii)",
+            "(iii) DECLARATION I,……………………………………………………………………………………..hereby declare that the details furnished above are correct, complete and true to the best of my knowledge and belief. Signature:…………………………………… Name:………………………….…… Place: Date: APPENDIX –H1-B [See rule 99(1)] GOVERNMENT OF KERALA Application for Registration as Institution (Architecture) / Institution (Civil Engineering) under the Kerala Panchayat Building Rules, 2019 1. Name of Institution :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "2",
+          "title": "Permanent Address : 3",
+          "paragraphs": [
+            "Address to which communications : are to be sent 4. The University in Kerala to which the institution is affiliated and the date of affiliation(with proof) : 5. Whether the registration is required for : Institution (Architecture) / Institution (Civil Engineering) (Attested copies of document showing valid registration/recognition of Bachelor’s degree course in Architecture from Council of Architecture or that in Civil Engineering from AICTE, as the case may be, should be enclosed) 6 References of previous licenses, if any : 7 Details of show cause notices received/ cancellation of licenses, etc if any :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "8",
+          "title": "Name and Specimen Signature of the Head of Department of Architecture / Civil Engineering, as the case may be: Name:……………………………………… Signature:",
+          "paragraphs": [
+            "(i)",
+            "(ii)",
+            "(iii) DECLARATION I,……………………………………………………………………………………..hereby declare that the details furnished above are correct, complete and true to the best of my knowledge and belief. Any change of person in the capacity of the Head of Department of Architecture or Civil Engineering, as the case may be, will be officially intimated to the registering authority with name and specimen signature of such person. Signature: ………………………………… Name:……………………………………… Designation:………………………………… (of the Principal / Head of the Institution) (Office seal) Place: Date:",
+            "(i) APPENDIX –H2 (See rule 81(11)& 100) QUALIFICATION AND FUNCTION OF ARCHITECT, ENGINEER, ETC. Category Qualifications Function",
+            "(1)",
+            "(2)",
+            "(3) Institution (Architecture)",
+            "(ii) Valid registration / recognition of Bachelor’s degree in Architecture in the institution from the Council of Architecture and affiliation of the institution to a university in the state",
+            "(iii)",
+            "(iv)",
+            "(v) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of one hectare. To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations. To prepare and sign all plans and information connected with the building permit. To prepare and sign structural design and calculations, for building",
+            "(s) upto 500 sq.m. and upto 3 storeys or 11 metres height. To issue certificates of supervision and completion for all types of buildings. Institution",
+            "(i) (Civil Engineering) To sign plans, drawings and specifications in connection with development permit for area upto the extent of one hectare. Valid registration / recognition of Bachelor’s degree in Civil Engineering in the institution from AICTE",
+            "(ii) and affiliation of the institution to a university in the state To issue certificates of supervision in connection with development permit for areas upto the extent of one hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
+            "(iii) To prepare and sign all plans information connected with building permit.",
+            "(i) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of one hectare.",
+            "(iv) To prepare and sign structural designs and calculations connected with all types of buildings other than high rise buildings",
+            "(v) To issue certificates of supervision and completion for all types of buildings. Architect Registration with the Council of Architecture, India as prescribed under Architect’s Act 1972 (Central Act 20 of 1972)",
+            "(ii) To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations.",
+            "(iii) To prepare and sign all plans and information connected with the building permit.",
+            "(iv) To prepare and sign structural design and calculations, for buildings upto 500 sq.m. and upto 3 storeys, or 11 metres height.",
+            "(v)",
+            "(i) To sign plans, drawings and To issue certificate of supervision and completion for all buildings. Building Designer-A",
+            "(i) Associated membership of the Indian Institute of Architects; or specifications in connection with development permit for areas upto the extent of one hectare.",
+            "(ii) Any Degree or Diploma required for membership of the Indian Institute of Architects; or",
+            "(ii) To issue certificates of supervision in connection with development permit for areas up to the extent of one hectare pertaining to road work, water supply drainage, sewerage and light installations.",
+            "(iii) Any of the qualifications",
+            "(iii) included in the schedule to Architects Act, 1972; or To prepare and sign all plans and information connected with the building permit.",
+            "(iv) Degree in Architectural",
+            "(iv) To prepare and sign structural Engineering",
+            "(i) design and calculations, for building upto 500 sq.m. and upto 3 storeys, or 11 metres height",
+            "(v) To issue certificate of supervision and completion for all buildings. Building Designer-B",
+            "(ii) Any person retired from Government or Quasi Government service from a post not below the rank of Assistant Architect and not possessing the qualifications for registration as Architect shall be eligible for registration as Building Designer- B. To sign plans, drawings and specifications in connection with development permit for area upto the extent of 0.5 hectares. To issue certificates of supervision in connection with development permit for areas up to the extent of 0.5 hectares pertaining to road work, water supply, drainage, sewerage and light installation.",
+            "(iii) To prepare and sign all plans and information connected with buildings up to 1000 sq.metres in area or upto 4 floors and stair cabin or 14.5 metres. height excluding the height of the stair cabin.",
+            "(iv) To issue certificate of supervision and completion for all buildings coming under item",
+            "(iii) above. Engineer A",
+            "(i) Corporate membership (Civil) of the Institution of Engineers; or",
+            "(i) To sign plans, drawings and specifications in connection with development permit for area upto the extent of one hectare.",
+            "(ii) Any degree or equivalent",
+            "(ii) qualification in Civil Engineering which is required for the corporate membership of the Institution of Engineers; or To issue certificates of supervision in connection with development permit for areas upto the extent of one hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
+            "(iii) Any person having valid",
+            "(iii) To prepare and sign all plans information connected with building permit. registration as Engineer under the Kerala Municipal Building Rules, 1999 shall be eligible for registration as Engineer- A.",
+            "(iv) To prepare and sign structural designs and calculations connected with all types of buildings other than high rise buildings",
+            "(v) To issue certificates of supervision and completion for all types of buildings. Structural",
+            "(i) To sign all structural drawings Engineer",
+            "(i) Post Graduate in Structural Engineering from a recognized institution",
+            "(i)",
+            "(ii) To sign plans, drawings and specifications in connection with development permit for areas upto the extent of 0.5 hectare. To issue certificates of supervision in connection with development permit for an area upto the extent of 0.5 hectare pertaining to road work, water supply, drainage, sewerage and light installations.",
+            "(ii) To issue certificate with respect to the structural stability of the building Engineer B Any person retired from Government or Quasi government service from a post not below the rank of Assistant Engineer/Assistant Town Planner and not possessing the qualifications for registration as Engineer-A shall be eligible for registration as Engineer- B.",
+            "(iii) To prepare and sign all plans, information connected with building permit for buildings upto 1000 sq.metres in area and upto 4 floor and stair cabin and 14.5 metres height, excluding height of stair cabin.",
+            "(iv) To issue certificates of supervision and completion for buildings coming under item",
+            "(iii) above. Town Planner",
+            "(i) Associate membership of",
+            "(i) To sign plans, drawings and A specifications in connection with development permit of all area. the Institute of Town Planner; or",
+            "(ii) Any degree or diploma in",
+            "(ii) To issue certificate of supervision for development permit of all areas. Town and Country Planning which is required for associate membership of the Institute of Town Planners. Town Planner",
+            "(i) B",
+            "(ii) To sign plans, drawings and specifications in connection with development permit for an area up to one hectare To issue certificate of supervision for development permit for an area up to 1 hectare. Any person retired from Government or Quasi Government service from a post not below the rank of Assistant Town Planner and not possessing the qualifications for registration as Town Planner-A shall be eligible for registration as Town Planner- B",
+            "(i)",
+            "(i) Supervisor Senior",
+            "(ii)",
+            "(ii) Diploma in Civil Engineering and having 6 years’ experience as supervisor-A, or others having 10 years’ experience as supervisor- A. To prepare and sign building plans and other specifications connected with buildings upto total built up area 1000 sq.m. and upto four floors and stair cabin and 14.5 metres height, excluding the height of stair cabin. To issue certificates of supervision and completion for buildings coming under item",
+            "(i) above. Supervisor A",
+            "(i)",
+            "(i)",
+            "(ii) Diploma in Civil Engineering/Architecture and having completed 4 years’ experience as supervisor-B; or Any person having eight years’ experience as supervisor B; or To prepare and sign building plans and other specifications connected with buildings upto total built up area 750 sq.m. andupto three floors and stair cabin and 11metres height, excluding the height of stair cabin.",
+            "(iii) Any person having valid",
+            "(ii) To issue certificates of supervision and completion for all types of buildings coming under",
+            "(i) above. registration as Supervisor (Special) under Kerala Panchayat Building Rules, 2011; or",
+            "(iv) Any person retired from Government or Quasi - Government service from a post not below the rank of first grade Overseer (Civil) or first grade Draftsman (Civil) or first grade Building Inspector or first grade Town Planning Surveyor having completed 8 years in service in any of those post, shall be eligible for registration as Supervisor A. Note:-For counting experience, continuous practice as supervisor under Kerala Municipality Building Rules, 1999 shall also be taken into account. Supervisor B",
+            "(i) Three years Architectural Assistantship with two years’ experience under an Architect or Engineer; or",
+            "(ii) To issue certificates of supervision and completion for all types of buildings coming under",
+            "(i) above",
+            "(i) To prepare and sign plans and other specifications connected with buildings upto an area 300sq.m. and upto two floors and stair cabin and 7.5 metres height, excluding the height of stair cabin",
+            "(ii) Diploma in Civil Engineering/Architecture with two years’ experience under an Architect or Engineer; or",
+            "(iii) Draftsman in Civil Engineering from Industrial Training Institute with five years’ experience under an Architect or Engineer; or",
+            "(iv) K.G.C.E. in Civil Engineering Draftsmanship survey with Five years’ experience under an Architect or Engineer; or",
+            "(v) Certificate in Building Technology approved by Government; with 10years’ experience under an Architect or Engineer;or (va) Any qualification equivalent to that in item",
+            "(iii) with five years’ experience or that in item",
+            "(v) with ten years’ experience, under an Architect or Engineer;or",
+            "(vi) Any person having valid license as Supervisor under Kerala Panchayat Building Rules, 2011 is eligible for registration as Supervisor-B. Note – A person registered under the Architects Act, 1972 as Architect shall be deemed to be registered under this Rule. A person registered as Chartered Engineer with the Institution of Engineers (India) shall deemed to be registered under these rules. A Structural Engineer qualified from a recognised university shall deemed to be registered under these rules. A person registered as a corporate member (Assosiate / Fellow) of the Institute of Town Planners (India) shall be deemed to be registered under these rules. APPENDIX –H3 [See rule 99 (4)] CERTIFICATE OF REGISTRATION This is to certify that ……………………………… Sri/Smt ………………………………….………… (state the name and full address) has been registered as …………………………………………………………………. (state the category) under the provisions of the Kerala Panchayat Building Rules, 2019 Place: Signature of Date: Registering Authority with name (Seal) APPENDIX-I [See rule 5(4)(Note ii)] .....................………………………………………………… Panchayat DETAILS REGARDING APPLICATIONS FOR RENOVATION WITHOUT INVOLVING ADDITIONAL BUILT-UP AREA OR STRUCTURAL ALTERATIONS OF EXISTING BUILDINGS FOR RELIGIOUS PURPOSE OR PLACES OF WORSHIP (To be submitted by the applicant to the Secretary in triplicate) 1. Name of Applicant :"
+          ],
+          "tables": []
+        },
+        {
+          "number": "2",
+          "title": "Address : 3. Village and Survey Number : 4. Extend of land : 5. Details of Renovation works : 6. Nature of ownership : 7. Built-up area of existing building(s)",
+          "paragraphs": [
+            "Certified that the works for the above specified building",
+            "(s) involved only renovation works without any structural alterations or addition in the existing built-up area.",
+            "(Signature) Name and address of the owner Place: Date: For Office Purpose:"
+          ],
+          "tables": [
             {
               "title": "Table",
               "headers": [
@@ -4842,7 +4967,56 @@
                   ""
                 ]
               ]
-            },
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "title": "Forwarded to District Collector along with verified drawings and other relevant details, if any",
+          "paragraphs": [
+            "File/Application No: Date of receipt of application : (Signature of Secretary) (office seal) 10. Acknowledgement of the receipt from District Collector (Signature) Name and designation of the authorized signatory Place: Date:"
+          ],
+          "tables": []
+        },
+        {
+          "number": "11",
+          "title": "Action taken by the Secretary: APPENDIX – J1 [See rule 6(3)] CERTIFICATE (To be recorded in the drawings) Certified that:",
+          "paragraphs": [
+            "(i) the plot boundaries, measurements and other details shown in the site plan are correct and",
+            "(ii) the drawings are in conformity with the provisions of the Master Plan/Detailed Town Planning Scheme/ Interim Development Order as applicable under the Kerala Town and Country Planning Act 2016.",
+            "(iii) the drawings are in conformity with the provisions of the Kerala Panchayat Building Rules, 2019 and other applicable statutes. (Signature ) Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/Town Planner/ Supervisor) APPENDIX – J2 [See rule 9(2)] CERTIFICATE (To be recorded in the drawings) Certified that:",
+            "(i) the document",
+            "(s) in support of the ownership of the plot has/have been verified and that the applicant",
+            "(s) has/have every right of construction in this plot;",
+            "(ii) the plot boundaries, measurements and other details shown in the site plan have been verified at site and found correct and",
+            "(iii) the drawings are in conformity with the provisions of the Master Plan/Detailed Town Planning Scheme/ Interim Development Order as applicable under the Kerala Town and Country Planning Act 2016.",
+            "(iv) the drawings are in conformity with the provisions of the Kerala Panchayat Building Rules, 2019 and other applicable statutes. (Signature ) Secretary ..................................………………………………………………… Panchayat Office Seal Appendix (K)",
+            "(a) [See rule 5 (5)(2)] Approval forms for KSECBC Form 1 Application for seeking Building Permit in respect of erection/re-erection/making alteration of KSECBC Compliant Building. To The Secretary, ..................................………………………………………………… Panchayat Subject: Application for erection of KSECBC compliant Building in Survey/Re Survey No: ------ ---------- Block No ----------------- of ---------------------------- village in -------------------------------- ---- Panchayat Sir, I/we the undersigned hereby give you notice of my intention to erect / re- erect / alter KSECBC Compliant Building in plot under Survey/ Re Survey No: ----------- Block No ------- of -------------- village in ---------- Panchayat and request for issue of building permit for the construction of the building. The following documents are enclosed.",
+            "(i) Undertaking by owner for construction of KSECBC compliant building;",
+            "(ii) Construction Documents and Compliance Forms together with check-lists incorporating the installation of Energy Conservation Measures specified in the aforesaid rules;",
+            "(iii) Compliance Forms together with check-lists duly verified by Sri ----------- Regd. Number ----------------- KSECBC licensed engineer/ BEE certified building energy auditor and a certificate in Form II duly signed by him under his seal in this regard is enclosed. Yours faithfully, (Name of the owner) Address---------------- Tel.No/Mobile No---------------- Appendix (K)",
+            "(b) [See rule 5 (5)(2)] Form IA [Undertaking by owner for construction of ECBC compliant building] I am the owner of the aforesaid in plot under Survey/Re Survey No --------- Block -------- of ----- -------- village in ------------------ Panchayat. And the building on completion of construction shall have a connected load/contract demand of 100kW/120kVA or greater and is proposed to be constructed as KSECBC compliant building and shall be used or intended to be used for commercial purposes. The proposed building accordingly attracts the provisions of Kerala State Energy Conservation Building Code 2017. I/we undertake that the aforesaid building shall be constructed in accordance with the bye-laws of the Panchayat Authority and the provisions of KSECBC, 2017. In case any deviation is noticed during the construction of the Building, I/We shall indemnify the loss to the Authority having jurisdiction. I/we further undertake that the information supplied in the enclosed drawings and application is accurate to the best of my knowledge, and if any of the information supplied is found to be incorrect and such information result in loss to the Central or the State Government or any other authority under them, I/we undertake to indemnify such loss. Signature (Name of the owner) Address…………….. Mobile No/Tel No………… Appendix (K)",
+            "(c) [See rule 5 (5)(2)] Form II [Certificate from KSECBC licensed engineer /BEE certified building energy auditor to be enclosed with the application for Building Permit for KSECBC compliant building] Certificate I am Kerala State Energy Conservation Building Code (KSECBC) certified professional/ BEE certified building energy auditor having registration No/ ----------- under the Energy Conservation Act 2001 and am / are authorized to scrutinize and verify the design of KSECBC Compliant Building. I certify that –",
+            "(a) I have scrutinized the construction documents duly signed by the owner/design professional showing all the pertinent data and features of the building, equipment and systems in sufficient details covering Building Envelope, HVAC, Service hot water, Lighting and Electrical power in accordance with Panchayat Bye-laws and with the KSECBC, in respect of building proposed to be constructed on plot under Survey/Re Survey No: --------- Block No ------ of village in ---------------- Panchayat.",
+            "(b) I have scrutinized the compliance forms together with the check- lists to ensure compliance with the KSECBC.",
+            "(c) The requisite documents incorporating the energy conservation measures have been duly inspected by the undersigned.",
+            "(d) The Energy Performance Index Ratio of the building design as per construction documents at the design stage is equal to or less than one and is therefore in compliance with the KSECBC.",
+            "(e) It is certified that all the required scrutiny and verification on the documents submitted have been carried out diligently and truthfully and all reasonable professional skill, care and diligence have been taken in scrutinizing and verifying the drawings of the buildings and compliance forms together with check-lists covering the various components of the KSECBC.",
+            "(f) The contents of all the documents submitted along with the application are a true representation of the facts and nothing has been concealed.",
+            "(g) There is no objection for issue of Building Permit in respect of the aforesaid proposed Building in so far as requirements of KSECBC are concerned. Signature. Name of the KSECBC certified Licensed Engineer/ BEECertified building energy auditor Registration No/SEAL. Date. Appendix (K)",
+            "(d) [See rule 17(19)] Form III Notice of completion To The Secretary, -------------- Panchayat Subject: Erection of Kerala State Energy Conservation Building Code (KSECBC) Compliant Building in plot under Survey/Re Survey No:------------ Block No--------------- ---------of -------------- village in ------------------- Panchayat notice for completion of works. Sir, I / we hereby give notice that the erection of the building on Plot no. _____Block No.______ Scheme________ Street________ Name of the town/city_______ including execution and implementation of the energy conservation measures have been completed in accordance with the plans sanctioned vide your office communication No........ dated..........The following documents are enclosed: -",
+            "(i) A certificate of inspection on completion of the aforesaid building from Sri _________KSECBC Licensed Engineer/BEE certified building energy auditor vide Panchayat Authority Order No ____________dated ________is enclosed. The building is fit for use for which it has been erected/re-erected/constructed. It is requested that permission to occupy or use the aforesaid building may be granted. Yours faithfully, Signature............... Name of the owner Plot no. Block no. Address APPENDIX - L [See rule 5(4)] SELF DECLARATION FORM I do hereby declare that all the measurements mentioned in the civil plan are correct, and complete. I also hereby declare that all the required fire protection arrangements as listed in the National building code are installed in the building and are ready for inspection and testing.",
+            "(Signature) (Signature ) Name of Owner. Name: Reg.No.: Address: (Registered Institution/ Architect/Engineer/ Town Planner/ Supervisor) AFFIDAVIT Name and address of the applicant : Occupancy of the building : Survey Number : Village : Panchayat/Municipality : I/We do hereby affirm that, 1. the materials proposed to be used or installed for the construction of the building will be as per required fire resistant rating in NBC of India – 2005, Part IV Annexure C 2. all the proposed installations and power supply fixed for the proposed building will be as per NBC of India 2005 Part IV Annexure C 3. all the proposed Air conditioning, Smoke Management, Ventilation and staircase Pressurization systems for the building, if installed, will be as per NBC of India Part IV Annexure C 4. all the proposed lightning protection installations for the building will be as per NBC of India 2005 Part IV Annexure C 5. the proposed gas bank for the building, supply lines and other fitting associated with it, if installed will be as per NBC of India 2005 Part IV Annexure C Place: Signature of Applicant Date: Name: Note: If on any subsequent inspection the fire protection arrangements are found to be ineffective, the owner of the building shall be liable to pay fine @ Rs.100 per sq. meter build up area, not exceeding Rs.1,00,000/- in total. Appendix M See rule 3",
+            "(5) CRITERIA FOR CONSIDERING AN APPLICATION FOR EXEMPTION Application Fees :The applicants seeking exemption under this rule shall apply in writing to the Secretary in form in Appendix N along with challan receipt remitting the application fee in the Government treasury as detailed below. i) Single family residential building of built up area up to 100 sqm …. No application fee ii) Single family residential building of built up area up to 100 -300 sqm - Rs 1000 iii) All other buildings with built up area up to 100 sqm - Rs 2000 iv) All other buildings with built up area exceeding 100 sqm but up to 1000 sqm …Rs10000 v) All other buildings with built up area exceeding 1000 sqm - Rs 20000 Technical remarks: The Secretary shall submit the applications to the Chief Town Planner and Chief Town Planner shall submit the application to the Government with technical remarks for consideration. Rules exempted: The following occupancies / rules will not be considered for exemption",
+            "Criteria and Fee for exemption The appeal application will be considered for exemption from the rules based on the criteria stipulated in table given below. The fee for exemption from various rules mentioned in the table will be cumulative and total fee will be calculated by summing of the exemptions fees individually for each rules as per the fee stipulated against each rules. However the exemption fee for Single family residential building & commercial building having built up area up to 100 sqm is limited to Rs 5000/- and exemption fee for Single family residential building having built up area above 100 upto 300 sqm is limited to Rs 20000/-.",
+            "Appendix N See rule 3",
+            "(5) APPLICATION FOR EXEMPTION FROM BUILDING RULES (to be submitted in duplicate) To The Secretary, …………………….. Corporation / Municipality. I have obtained permit No. ……………………………. dated ………………………. for the construction or reconstruction or addition or alteration to an existing building with building no. ………………… in ……………………………… Corporation / Municipality in Survey No. ……………………………….. Village ………………………….. Taluk ……………………… District ……………………………. and have carried out the construction in deviation to plans approved by the Secretary. I realise that the construction so carried out is in violation of the provisions contained in the building rules and / or the Act and the date of commencement of the construction is ……………… and date of Completion of construction is ………………. I realize that the said construction is an unauthorized one. I request that sanction may be accorded for granting exemption of the said constructions from the building rules. The application fee of …………………………………………… has been remitted vide ………………………………………………… Necessary documents and plans in triplicate are enclosed. The application details and checklist of the documents to be enclosed is given below:",
+            "Signature of Applicant …………………………….. Name of applicant (In Block letters)…………………………… SCHEDULE-I [[See rules 5(1), 15(6),70(4), 74(3),75(4)& 94] APPLICATION FEE",
+            "Note :-",
+            "(1) No separate application or fee for land development is required along with application for building permit except in cases specified otherwise in these rules.",
+            "(2) Separate application and fee is required only for the conversion or erection of shutters or doors or roof in an existing building under rules 72 and 74(3)."
+          ],
+          "tables": [
             {
               "title": "Table",
               "headers": [
@@ -5275,8 +5449,8 @@
       "title": "SCHEDULE II",
       "sections": [
         {
-          "number": "0",
-          "title": "Introduction",
+          "number": "1",
+          "title": "SCHEDULE II",
           "paragraphs": [
             "(3) & 75(4)] PERMIT FEE",
             "Note :-",
@@ -5377,16 +5551,18 @@
       "title": "SCHEDULE III",
       "sections": [
         {
-          "number": "0",
-          "title": "Introduction",
+          "number": "1",
+          "title": "SCHEDULE III",
           "paragraphs": [
-            "| Occupancy Group | Rate (Rupees /sq. metres of Built up area |",
             "The amount has to be remitted in Government treasury and the copy of the challan has to be enclosed along with application for layout. By order of the Governor, T. K. J OSE , Additional Chief Secretary to Government. Explanatory Note (This does not form part of the notification, but is intended to indicate its general purport) The Kerala Panchayat Building Rules, 2011 was issued under G.O. (Ms.) No. 41/2011/LSGD dated 14 th day of February, 2011 and published as S.R.O No. 127/2011 in the Kerala Extraordinary No. 351 dated 14 th day of February, 2011. Now the Government have decided to issue the Kerala Panchayat Building Rules, 2019 superseding the Kerala Panchayat Building Rules, 2011. The notification is intended to achieve the above object. ____________________________________________________________________________________________________________________________ PUBLISHED BY THE SUPERINTENDENT OF GOVERNMENT PRESS AT THE GOVERNMENT CENTRAL PRESS, THIRUVANANTHAPURAM, 2019"
           ],
           "tables": [
             {
               "title": "Table",
-              "headers": [],
+              "headers": [
+                "Occupancy Group",
+                "Rate (Rupees /sq. metres of Built up area"
+              ],
               "rows": [
                 [
                   "A1",

@@ -5,19 +5,48 @@ from pathlib import Path
 
 def parse_markdown_to_json(md_content, chapter_title):
     sections = []
-    current_section = None
     
     # Pre-process lines to join broken sentences and multi-line titles
+    # AND to detect merged headers
     raw_lines = md_content.split('\n')
-    processed_lines = []
+    pre_processed = []
     
     for line in raw_lines:
         line = line.strip()
         if not line:
+            pre_processed.append("")
+            continue
+            
+        # Detect merged headers like "... building(s). 68. Temporary..."
+        # Pattern: terminal punctuation + optional space + number + dot + optional space + Capital letter
+        merged_header_match = re.search(r'([.:;])\s*(\d+(?:\.\d+)?)\s*\.\s*([A-Z].*)', line)
+        if merged_header_match:
+            punct = merged_header_match.group(1)
+            num = merged_header_match.group(2)
+            rest = merged_header_match.group(3)
+            before = line[:merged_header_match.start() + 1]
+            pre_processed.append(before)
+            pre_processed.append(f"#### {num}. {rest}")
+            continue
+
+        # Standardize headers that are missing #### but look like headers
+        # More flexible spacing: '62 .' or '62.'
+        if re.match(r'^(\d+(?:\.\d+)?)\s*\.?\s*([A-Z].*)', line):
+            # But not if it's a list item (e.g. "(1) Title")
+            if not line.startswith('('):
+                pre_processed.append(f"#### {line}")
+                continue
+
+            
+        pre_processed.append(line)
+
+    processed_lines = []
+    for line in pre_processed:
+        if not line:
             processed_lines.append("")
             continue
             
-        # Join logic: If the current line doesn't start with a header, list marker, or table marker
+        # Join logic
         last_non_empty_idx = len(processed_lines) - 1
         while last_non_empty_idx >= 0 and processed_lines[last_non_empty_idx] == "":
             last_non_empty_idx -= 1
@@ -25,17 +54,12 @@ def parse_markdown_to_json(md_content, chapter_title):
         if last_non_empty_idx >= 0:
             prev = processed_lines[last_non_empty_idx]
             is_header = prev.startswith('#')
-            # Check for list markers like (1), (a), (i) OR plain numbers like 1, 2 at start of line
             is_list_start = re.match(r'^(\(\d+\)|\d+\.|\d+\s+[A-Z]|\([a-z]\)|\([ivx]+\))', line)
             is_new_header = line.startswith('#')
             is_table_marker = line.startswith('|') or line.startswith('TABLE')
             
-            # If the current line is NOT a new block (header, list, table)
             if not is_new_header and not is_list_start and not is_table_marker:
-                # Merge if it was a header OR if the previous paragraph didn't end in punctuation
-                # EXCEPT: Don't join if the current line starts with a number (likely a missed sub-point)
                 if not re.match(r'^\d+\s+', line) and not prev.startswith('|') and not prev.startswith('TABLE') and (is_header or not re.search(r'[.:;]$', prev)):
-                    # Remove intervening blank lines
                     while len(processed_lines) > last_non_empty_idx + 1:
                         processed_lines.pop()
                     processed_lines[last_non_empty_idx] = prev + " " + line
@@ -43,8 +67,12 @@ def parse_markdown_to_json(md_content, chapter_title):
         
         processed_lines.append(line)
 
-    # Pattern for section headers: ### 1. Title.- or #### 49.1. Title .-
+    # Pattern for section headers
     section_pattern = re.compile(r'^#{3,4}\s+(\d+(?:\.\d+)?\s?[A-Z]?)\.\s+(.*)')
+    
+    current_section = None
+    # Check if this chapter HAS any formal headers at all
+    has_any_formal_header = any(l.startswith('####') for l in processed_lines)
     
     i = 0
     while i < len(processed_lines):
@@ -53,14 +81,13 @@ def parse_markdown_to_json(md_content, chapter_title):
             i += 1
             continue
             
-        # If it's a header line, try to match section pattern
         if line.startswith('#'):
             section_match = section_pattern.match(line)
             if section_match:
                 number = section_match.group(1).strip()
                 raw_title = section_match.group(2).strip()
                 
-                # Smart split: many titles end with separators followed by the paragraph text
+                # Smart split logic
                 split_patterns = [r'\s+\.-\s+', r'\.-\s+', r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+']
                 split_done = False
                 for pattern in split_patterns:
@@ -78,34 +105,55 @@ def parse_markdown_to_json(md_content, chapter_title):
                         break
                 
                 if not split_done:
-                    current_section = {
-                        "number": number,
-                        "title": raw_title.strip(' .-–—'),
-                        "paragraphs": [],
-                        "tables": []
-                    }
+                    # Fallback for very long titles that don't have separators but have a period
+                    if len(raw_title) > 200 and '. ' in raw_title:
+                        title, first_para = raw_title.split('. ', 1)
+                        current_section = {
+                            "number": number,
+                            "title": title.strip(' .-–—'),
+                            "paragraphs": [first_para.strip()] if first_para.strip() else [],
+                            "tables": []
+                        }
+                        split_done = True
+                    else:
+                        current_section = {
+                            "number": number,
+                            "title": raw_title.strip(' .-–—'),
+                            "paragraphs": [],
+                            "tables": []
+                        }
                 sections.append(current_section)
                 i += 1
                 continue
             else:
-                # If it's a header but doesn't match section pattern, just skip it (it's a chapter header)
+                # Top level chapter header, skip
                 i += 1
                 continue
             
         if not current_section:
-            # If we haven't found a section yet, and there's text, 
-            # create an "Introduction" section
-            current_section = {
-                "number": "0",
-                "title": "Introduction",
-                "paragraphs": [line],
-                "tables": []
-            }
-            sections.append(current_section)
-            i += 1
-            continue
+            if not has_any_formal_header:
+                # synthetic section for chapters like Schedules
+                current_section = {
+                    "number": "1",
+                    "title": chapter_title,
+                    "paragraphs": [],
+                    "tables": []
+                }
+                sections.append(current_section)
+            elif line and not line.startswith('#') and len(line) > 10:
+                # real introduction text
+                current_section = {
+                    "number": "0",
+                    "title": "Introduction",
+                    "paragraphs": [line],
+                    "tables": []
+                }
+                sections.append(current_section)
+            else:
+                i += 1
+                continue
 
-        # Check for table
+        # Table detection
         if line.startswith('|'):
             table_lines = []
             while i < len(processed_lines) and (processed_lines[i].strip().startswith('|') or (not processed_lines[i].strip() and i+1 < len(processed_lines) and processed_lines[i+1].strip().startswith('|'))):
