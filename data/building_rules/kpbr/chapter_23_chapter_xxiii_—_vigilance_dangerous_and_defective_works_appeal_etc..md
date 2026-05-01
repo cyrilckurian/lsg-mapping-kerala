@@ -68,7 +68,7 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
 |  |  |
 
 
-#### 2. Address:
+2. Address:
   (i) Permanent address of the owner :
   (ii) To which communications are to be sent : 3. Nature of development/construction:
   (i) Division of plot :
@@ -311,7 +311,7 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
 | Parking |  |  |  |  |
 
 
-#### 5. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.:
+5. DECLARATION I,…………………………………………………………….………………hereby declare that the measurements, specifications and other details mentioned above are correct, complete and true to the best of my knowledge and belief and that I shall abide by the approved plan and the provisions in the Act and Rules in undertaking the construction. Place: Date: Signature of the applicant with name 6. CERTIFICATE Certified that the site plan is prepared in accordance with the Kerala Panchayat Building Rules 2019, Kerala Panchayat Raj Act 1994, provisions contained in the Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act 2016 and road development proposals of the implementing agency. Place: Signature: Date: Name: Reg.No.:
   (seal) Address: (Registered Institution/ Architect/ Engineer/ Building Designer /Town Planner/ Supervisor) APPENDIX –A3 [See rule 5(1)(a)] APPLICATION FORM FOR PERMIT FOR DEVELOPMENT/ REDEVELOPMENT OF LAND To The Secretary, ..…………………………………………………………. Panchayat Sir, I intend to develop/ redevelop the land in Survey/Re survey Number………………………of ............................................. Village in .................................................Taluk............................ owned by me. I forward herewith the site plan, service plan and specification in duplicate duly signed by me and by…………………….…………….(Name in Block letters of the registered Institution /Architect/ Building Designer/ Engineer/ Town Planner/ Supervisor) having Register No………….……………together with the required documents. I hereby undertake to abide by the provisions of the Kerala Panchayat Building Rules, 2019 in all respect. I request that the development/ redevelopment may be approved and development permit may be granted to me. Signature…………..…………………… Name of owner……………………... Place: (in Block letters) Date: Address…………………………….. Appendix-A4 (See rule 5(6)(2)) APPLICATION FOR LAYOUT APPROVAL AND USAGE OF PLOT/CONCURRENCE ………………………………………………………….District 1. Name in capital letters :
 
 | Applicant(s) | Owner(s) |
@@ -321,7 +321,7 @@ to the interpretation or otherwise of any provision or if any difficulty arises 
 |  |  |
 
 
-#### 2. Address:
+2. Address:
   (i) Permanent address of the owner :
   (ii) To which communications are to be sent : 3. Nature of development/construction:
   (i) Division of plot :

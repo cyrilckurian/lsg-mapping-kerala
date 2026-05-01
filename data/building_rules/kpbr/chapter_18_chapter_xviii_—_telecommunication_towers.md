@@ -5,7 +5,7 @@
 
 #### 84. Special Provisions .-
 
-#### 1. Distance from road and boundaries.-
+1. Distance from road and boundaries.-
 
   (i) The base of the tower or poles shall have minimum 3 metres distance from the plot boundary abutting the road, whether it is proposed on land or over a building, even if the building is having less than 3 metres distance: Provided that the distance from road boundary of the accessory rooms such as equipment rooms, shelters, or generator rooms proposed over a building shall be that of the building.
   (ii) In addition to the distance specified under sub rule (1)(i), set back required for road widening proposed in any Master Plan / Detailed Town Planning Scheme / Interim Development Order in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016), shall also be provided.

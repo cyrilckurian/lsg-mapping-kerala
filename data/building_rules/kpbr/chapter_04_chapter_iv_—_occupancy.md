@@ -191,7 +191,7 @@ TABLE 11 APPROVALS FROM TOWN AND COUNTRY PLANNING DEPARTMENT:
 
 #### 31. Land sub-division and plot development. -
 
-#### 1. For residential use: -
+1. For residential use: -
 
 All new land subdivisions and plot developments shall be subject to the following, namely:-
   (i) the area of any newly subdivided plot, reconstituted plot or building plot shall be not less than 125 sq. metres with an average width of 6 metres: Provided that for row housing where side open spaces are not required, it is sufficient if the plot has an average width of 4.5 metres;
@@ -225,7 +225,7 @@ All new land subdivisions and plot developments shall be subject to the followin
   (xvi) In the case the number of plot of layout for subdivision exceeds 10, any yard adjoining internal road/street of building
   (s) upto 10 metres height can be reduced to 2 metres.
 
-#### 2. For industrial use: -
+2. For industrial use: -
 
 All new land sub- divisions and plot developments shall be subject to the following:-
   (i) the width of every new street, public or private, intended for use as a motor way giving access to or through an organized industrial area with not less than six constituent units, shall be minimum 10 metres; Provided that in the case of Group G1 Industrial-I units or cul-de-sac not exceeding 250 metres length, the minimum road width shall be 7 metres.
@@ -235,7 +235,7 @@ All new land sub- divisions and plot developments shall be subject to the follow
   (iv) The approval of the District Town Planner shall be obtained for the layout of industrial streets and land sub-division exceeding five plots
   (v) the usage of plots proposed for development or redevelopment shall be governed by the provisions contained in the Master Plan / Detailed Town Planning Scheme/ Interim Development Order, if any, in force under the Kerala Town and Country Planning Act, 2016 (9 of 2016)prepared for the locality; Provided that where no such plan exists, the usage of plots shall be as approved by the District Town Planner or an officer authorized by him.
 
-#### 3. For mercantile (commercial) use :-
+3. For mercantile (commercial) use :-
 
 All new land sub-divisions and plot developments shall be subject to the following: -
   (i) the width of every new street, public or private, intended for use as motor way giving access to or through a commercial precinct consisting of a continuous row of shops exceeding ten in number shall not be less than 10 metres except in the case of cul- de-sac not exceeding 150 metres length, where the minimum width shall be 7 metres;

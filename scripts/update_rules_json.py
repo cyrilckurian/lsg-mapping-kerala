@@ -19,24 +19,34 @@ def parse_markdown_to_json(md_content, chapter_title):
             
         # Detect merged headers like "... building(s). 68. Temporary..."
         # Pattern: terminal punctuation + optional space + number + dot + optional space + Capital letter
+        # Only promote if number > 10 (most sub-rules are 1-10)
         merged_header_match = re.search(r'([.:;])\s*(\d+(?:\.\d+)?)\s*\.\s*([A-Z].*)', line)
         if merged_header_match:
             punct = merged_header_match.group(1)
-            num = merged_header_match.group(2)
+            num_str = merged_header_match.group(2)
             rest = merged_header_match.group(3)
-            before = line[:merged_header_match.start() + 1]
-            pre_processed.append(before)
-            pre_processed.append(f"#### {num}. {rest}")
-            continue
-
+            try:
+                num_val = float(num_str)
+                if num_val > 10:
+                    before = line[:merged_header_match.start() + 1]
+                    pre_processed.append(before)
+                    pre_processed.append(f"#### {num_str}. {rest}")
+                    continue
+            except:
+                pass
+            
         # Standardize headers that are missing #### but look like headers
-        # More flexible spacing: '62 .' or '62.'
-        if re.match(r'^(\d+(?:\.\d+)?)\s*\.?\s*([A-Z].*)', line):
-            # But not if it's a list item (e.g. "(1) Title")
-            if not line.startswith('('):
-                pre_processed.append(f"#### {line}")
-                continue
-
+        # Only promote if number > 10
+        standalone_header_match = re.match(r'^(\d+(?:\.\d+)?)\s*\.\s+([A-Z].*)', line)
+        if standalone_header_match:
+            num_str = standalone_header_match.group(1)
+            try:
+                num_val = float(num_str)
+                if num_val > 10 and not line.startswith('('):
+                    pre_processed.append(f"#### {line}")
+                    continue
+            except:
+                pass
             
         pre_processed.append(line)
 
@@ -87,14 +97,18 @@ def parse_markdown_to_json(md_content, chapter_title):
                 number = section_match.group(1).strip()
                 raw_title = section_match.group(2).strip()
                 
-                # Smart split logic
-                split_patterns = [r'\s+\.-\s+', r'\.-\s+', r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+']
+                # Smart split logic: include single dash and colons
+                split_patterns = [
+                    r'\s+\.-\s+', r'\.-\s+', 
+                    r'\s+\.\s?-\s+', r'\s+\.\s?–\s+', r'\s+\.\s?—\s+', 
+                    r'\s+-\s+', r'\s?:\s?-\s?'
+                ]
                 split_done = False
                 for pattern in split_patterns:
                     parts = re.split(pattern, raw_title, maxsplit=1)
                     if len(parts) == 2:
                         title, first_para = parts
-                        title = title.strip(' .-–—')
+                        title = title.strip(' .-–—:')
                         current_section = {
                             "number": number,
                             "title": title,
@@ -110,7 +124,7 @@ def parse_markdown_to_json(md_content, chapter_title):
                         title, first_para = raw_title.split('. ', 1)
                         current_section = {
                             "number": number,
-                            "title": title.strip(' .-–—'),
+                            "title": title.strip(' .-–—:'),
                             "paragraphs": [first_para.strip()] if first_para.strip() else [],
                             "tables": []
                         }
@@ -118,7 +132,7 @@ def parse_markdown_to_json(md_content, chapter_title):
                     else:
                         current_section = {
                             "number": number,
-                            "title": raw_title.strip(' .-–—'),
+                            "title": raw_title.strip(' .-–—:'),
                             "paragraphs": [],
                             "tables": []
                         }
@@ -140,8 +154,8 @@ def parse_markdown_to_json(md_content, chapter_title):
                     "tables": []
                 }
                 sections.append(current_section)
-            elif line and not line.startswith('#') and len(line) > 10:
-                # real introduction text
+            elif line and not line.startswith('#') and len(line) > 20:
+                # real introduction text - ignore if very short (likely metadata)
                 current_section = {
                     "number": "0",
                     "title": "Introduction",
